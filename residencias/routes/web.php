@@ -52,3 +52,4 @@ Route::get('/home', [App\Http\Controllers\AlumnosController::class, 'index'])->n
 //Auth::routes();
 Route::get('/dashboard', [App\Http\Controllers\AlumnosController::class, 'index'])->name('home');
 
+Route::get('students', [App\Http\Controllers\AlumnosController::class, 'students'])->name('students.index');

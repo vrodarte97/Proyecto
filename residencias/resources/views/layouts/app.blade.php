@@ -11,7 +11,7 @@
     <title>{{ config('', 'Desarollo Académico TecNM') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('head');
 </head>
 <body>
     <div id="app">
@@ -83,4 +84,5 @@
         </main>
     </div>
 </body>
+@yield('foot')
 </html>

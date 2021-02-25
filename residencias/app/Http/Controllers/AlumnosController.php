@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Alumnos;
 use Illuminate\Http\Request;
+use App\Http\Controllers\DB;
 
 class AlumnosController extends Controller
 {
@@ -135,5 +136,16 @@ class AlumnosController extends Controller
 
         return redirect('alumnos')->with('Mensaje', '¡Alumno eliminado con éxito!');
         //
+    }
+
+    public function getAllStudents()
+    {
+        $students = $datos['alumnos']=Alumnos::paginate();
+        return response() -> json($students);
+    }
+
+    public function students()
+    {
+        return view('datatables.index');
     }
 }

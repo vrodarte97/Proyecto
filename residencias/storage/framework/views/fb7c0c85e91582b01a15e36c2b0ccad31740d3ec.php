@@ -13,19 +13,11 @@
 <?php endif; ?>
 <br>
 
+<a href="<?php echo e(url('alumnos/create')); ?>" class="btn btn-outline-primary">Agregar Alumno</a>
+<a href="<?php echo e(url('students')); ?>" class="btn btn-outline-primary">Buscar/Guardar</a>
 
 
 
-<nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
-        <a href="<?php echo e(url('alumnos/create')); ?>" class="btn btn-success">Agregar Alumno</a>
-      
-        <form class="d-flex" style="display:inline">
-        <input name= "buscarpor" class="form-control me-2" type="search" placeholder="Buscar por apellido" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
-      <form>
-    </div>
-  </nav>
 
 <br><br>
 
@@ -36,7 +28,6 @@
             <th>#</th>
             <th>N&uacute;mero de control</th>
             <th>Nombre(s)</th>
-            <!--Si voy a usar una solo columa comentar Apa, Ama-->
             <th>Apellido Paterno</th>
             <th>Apellido Materno</th>
             <th>Carrera</th>
@@ -50,7 +41,6 @@
             <td><?php echo e($loop->iteration); ?></td>
             <td><?php echo e($alumno->NoCtrl); ?></td>
             <td><?php echo e($alumno->Nombre); ?></td>
-            
             <td><?php echo e($alumno->Apaterno); ?></td>
             <td><?php echo e($alumno->Amaterno); ?></td>
             <td><?php echo e($alumno->Carrera); ?></td>

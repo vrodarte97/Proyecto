@@ -7,6 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
 
+    <link rel="icon" type="image/png" href="<?php echo e(asset('assets/backoffice/img/itcj.ico')); ?>">
+
     <!--title><?php echo e(config('app.name', 'Laravel')); ?></title-->
     <title><?php echo e(config('', 'Desarollo Académico TecNM')); ?></title>
 
@@ -19,6 +21,7 @@
 
     <!-- Styles -->
     <link href="<?php echo e(asset('css/app.css')); ?>" rel="stylesheet">
+    <?php echo $__env->yieldContent('head'); ?>;
 </head>
 <body>
     <div id="app">
@@ -56,25 +59,7 @@
                                 </li>
                             <?php endif; ?>
                         <?php else: ?>
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    <?php echo e(Auth::user()->name); ?>
-
-                                </a>
-
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="<?php echo e(route('logout')); ?>"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        <?php echo e(__('Logout')); ?>
-
-                                    </a>
-
-                                    <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" class="d-none">
-                                        <?php echo csrf_field(); ?>
-                                    </form>
-                                </div>
-                            </li>
+                        
                         <?php endif; ?>
                     </ul>
                 </div>
@@ -86,5 +71,6 @@
         </main>
     </div>
 </body>
+<?php echo $__env->yieldContent('foot'); ?>
 </html>
 <?php /**PATH C:\wamp64\www\resi\residencias\resources\views/layouts/app.blade.php ENDPATH**/ ?>

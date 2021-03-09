@@ -33,6 +33,34 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
+Route::get('/404', function () {
+    return view('404');
+});
+
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/index1', function () {
+    return view('index1');
+});
+
+Route::get('/carousel', function () {
+    return view('carousel');
+});
+
+Route::get('/administracion', function () {
+    return view('carreras.administracion');
+});
+
+Route::get('/contador', function () {
+    return view('carreras.contabilidad');
+});
+
+Route::get('/ige', function () {
+    return view('carreras.ige');
+});
+
 Route::resource('alumnos', AlumnosController::class)->middleware('auth');
 Auth::routes([]);
 //Elimina la opción de register.
@@ -52,3 +80,4 @@ Route::get('/home', [App\Http\Controllers\AlumnosController::class, 'index'])->n
 //Auth::routes();
 Route::get('/dashboard', [App\Http\Controllers\AlumnosController::class, 'index'])->name('home');
 
+Route::get('students', [App\Http\Controllers\AlumnosController::class, 'students'])->name('students.index')->middleware('auth');

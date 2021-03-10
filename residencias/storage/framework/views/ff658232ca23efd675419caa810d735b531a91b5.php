@@ -27,6 +27,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
+                <img src="<?php echo e(asset('assets/backoffice/img/dda.png')); ?>" alt="" width="180" height="180" class="d-inline-block align-top"></a>
                 <a class="navbar-brand" href="<?php echo e(url('/')); ?>">
                     <?php echo e(config('', 'Desarrollo Académico')); ?>
 
@@ -59,6 +60,32 @@
                                 </li>
                             <?php endif; ?>
                         <?php else: ?>
+                        
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdown" class="nav-link active" aria-current="page" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="color:#1B396A">
+                                <?php echo e(Auth::user()->name); ?>
+
+                            </a>
+                            
+
+                            <div  class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="<?php echo e(route('logout')); ?>"
+                                   onclick="event.preventDefault();
+                                                 document.getElementById('logout-form').submit();">
+                                    <?php echo e(__('Logout')); ?>
+
+                                </a>
+
+                                <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" class="d-none">
+                                    <?php echo csrf_field(); ?>
+                                </form>
+                            </div>
+                        </li>
+
+                        <a class="nav-link active" aria-current="page" href="<?php echo e(route('logout')); ?>"
+                        onclick="event.preventDefault();
+                                      document.getElementById('logout-form').submit();" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                         <?php echo e(__('Logout')); ?></a>
                         
                         <?php endif; ?>
                     </ul>

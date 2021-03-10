@@ -61,6 +61,14 @@ Route::get('/ige', function () {
     return view('carreras.ige');
 });
 
+Route::get('/industrial', function () {
+    return view('carreras.industrial');
+});
+
+Route::get('/logistica', function () {
+    return view('carreras.logistica');
+});
+
 Route::resource('alumnos', AlumnosController::class)->middleware('auth');
 Auth::routes([]);
 //Elimina la opción de register.

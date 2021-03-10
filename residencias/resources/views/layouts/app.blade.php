@@ -27,6 +27,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
+                <img src="{{ asset('assets/backoffice/img/dda.png') }}" alt="" width="180" height="180" class="d-inline-block align-top"></a>
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('', 'Desarrollo Académico') }}
                 </a>
@@ -58,13 +59,14 @@
                                 </li>
                             @endif
                         @else
-                        {{--
+                        
                         <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            <a id="navbarDropdown" class="nav-link active" aria-current="page" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="color:#1B396A">
                                 {{ Auth::user()->name }}
                             </a>
+                            
 
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <div  class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="{{ route('logout') }}"
                                    onclick="event.preventDefault();
                                                  document.getElementById('logout-form').submit();">
@@ -76,7 +78,12 @@
                                 </form>
                             </div>
                         </li>
-                        --}}
+
+                        <a class="nav-link active" aria-current="page" href="{{ route('logout') }}"
+                        onclick="event.preventDefault();
+                                      document.getElementById('logout-form').submit();" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                         {{ __('Logout') }}</a>
+                        
                         @endguest
                     </ul>
                 </div>

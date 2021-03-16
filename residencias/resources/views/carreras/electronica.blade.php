@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>IGE</title>
+    <title>Ing. Electrónica</title>
 
     <link rel="icon" type="image/png" href="{{ asset('assets/backoffice/img/itcj.ico') }}" sizes="64x64">
 
@@ -104,12 +104,10 @@
     </nav>
     <div class="container">
       <br>
-      <div class="centered"><h1  class="display-1" style="color: #ffffff"><strong><br>Ingeniería en Gestión Empresarial<strong></h1></div>
+      <div class="centered"><h1  class="display-1" style="color: #ffffff"><strong><br>Ingenieria Electrónica<strong></h1></div>
     </div>
   </header>
   <!--TERMINA MENU-->
-
-  
 
   <!--COMIENZA OBJETIVO-->
   <br>
@@ -117,7 +115,7 @@
     <div class="container">
       <br>
       <h1 class="display-8" style="color:#1B396A">Objetivo:</h1>
-      <p class="lead">Formar profesionistas, capaces de desarrollar, mantener e innovar sistemas, procesos y productos industriales y de servicio que apoyen a la solución de problemas, propiciando y mejorando la calidad de la productividad.</p>
+      <p class="lead">Formar profesionistas en Ingeniería Electrónica con capacidad creativa, emprendedora, de análisis y liderazgo, que realicen actividades de diseño, innovación, adaptación y transferencia de tecnología para resolver problemas en forma competitiva y atender las necesidades de su entorno con una conciencia social y un compromiso con el desarrollo sustentable..</p>
       <br>
     </div>
   </div>
@@ -129,60 +127,12 @@
     <div class="container">
       <br>
       <h1 class="display-8" style="color:#e9ecef">Campo de trabajo:</h1>
-      <p class="lead" style="color:#e9ecef">El egresado tendrá competencias para trabajar en: <br></p>
-      <ul class="lead" style="color:#e9ecef">
-          <li>Creación y gestión de su propia empresa</li>
-          <li>En la industria y servicios</li>
-          <li>Empresas públicas y privadas</li>
-          <li>Consultorías</li>
-          <li>Proyectos de inversión</li>
-
-      </ul>
-    <br>
+      <p class="lead" style="color:#e9ecef">El ingeniero electrónico es un profesional muy flexible, con la capacidad de crear su propia empresa o de trabajar tanto en la iniciativa privada como en el sector público. Sus competencias incluyen conocimientos de sistemas electrónicos, circuitos y dispositivos electrónicos, en los aspectos de diseño, aplicación, operación, selección y mantenimiento, en áreas de sistemas digitales, instrumentación, la automatización y la robótica. Capacidad de autoaprendizaje y adaptabilidad a los cambios tecnológicos.</p>
+      <br>
     </div>
   </div>
   <br>
   <!--TERMINA PERFIL-->
-
-  
-  <!--COMIENZA OBJETIVO-->
-  <br>
-  <div class="jumbotron jumbotron-fluid bg-white">
-    <div class="container">
-      <br>
-      <h1 class="display-8" style="color:#1B396A">Perfil del aspirante:</h1>
-      <p class="lead">Aplicar métodos cuantitativos y cualitativos para el ánalisis e interpretación de datos y modelado de sistemas, en los procesos organizacionales para la mejora continua, atendiendo estándares de calidad mundial.<br></p>
-      <ul class="lead">
-        <li>Gestionar la cadena de suministros de las organizaciones con un enfoque orientado a procesos.</li>
-        <li>Integrar, dirigir y desarrollar equipos de trabajo para la mejora continua y el crecimiento integral de las organizaciones.</li>
-        <li>Establecer programas para el fortalecimiento de la seguridad e higiene en las organizaciones.</li>
-
-    </ul>
-      <br>
-    </div>
-  </div>
-  <!--TERMINA OBJETIVO-->
-
-   <!--COMIENZA PERFIL-->
-   <br>
-   <div class="jumbotron jumbotron-fluid" style="background-color:#1B396A;">
-     <div class="container">
-       <br>
-       <h1 class="display-8" style="color:#e9ecef">Perfil del egresado: </h1>
-       <p class="lead" style="color:#e9ecef">El profesional de esta carrera estará formado integralmente en: <br></p>
-       <ul class="lead" style="color:#e9ecef">
-           <li>Capacidad de análisis y síntesis</li>
-           <li>Habilidad analítica y creatividad</li>
-           <li>Aplicación en la solución de problemas</li>
-           <li>Disciplina y alto sentido de responsabilidad</li>
-           <li>Capacidad administrativa y de interrelación</li>
-           <li>Independencia de juicio</li>
-       </ul>
-     <br>
-     </div>
-   </div>
-   <br>
-   <!--TERMINA PERFIL-->
 
   
   
@@ -193,22 +143,19 @@
      <!--COMIENZA OPORTUNIDADES-->
     <div class="row featurette">
       <div class="col-md-7">
-        <h1 class="featurette-heading"> <span style="color:#1B396A">Competencias especificas</span></h1>
-        <ul class="lead">
-        <br>
-          <li>Formular planes estratégios, tácticos y operativos para la empresa.</li>
-          <li>Gestionar sistemas de recursos para la solución de problemas operativos y administrativos.</li>
-          <li>Gestionar proyectos de desarrollo empresarial</li>
-          <li>Gestionar la creación de nuevos negocios.</li>
-          <li>Dirigir el desempeño de organismos empresariales.</li>
-          <li>Aplicar los conocimientos básicos de la ingeniería en Gestión Empresarial.</li>
-          </ul>    
-        <h4 style="color:#1B396A">Especialidades:</h4>
-            <p class="lead">Liderazgo Gerencial y sistemas de Manufactura de clase mundial.</p>
+        <h1 class="featurette-heading"><span style="color:#1B396A">Perfil de egresado:</span></h1><br>
+            <ul class="lead">
+            <li>Entender los fundamentos de la tecnología electrónica.</li>
+            <li>Participar la operación de circuitos y sistemas electrónicos.</li>
+            <li>Realizar estudios de posgrado.</li>
+            <li>Comunicarse y colaborar con profesionales de otras disciplinas.</li>
+            </ul>
+            <h4 style="color:#1B396A">Especialidades:</h4>
+            <p class="lead">Sistemas Embebidos para Control.</p>
             
       </div>
       <div class="col-md-5">
-        <img src="{{ asset('assets/backoffice/img/ige1.jpg') }}" class="img-fluid" alt="Responsive image">
+        <img src="{{ asset('assets/backoffice/img/elec1.jpg') }}" class="img-fluid" alt="Responsive image">
       </div>
     </div>
      <!--TERMINA OPORTUNIDADES-->
@@ -220,42 +167,52 @@
       <h1 class="featurette-heading"><span style="color:#1B396A">Plan de estudios:</span></h1>
     </div>
 
+     <!--COMIENZA PLAN-->
 
     <br>
     <div class="row featurette">
 
       <div class="col-md-5">
         <br><br>
-        <img src="{{ asset('assets/backoffice/img/ige2.jpg') }}" class="img-fluid" alt="Responsive image">
+        <img src="{{ asset('assets/backoffice/img/elec2.jpg') }}" class="img-fluid" alt="Responsive image">
       </div>
 
       <div class="col-md-4">
         <br>
         <ul  class="lead">
           <br>
-        <li>Fundamentos de investigación</li>
-        <li>Cálculo diferencial</li>
-        <li>Desarrollo humano</li>
-        <li>Fundamentos de gestion empresarial</li>
-        <li>Fundamentos de física</li>
-        <li>Fundamentos de química</li>
-        <li>Software de aplicación ejecutivo</li>
-        <li>Cálculo integral</li>
-        <li>Contabilidad orientada a los negocios</li>
-        <li>Dinámica social</li>
-        <li>Taller de ética</li>
-        <li>Legislación laboral</li>
-        <li>Marco legal de las organizaciones</li>
-        <li>Probabilidad y estadística descriptiva</li>
-        <li>Costos empresariales</li>
-        <li>Habilidades directivas I</li>
-        <li>Economia empresarial</li>
-        <li>Álgebra lineal</li>
-        <li>Ingeniería económica</li>
-        <li>Estadistica inferencial I</li>
-        <li>Instrumentos de presupuestación empresarial</li>
-        <li>Habilidades directivas II</li>
-        <li>Entorno Macroeconómico</li>
+            <li>Química</li>
+            <li>Cálculo Diferencial</li>
+            <li>Taller de Ética</li>
+            <li>Mecánica Clásica</li>
+            <li>Comunicación Humana</li>
+            <li>Fundamentos de Investigación</li>
+            <li>Cálculo Integral</li>
+            <li>Desarrollo Sustentable</li>
+            <li>Mediciones Eléctricas</li>
+            <li>Tópicos Selectos de Física</li>
+            <li>Probabilidad y Estadística</li>
+            <li>Desarrollo Humano</li>
+            <li>Cálculo Vectorial</li>
+            <li>Procesos de Fabricación</li>
+            <li>Electromagnetismo</li>
+            <li>Algebra Lineal</li>
+            <li>Física de Semiconductores</li>
+            <li>Programación Estructurada</li>
+            <li>Ecuaciones Diferenciales</li>
+            <li>Circuitos Eléctricos I</li>
+            <li>Marco Legal de la Empresa</li>
+            <li>Análisis Numérico</li>
+            <li>Diseño Digital</li>
+            <li>Programación Visual</li>
+            <li>Circuitos Eléctricos II</li>
+            <li>Diodos y Transistores</li>
+            <li>Teoría Electromagnética</li>
+            <li>Máquinas Eléctricas</li>
+            <li>Diseño Digital con VHDL</li>
+            <li>Desarrollo Profesional</li>
+            <li>Control I</li>
+            
         </ul>
       </div> 
 
@@ -263,37 +220,31 @@
           <div class="col-md-3">
             <h1 class="featurette-heading"><span style="color:#ffffff">.</span></h1>
             <ul  class="lead">
-          <li>Investigación de operaciones</li>
-          <li>Finanzas en las organizaciones</li>
-          <li>Estadistica inferencial II</li>
-          <li>Ingeniería de procesos</li>
-          <li>Gestión de capital humano</li>
-          <li>Taller de investigación I</li>
-          <li>Mercadotecnia</li>
-          <li>Administración de la salud y seguridad ocupacional</li>
-          <li>El emprenderos y la innovación</li>
-          <li>Gestión de la producción I</li>
-          <li>Diseño organizacional</li>
-          <li>Taller de investigación II</li>
-          <li>Sistemas de información de la mercadotecnia</li>
-          <li>Calidad aplicada a la gestión empresarial</li>
-          <li>Formulación y evaluación de proyectos</li>
-          <li>Gestión de la producción II</li>
-          <li>Gestión estrégica</li>
-          <li>Desarrollo sustentable</li>
-          <li>Mercadotécnia</li>
-          <li>Cadena de suministros</li>
-          <li>Materias de especialidad</li>
+             
+              <li>Microcontroladores</li>
+              <li>Diseño con Transistores</li>
+              <li>Fundamentos Financieros</li>
+              <li>Taller de Investigación I</li>
+              <li>Control II</li>
+              <li>Amplificadores Operacionales</li>
+              <li>Instrumentación</li>
+              <li>Optoelectrónica</li>
+              <li>Introducción a las Telecomunicaciones</li>
+              <li>Taller de Investigación II</li>
+              <li>Control Digital</li>
+              <li>Electrónica de Potencia</li>
+              <li>Controladores Lógicos Programables</li>
+              <li>Administración General</li>
+              <li>Desarrollo y Evaluación de Proyectos</li>
+              <li>Materias de Especialidad</li>
+              <li>Servicio Social</li>
+              <li>Residencia Profesional</li>
+              <li>Créditos Complementarios</li>
         </ul>
         
       </div>
       
     </div>
-
-    <div class="col-md-12" style="text-align: center;">
-        <br>
-        <h4 class="featurette-heading"><span style="color:#1B396A"><b>*Nota: El alumno deberá cursar el servicio social, residencia profesional y otros créditos.</b></span></h4>
-      </div>
 
     <hr class="featurette-divider">
     <!--TERMINA PLAN-->

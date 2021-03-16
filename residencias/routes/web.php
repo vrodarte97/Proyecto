@@ -33,20 +33,8 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-Route::get('/404', function () {
-    return view('404');
-});
-
 Route::get('/index', function () {
     return view('index');
-});
-
-Route::get('/index1', function () {
-    return view('index1');
-});
-
-Route::get('/carousel', function () {
-    return view('carousel');
 });
 
 Route::get('/administracion', function () {
@@ -67,6 +55,30 @@ Route::get('/industrial', function () {
 
 Route::get('/logistica', function () {
     return view('carreras.logistica');
+});
+
+Route::get('/tics', function () {
+    return view('carreras.tics');
+});
+
+Route::get('/sistemas', function () {
+    return view('carreras.sistemas');
+});
+
+Route::get('/electrica', function () {
+    return view('carreras.electrica');
+});
+
+Route::get('/electronica', function () {
+    return view('carreras.electronica');
+});
+
+Route::get('/mecatronica', function () {
+    return view('carreras.mecatronica');
+});
+
+Route::get('/mecanica', function () {
+    return view('carreras.mecanica');
 });
 
 Route::resource('alumnos', AlumnosController::class)->middleware('auth');

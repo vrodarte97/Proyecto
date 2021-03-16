@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>IGE</title>
+    <title>Ing. TICS</title>
 
     <link rel="icon" type="image/png" href="{{ asset('assets/backoffice/img/itcj.ico') }}" sizes="64x64">
 
@@ -104,7 +104,7 @@
     </nav>
     <div class="container">
       <br>
-      <div class="centered"><h1  class="display-1" style="color: #ffffff"><strong><br>Ingeniería en Gestión Empresarial<strong></h1></div>
+      <div class="centered"><h1  class="display-1" style="color: #ffffff"><strong><br>Ingeniería en Tecnologías de la Información y Comunicaciones<strong></h1></div>
     </div>
   </header>
   <!--TERMINA MENU-->
@@ -112,12 +112,11 @@
   
 
   <!--COMIENZA OBJETIVO-->
-  <br>
-  <div class="jumbotron jumbotron-fluid bg-white">
+  <div class="jumbotron jumbotron-fluid" style="background-color:#1B396A;">
     <div class="container">
       <br>
-      <h1 class="display-8" style="color:#1B396A">Objetivo:</h1>
-      <p class="lead">Formar profesionistas, capaces de desarrollar, mantener e innovar sistemas, procesos y productos industriales y de servicio que apoyen a la solución de problemas, propiciando y mejorando la calidad de la productividad.</p>
+      <h1 class="display-8" style="color:#e9ecef">Objetivo:</h1>
+      <p class="lead" style="color:#e9ecef">Formar profesionistas capaces de integrar y administrar tecnologías de la información y comunicaciones, que contribuyan a la productividad y el logro de los objetivos estratégicos de las organizaciones; caracterizándose por ser líderes, críticos, competentes, éticos y con visión empresarial, comprometidos con el desarrollo sustentable.</p>
       <br>
     </div>
   </div>
@@ -125,43 +124,16 @@
 
   <!--COMIENZA PERFIL-->
   <br>
-  <div class="jumbotron jumbotron-fluid" style="background-color:#1B396A;">
+  <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <br>
-      <h1 class="display-8" style="color:#e9ecef">Campo de trabajo:</h1>
-      <p class="lead" style="color:#e9ecef">El egresado tendrá competencias para trabajar en: <br></p>
-      <ul class="lead" style="color:#e9ecef">
-          <li>Creación y gestión de su propia empresa</li>
-          <li>En la industria y servicios</li>
-          <li>Empresas públicas y privadas</li>
-          <li>Consultorías</li>
-          <li>Proyectos de inversión</li>
-
-      </ul>
+      <h1 class="display-8" style="color:#1B396A">Campo de trabajo:</h1>
+      <p class="lead">Cabe señalar que dentro del campo laboral, un Ingeniero en Tecnologías de la Información y Comunicaciones podrá desarrollarse en empresas o instituciones públicas y privadas tanto a nivel nacional como internacional en donde la innovación tecnológica y la administración de la tecnología sean estratégicas.<br></p>   
     <br>
     </div>
   </div>
   <br>
   <!--TERMINA PERFIL-->
-
-  
-  <!--COMIENZA OBJETIVO-->
-  <br>
-  <div class="jumbotron jumbotron-fluid bg-white">
-    <div class="container">
-      <br>
-      <h1 class="display-8" style="color:#1B396A">Perfil del aspirante:</h1>
-      <p class="lead">Aplicar métodos cuantitativos y cualitativos para el ánalisis e interpretación de datos y modelado de sistemas, en los procesos organizacionales para la mejora continua, atendiendo estándares de calidad mundial.<br></p>
-      <ul class="lead">
-        <li>Gestionar la cadena de suministros de las organizaciones con un enfoque orientado a procesos.</li>
-        <li>Integrar, dirigir y desarrollar equipos de trabajo para la mejora continua y el crecimiento integral de las organizaciones.</li>
-        <li>Establecer programas para el fortalecimiento de la seguridad e higiene en las organizaciones.</li>
-
-    </ul>
-      <br>
-    </div>
-  </div>
-  <!--TERMINA OBJETIVO-->
 
    <!--COMIENZA PERFIL-->
    <br>
@@ -169,14 +141,19 @@
      <div class="container">
        <br>
        <h1 class="display-8" style="color:#e9ecef">Perfil del egresado: </h1>
-       <p class="lead" style="color:#e9ecef">El profesional de esta carrera estará formado integralmente en: <br></p>
+       <p class="lead" style="color:#e9ecef">El profesional de esta carrera estará formado integralmente en:<br></p>
        <ul class="lead" style="color:#e9ecef">
-           <li>Capacidad de análisis y síntesis</li>
-           <li>Habilidad analítica y creatividad</li>
-           <li>Aplicación en la solución de problemas</li>
-           <li>Disciplina y alto sentido de responsabilidad</li>
-           <li>Capacidad administrativa y de interrelación</li>
-           <li>Independencia de juicio</li>
+         <li>El desempeño de funciones de consultoría y auditoría en el campo de las Tecnologías de la información y Comunicaciones.</li>
+         <li>Crear empresas en el ámbito de las Tecnologías de la Información y Comunicaciones.</li>
+         <li>Diseñar, implementar y administrar redes de cómputo.</li>
+         <li>Administrar proyectos que involucren tecnologías de la información y comunicaciones.</li>
+         <li>Integrar la diferente arquitectura de hardware y administrar plataformas de software.</li>
+         <li>Implementar sistemas de seguridad bajo políticas internas de las organizaciones y estándares aceptados.</li>
+         <li>Observar los aspectos legales del uso y explotación de las tecnologías de la información y comunicaciones.</li>
+         <li> Desarrollar e implementar sistemas de información para el control y la toma de decisiones utilizando metodologías basadas en estándares internacionales.</li>
+         <li>Analizar, diseñar y programar dispositivos con software empotrado.</li>
+         <li>Utilizar tecnologías y herramientas actuales y emergentes acordes a las necesidades del entorno.</li>
+         <li>Integrar soluciones que interactúen mediante sistemas de comunicaciones.</li>
        </ul>
      <br>
      </div>
@@ -196,19 +173,18 @@
         <h1 class="featurette-heading"> <span style="color:#1B396A">Competencias especificas</span></h1>
         <ul class="lead">
         <br>
-          <li>Formular planes estratégios, tácticos y operativos para la empresa.</li>
-          <li>Gestionar sistemas de recursos para la solución de problemas operativos y administrativos.</li>
-          <li>Gestionar proyectos de desarrollo empresarial</li>
-          <li>Gestionar la creación de nuevos negocios.</li>
-          <li>Dirigir el desempeño de organismos empresariales.</li>
-          <li>Aplicar los conocimientos básicos de la ingeniería en Gestión Empresarial.</li>
+          <li>Identificar las áreas de aplicación de las TIC´s, los elementos que componen un sistema de computo y los diferentes tipos de software.</li>
+          <li>Utilizar los diversos tipos de tecnologías web, conocer las implicaciones actuales de las tecnologías de la información y comunicaciones.</li>
+          <li>Identificación y utilización de los diferentes modelos de negocio en internet y la administración de sus recursos.</li>
           </ul>    
         <h4 style="color:#1B396A">Especialidades:</h4>
-            <p class="lead">Liderazgo Gerencial y sistemas de Manufactura de clase mundial.</p>
+            <p class="lead">Da click en los botones para más información.</p>
             
+            <a type="button" class="btn btn-primary" style="background-color: #1B396A;" href="{{ asset('assets/backoffice/img/esp-redes.jpg') }}" download="info-redes">Redes y seguridad informática</a>
+            <a type="button" class="btn btn-primary" style="background-color: #1B396A;" href="{{ asset('assets/backoffice/img/esp-software.jpg') }}" download="info-redes">Sotware</a>            
       </div>
       <div class="col-md-5">
-        <img src="{{ asset('assets/backoffice/img/ige1.jpg') }}" class="img-fluid" alt="Responsive image">
+        <img src="{{ asset('assets/backoffice/img/tics1.jpg') }}" class="img-fluid" alt="Responsive image">
       </div>
     </div>
      <!--TERMINA OPORTUNIDADES-->
@@ -226,36 +202,38 @@
 
       <div class="col-md-5">
         <br><br>
-        <img src="{{ asset('assets/backoffice/img/ige2.jpg') }}" class="img-fluid" alt="Responsive image">
+        <img src="{{ asset('assets/backoffice/img/tics2.jpg') }}" class="img-fluid" alt="Responsive image">
       </div>
 
       <div class="col-md-4">
         <br>
         <ul  class="lead">
           <br>
-        <li>Fundamentos de investigación</li>
-        <li>Cálculo diferencial</li>
-        <li>Desarrollo humano</li>
-        <li>Fundamentos de gestion empresarial</li>
-        <li>Fundamentos de física</li>
-        <li>Fundamentos de química</li>
-        <li>Software de aplicación ejecutivo</li>
-        <li>Cálculo integral</li>
-        <li>Contabilidad orientada a los negocios</li>
-        <li>Dinámica social</li>
-        <li>Taller de ética</li>
-        <li>Legislación laboral</li>
-        <li>Marco legal de las organizaciones</li>
-        <li>Probabilidad y estadística descriptiva</li>
-        <li>Costos empresariales</li>
-        <li>Habilidades directivas I</li>
-        <li>Economia empresarial</li>
-        <li>Álgebra lineal</li>
-        <li>Ingeniería económica</li>
-        <li>Estadistica inferencial I</li>
-        <li>Instrumentos de presupuestación empresarial</li>
-        <li>Habilidades directivas II</li>
-        <li>Entorno Macroeconómico</li>
+        <li>Calculo Diferencial</li>
+        <li>Fundamentos de Programación</li>
+        <li>Matemáticas Discretas I</li>
+        <li>Introducción a las TIC´s</li>
+        <li>Taller de Ética</li>
+        <li>Fundamentos de Investigación</li>
+        <li>Calculo integral</li>
+        <li>Programación I</li>
+        <li>Matemáticas II</li>
+        <li>Probabilidad y Estadística</li>
+        <li>Contabilidad de Costos</li>
+        <li>Algebra Lineal</li>
+        <li>Estructura y Organización de Datos</li>
+        <li>Matemáticas para la Toma de Decisiones</li>
+        <li>Fundamentos de Bases de Datos</li>
+        <li>Electricidad y Magnetismo</li>
+        <li>Administración Gerencial</li>
+        <li>Análisis de Señales y Sistemas de Comunicación</li>
+        <li>Programación II</li>
+        <li>Administración de Proyectos</li>
+        <li>Taller de Base de Datos</li>
+        <li>Circuitos Eléctricos y Electrónicos</li>
+        <li>Ingeniería de Software I</li>
+        <li>Fundamentos de Redes</li>
+        <li>Desarrollo Sustentable</li>
         </ul>
       </div> 
 
@@ -263,38 +241,35 @@
           <div class="col-md-3">
             <h1 class="featurette-heading"><span style="color:#ffffff">.</span></h1>
             <ul  class="lead">
-          <li>Investigación de operaciones</li>
-          <li>Finanzas en las organizaciones</li>
-          <li>Estadistica inferencial II</li>
-          <li>Ingeniería de procesos</li>
-          <li>Gestión de capital humano</li>
-          <li>Taller de investigación I</li>
-          <li>Mercadotecnia</li>
-          <li>Administración de la salud y seguridad ocupacional</li>
-          <li>El emprenderos y la innovación</li>
-          <li>Gestión de la producción I</li>
-          <li>Diseño organizacional</li>
-          <li>Taller de investigación II</li>
-          <li>Sistemas de información de la mercadotecnia</li>
-          <li>Calidad aplicada a la gestión empresarial</li>
-          <li>Formulación y evaluación de proyectos</li>
-          <li>Gestión de la producción II</li>
-          <li>Gestión estrégica</li>
-          <li>Desarrollo sustentable</li>
-          <li>Mercadotécnia</li>
-          <li>Cadena de suministros</li>
-          <li>Materias de especialidad</li>
+                <li>Desarrollo de Emprendedores</li>
+                <li>Base de Datos Distribuidas</li>
+                <li>Arquitectura de Computadoras</li>
+                <li>Ingeniería de Software II</li>
+                <li>Redes de Computadoras</li>
+                <li>Programación Web</li>
+                <li>Negocios Electrónicos</li>
+                <li>Ingeniería del Conocimiento</li>
+                <li>Sistemas Operativos I</li>
+                <li>Tecnologías Inalámbricas</li>
+                <li>Redes Emergentes</li>
+                <li>Programación para Dispositivos Móviles</li>
+                <li>Auditoría en Tecnología de Información</li>
+                <li>Taller de Investigación I</li>
+                <li>Sistemas Operativos II</li>
+                <li>Administración y Seguridad de Redes</li>
+                <li>Telecomunicaciones</li>
+                <li>Interacción Humano Computadora</li>
+                <li>Taller de Investigación II</li>
+                <li>Materias de Especialidad</li>
+                <li>Servicio Social</li>
+                <li>Residencia Profesional</li>
+                <li>Otros Créditos</li>
+        
         </ul>
         
       </div>
       
     </div>
-
-    <div class="col-md-12" style="text-align: center;">
-        <br>
-        <h4 class="featurette-heading"><span style="color:#1B396A"><b>*Nota: El alumno deberá cursar el servicio social, residencia profesional y otros créditos.</b></span></h4>
-      </div>
-
     <hr class="featurette-divider">
     <!--TERMINA PLAN-->
   </div>

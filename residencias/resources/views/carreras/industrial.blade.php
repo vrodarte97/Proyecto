@@ -22,7 +22,7 @@
   
     <style>
     .header {
-      background: url("{{ asset('assets/backoffice/img/liebre11.jpg') }}" )  no-repeat center;
+      background: url("{{ asset('assets/backoffice/img/industrial3.jpg') }}" )  no-repeat center;
       background-size: cover;
       min-height: 100vh;
     }
@@ -36,6 +36,8 @@
     transform: translate(-50%, -50%);
     }
     </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 </head>
 
@@ -83,7 +85,8 @@
                 <li><a class="dropdown-item" href="{{url('electromecanica')}}">Ingeniería Electromecánica</a></li>
                 <li><a class="dropdown-item" href="{{url('mecanica')}}">Ingeniería Mecánica</a></li>
                 <li><a class="dropdown-item" href="{{url('sistemas')}}">Ingeniería en Sistemas Computacionales</a></li>
-                <li><a class="dropdown-item" href="{{url('electromecanica')}}">Ingeniería Electrónica</a></li>
+                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingeniería
+                  Electrónica</a></li>
                 <li><a class="dropdown-item" href="{{url('tics')}}">Ingeniería en Tecnologías de la Información y Comunicaciones</a></li>
                 <li><a class="dropdown-item" href="{{url('ige')}}">Ingeniería en Gestión Empresarial</a></li>
                 <li><a class="dropdown-item" href="{{url('electrica')}}">Ingeniería Eléctrica</a></li>
@@ -104,7 +107,7 @@
     </nav>
     <div class="container">
       <br>
-      <div class="centered"><h1  class="display-1" style="color: #ffffff"><strong><br>Ingeniería Industrial<strong></h1></div>
+      <div class="centered"><h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff"><strong><br>Ingeniería Industrial<strong></h1></div>
     </div>
   </header>
   <!--TERMINA MENU-->

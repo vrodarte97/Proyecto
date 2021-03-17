@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>IGE</title>
+    <title>Ing. Electromecánica</title>
 
     <link rel="icon" type="image/png" href="{{ asset('assets/backoffice/img/itcj.ico') }}" sizes="64x64">
 
@@ -27,7 +27,7 @@
 
     <style>
         .header {
-            background: url("{{ asset('assets/backoffice/img/ige3.jpg') }}") no-repeat center;
+            background: url("{{ asset('assets/backoffice/img/ele3.jpg') }}") no-repeat center;
             background-size: cover;
             min-height: 100vh;
         }
@@ -130,8 +130,7 @@
         <div class="container">
             <br>
             <div class="centered">
-                <h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff">
-                    <strong><br>Ingeniería en Gestión Empresarial<strong></h1>
+                <h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff"><strong><br>Ingeniería Electromecánica<strong></h1>
             </div>
         </div>
     </header>
@@ -140,14 +139,15 @@
 
 
     <!--COMIENZA OBJETIVO-->
-    <br>
-    <div class="jumbotron jumbotron-fluid bg-white">
+    <div class="jumbotron jumbotron-fluid" style="background-color:#1B396A;">
         <div class="container">
             <br>
-            <h1 class="display-8" style="color:#1B396A">Objetivo:</h1>
-            <p class="lead">Formar profesionistas, capaces de desarrollar, mantener e innovar sistemas, procesos y
-                productos industriales y de servicio que apoyen a la solución de problemas, propiciando y mejorando la
-                calidad de la productividad.</p>
+            <h1 class="display-8" style="color:#e9ecef">Objetivo:</h1>
+            <p class="lead" style="color:#e9ecef">Formar profesionistas de excelencia en Ingeniería Electromecánica, con
+                actitud emprendedora, con liderazgo y capacidad de analizar, diagnosticar, diseñar, seleccionar,
+                instalar, administrar, mantener e innovar sistemas electromecánicos, en forma eficiente, segura y
+                económica; considerando las normas y estándares nacionales e internacionales para fomentar el desarrollo
+                sustentable con plena conciencia ética, humanística y social.</p>
             <br>
         </div>
     </div>
@@ -155,46 +155,20 @@
 
     <!--COMIENZA PERFIL-->
     <br>
-    <div class="jumbotron jumbotron-fluid" style="background-color:#1B396A;">
+    <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <br>
-            <h1 class="display-8" style="color:#e9ecef">Campo de trabajo:</h1>
-            <p class="lead" style="color:#e9ecef">El egresado tendrá competencias para trabajar en: <br></p>
-            <ul class="lead" style="color:#e9ecef">
-                <li>Creación y gestión de su propia empresa</li>
-                <li>En la industria y servicios</li>
-                <li>Empresas públicas y privadas</li>
-                <li>Consultorías</li>
-                <li>Proyectos de inversión</li>
-
-            </ul>
+            <h1 class="display-8" style="color:#1B396A">Campo de trabajo:</h1>
+            <p class="lead">El Ingeniero Electromecánico es un profesional que puede incorporarse a empresas que
+                ofrezcan bienes y servicios, tanto públicas como privadas, por ejemplo: industrias extractivas, de la
+                transformación, centros dedicados a la producción de alimentos, hospitales, centros de investigación y
+                educación, venta de equipo electromecánico, PEMEX, CFE, y en general en la micro, pequeña y mediana
+                empresa.<br></p>
             <br>
         </div>
     </div>
     <br>
     <!--TERMINA PERFIL-->
-
-
-    <!--COMIENZA OBJETIVO-->
-    <br>
-    <div class="jumbotron jumbotron-fluid bg-white">
-        <div class="container">
-            <br>
-            <h1 class="display-8" style="color:#1B396A">Perfil del aspirante:</h1>
-            <p class="lead">Aplicar métodos cuantitativos y cualitativos para el ánalisis e interpretación de datos y
-                modelado de sistemas, en los procesos organizacionales para la mejora continua, atendiendo estándares de
-                calidad mundial.<br></p>
-            <ul class="lead">
-                <li>Gestionar la cadena de suministros de las organizaciones con un enfoque orientado a procesos.</li>
-                <li>Integrar, dirigir y desarrollar equipos de trabajo para la mejora continua y el crecimiento integral
-                    de las organizaciones.</li>
-                <li>Establecer programas para el fortalecimiento de la seguridad e higiene en las organizaciones.</li>
-
-            </ul>
-            <br>
-        </div>
-    </div>
-    <!--TERMINA OBJETIVO-->
 
     <!--COMIENZA PERFIL-->
     <br>
@@ -202,16 +176,12 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#e9ecef">Perfil del egresado: </h1>
-            <p class="lead" style="color:#e9ecef">El profesional de esta carrera estará formado integralmente en: <br>
-            </p>
-            <ul class="lead" style="color:#e9ecef">
-                <li>Capacidad de análisis y síntesis</li>
-                <li>Habilidad analítica y creatividad</li>
-                <li>Aplicación en la solución de problemas</li>
-                <li>Disciplina y alto sentido de responsabilidad</li>
-                <li>Capacidad administrativa y de interrelación</li>
-                <li>Independencia de juicio</li>
-            </ul>
+            <p class="lead" style="color:#e9ecef">El Ingeniero Electromecánico, formula, gestiona y evalúa proyectos de
+                Ingeniería relacionados con sistemas y dispositivos en el área Electromecánica, proponiendo soluciones
+                con tecnologías de vanguardia, en el marco del desarrollo sustentable.
+                Diseña e implementa sistemas y dispositivos electromecánicos, utilizando estrategias para el uso
+                eficiente de la energía en los sectores productivo y de servicios apegado a normas y acuerdos nacionales
+                e internacionales.<br></p>
             <br>
         </div>
     </div>
@@ -230,19 +200,24 @@
                 <h1 class="featurette-heading"> <span style="color:#1B396A">Competencias especificas</span></h1>
                 <ul class="lead">
                     <br>
-                    <li>Formular planes estratégios, tácticos y operativos para la empresa.</li>
-                    <li>Gestionar sistemas de recursos para la solución de problemas operativos y administrativos.</li>
-                    <li>Gestionar proyectos de desarrollo empresarial</li>
-                    <li>Gestionar la creación de nuevos negocios.</li>
-                    <li>Dirigir el desempeño de organismos empresariales.</li>
-                    <li>Aplicar los conocimientos básicos de la ingeniería en Gestión Empresarial.</li>
+                    <li>Diseñar e implementar estrategias y programas para el control y/o automatización de los procesos
+                        productivos y los dispositivos en los sistemas electromecánicos.</li>
+                    <li>Aplicar herramientas computacionales de acuerdo a las tecnologías de vanguardia, para el diseño,
+                        simulación y operación de sistemas electromecánicos acordes a la demanda del sector industrial.
+                    </li>
+                    <li>Formular administrar y supervisar programas de mantenimiento para la continuidad y optimización
+                        de procesos productivos, considerando el cuidado del medio ambiente.</li>
                 </ul>
                 <h4 style="color:#1B396A">Especialidades:</h4>
-                <p class="lead">Liderazgo Gerencial y sistemas de Manufactura de clase mundial.</p>
-
+                <p class="lead">Da click en los botones para más información.</p>
+                <ul class="lead">
+                    <li>Automatización y Robótica.</li>
+                    <li>Sistemas Modernos de Enegría</li>
+                </ul>
             </div>
             <div class="col-md-5">
-                <img src="{{ asset('assets/backoffice/img/ige5.jpg') }}" class="img-fluid" alt="Responsive image">
+                <img src="{{ asset('assets/backoffice/img/electro1.png') }}" class="img-fluid"
+                    alt="Responsive image">
             </div>
         </div>
         <!--TERMINA OPORTUNIDADES-->
@@ -260,36 +235,39 @@
 
             <div class="col-md-5">
                 <br><br>
-                <img src="{{ asset('assets/backoffice/img/ige6.jpg') }}" class="img-fluid" alt="Responsive image">
+                <img src="{{ asset('assets/backoffice/img/electro2.jpg') }}" class="img-fluid"
+                    alt="Responsive image">
             </div>
 
             <div class="col-md-4">
                 <br>
                 <ul class="lead">
                     <br>
-                    <li>Fundamentos de investigación</li>
-                    <li>Cálculo diferencial</li>
-                    <li>Desarrollo humano</li>
-                    <li>Fundamentos de gestion empresarial</li>
-                    <li>Fundamentos de física</li>
-                    <li>Fundamentos de química</li>
-                    <li>Software de aplicación ejecutivo</li>
-                    <li>Cálculo integral</li>
-                    <li>Contabilidad orientada a los negocios</li>
-                    <li>Dinámica social</li>
-                    <li>Taller de ética</li>
-                    <li>Legislación laboral</li>
-                    <li>Marco legal de las organizaciones</li>
-                    <li>Probabilidad y estadística descriptiva</li>
-                    <li>Costos empresariales</li>
-                    <li>Habilidades directivas I</li>
-                    <li>Economia empresarial</li>
-                    <li>Álgebra lineal</li>
-                    <li>Ingeniería económica</li>
-                    <li>Estadistica inferencial I</li>
-                    <li>Instrumentos de presupuestación empresarial</li>
-                    <li>Habilidades directivas II</li>
-                    <li>Entorno Macroeconómico</li>
+                    <li>Química</li>
+                    <li>Cálculo Diferencial</li>
+                    <li>Álgebra Lineal</li>
+                    <li>Taller de Ética</li>
+                    <li>Introducción a la Programación</li>
+                    <li>Fundamentos de Investigación</li>
+                    <li>Estática</li>
+                    <li>Cálculo Integral</li>
+                    <li>Desarrollo Sustentable</li>
+                    <li>Mediciones Mecánicas y Eléctricas</li>
+                    <li>Tecnología de los Materiales</li>
+                    <li>Probabilidad y Estadística</li>
+                    <li>Dinámica</li>
+                    <li>Cálculo Vectorial</li>
+                    <li>Electricidad y Magnetismo</li>
+                    <li>Dibujo Electromecánico</li>
+                    <li>Procesos de Manufactura</li>
+                    <li>Análisis y Síntesis de Mecanismos</li>
+                    <li>Ecuaciones Diferenciales y Transformada de Laplace</li>
+                    <li>Análisis de Circuitos en CD</li>
+                    <li>Termodinámica</li>
+                    <li>Mecánica de Materiales</li>
+                    <li>Eléctronica Analógica</li>
+                    <li>Diseño de Elementos de Maquinas</li>
+                    <li>Mecánica de Fluidos</li>
                 </ul>
             </div>
 
@@ -297,39 +275,33 @@
             <div class="col-md-3">
                 <h1 class="featurette-heading"><span style="color:#ffffff">.</span></h1>
                 <ul class="lead">
-                    <li>Investigación de operaciones</li>
-                    <li>Finanzas en las organizaciones</li>
-                    <li>Estadistica inferencial II</li>
-                    <li>Ingeniería de procesos</li>
-                    <li>Gestión de capital humano</li>
-                    <li>Taller de investigación I</li>
-                    <li>Mercadotecnia</li>
-                    <li>Administración de la salud y seguridad ocupacional</li>
-                    <li>El emprenderos y la innovación</li>
-                    <li>Gestión de la producción I</li>
-                    <li>Diseño organizacional</li>
-                    <li>Taller de investigación II</li>
-                    <li>Sistemas de información de la mercadotecnia</li>
-                    <li>Calidad aplicada a la gestión empresarial</li>
-                    <li>Formulación y evaluación de proyectos</li>
-                    <li>Gestión de la producción II</li>
-                    <li>Gestión estrégica</li>
-                    <li>Desarrollo sustentable</li>
-                    <li>Mercadotécnia</li>
-                    <li>Cadena de suministros</li>
-                    <li>Materias de especialidad</li>
+                    <li>Análisis de Circuitos de CA</li>
+                    <li>Transferencia de Calor</li>
+                    <li>Electrónica Digital</li>
+                    <li>Máquinas y Equipos Térmicos I</li>
+                    <li>Sistemas y Máquinas de Fluidos</li>
+                    <li>Máquinas Eléctricas</li>
+                    <li>Instalaciones Eléctricas</li>
+                    <li>Taller de Investigación I</li>
+                    <li>Diseño e Ingeniería Asistido por Computadora</li>
+                    <li>Maquinas y Equipos Térmicos II</li>
+                    <li>Sistemas Eléctricos de Potencia</li>
+                    <li>Controles Eléctricos</li>
+                    <li>Taller de Investigación II</li>
+                    <li>Administración y Técnica de Mantenimiento</li>
+                    <li>Refrigeración y Aire Acondicionado</li>
+                    <li>Sistemas Hidráulicos y Neumáticos de Potencia</li>
+                    <li>Ahorro de Energía</li>
+                    <li>Ingeniería de Control Clásico</li>
+                    <li>Subestaciones Eléctricas</li>
+                    <li>Evaluación y Formulación de Proyectos</li>
+                    <li>Asignaturas de Especialidad</li>
+                    <li>Residencia Profesional</li>
                 </ul>
 
             </div>
 
         </div>
-
-        <div class="col-md-12" style="text-align: center;">
-            <br>
-            <h4 class="featurette-heading"><span style="color:#1B396A"><b>*Nota: El alumno deberá cursar el servicio
-                        social, residencia profesional y otros créditos.</b></span></h4>
-        </div>
-
         <hr class="featurette-divider">
         <!--TERMINA PLAN-->
     </div>

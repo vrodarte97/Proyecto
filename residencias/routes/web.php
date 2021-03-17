@@ -81,6 +81,10 @@ Route::get('/mecanica', function () {
     return view('carreras.mecanica');
 });
 
+Route::get('/electromecanica', function () {
+    return view('carreras.electromecanica');
+});
+
 Route::resource('alumnos', AlumnosController::class)->middleware('auth');
 Auth::routes([]);
 //Elimina la opción de register.

@@ -80,19 +80,19 @@
                 <strong>Oferta Educativa</strong>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="{{url('administracion')}}">Licenciatura en Administración</a></li>
-                <li><a class="dropdown-item" href="{{url('contador')}}">Contador Público</a></li>
-                <li><a class="dropdown-item" href="{{url('electromecanica')}}">Ingeniería Electromecánica</a></li>
-                <li><a class="dropdown-item" href="{{url('mecanica')}}">Ingeniería Mecánica</a></li>
-                <li><a class="dropdown-item" href="{{url('sistemas')}}">Ingeniería en Sistemas Computacionales</a></li>
-                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingeniería
-                  Electrónica</a></li>
-                <li><a class="dropdown-item" href="{{url('tics')}}">Ingeniería en Tecnologías de la Información y Comunicaciones</a></li>
-                <li><a class="dropdown-item" href="{{url('ige')}}">Ingeniería en Gestión Empresarial</a></li>
-                <li><a class="dropdown-item" href="{{url('electrica')}}">Ingeniería Eléctrica</a></li>
-                <li><a class="dropdown-item" href="{{url('industrial')}}">Ingeniería Industrial</a></li>
-                <li><a class="dropdown-item" href="{{url('logistica')}}">Ingeniería en Logística</a></li>
-                <li><a class="dropdown-item" href="{{url('mecatronica')}}">Ingeniería en Mecatrónica</a></li>
+                <li><a class="dropdown-item" href="{{url('administracion')}}">Licenciatura en Administraci&oacute;n</a></li>
+                <li><a class="dropdown-item" href="{{url('contador')}}">Contador P&uacute;blico</a></li>
+                <li><a class="dropdown-item" href="{{url('electromecanica')}}">Ingenier&iacute;a Electromec&aacute;nica</a></li>
+                <li><a class="dropdown-item" href="{{url('mecanica')}}">Ingenier&iacute;a Mec&aacute;nica</a></li>
+                <li><a class="dropdown-item" href="{{url('sistemas')}}">Ingenier&iacute;a en Sistemas Computacionales</a></li>
+                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
+                  Electr&oacute;nica</a></li>
+                <li><a class="dropdown-item" href="{{url('tics')}}">Ingenier&iacute;a en Tecnolog&iacute;as de la Informaci&oacute;n y Comunicaciones</a></li>
+                <li><a class="dropdown-item" href="{{url('ige')}}">Ingenier&iacute;a en Gesti&oacute;n Empresarial</a></li>
+                <li><a class="dropdown-item" href="{{url('electrica')}}">Ingenier&iacute;a El&eacute;ctrica</a></li>
+                <li><a class="dropdown-item" href="{{url('industrial')}}">Ingenier&iacute;a Industrial</a></li>
+                <li><a class="dropdown-item" href="{{url('logistica')}}">Ingenier&iacute;a en Log&iacute;stica</a></li>
+                <li><a class="dropdown-item" href="{{url('mecatronica')}}">Ingenier&iacute;a en Mecatr&oacute;nica</a></li>
               </ul>
             </li>
 
@@ -100,14 +100,14 @@
           </ul>
           <form class="d-flex">
            
-            <a class="btn btn-primary" type="submit" href="{{url('login')}}">Iniciar Sesión</a>
+            <a class="btn btn-primary" type="submit" href="{{url('login')}}">Iniciar Sesi&oacute;n</a>
           </form>
         </div>
       </div>
     </nav>
     <div class="container">
       <br>
-      <div class="centered"><h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff"><strong><br>Ingeniería Industrial<strong></h1></div>
+      <div class="centered"><h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff"><strong><br>Ingenier&iacute;a Industrial<strong></h1></div>
     </div>
   </header>
   <!--TERMINA MENU-->
@@ -120,7 +120,7 @@
     <div class="container">
       <br>
       <h1 class="display-8" style="color:#1B396A">Objetivo:</h1>
-      <p class="lead">Formar profesionistas en el campo de la ingeniería industrial, líderes creativos y emprendedores con visión sistemática, así como, cpacidad analítica y competitiva que le permita diseñar, implementar, mejorar, innovar, optimizar y administrar sistemas de producción de bienes y servicios en un entorno global, cn un enfoque sustentable, ético y comprometidos con la sociedad.</p>
+      <p class="lead">Formar profesionistas en el campo de la ingenier&iacute;a industrial, l&iacute;deres creativos y emprendedores con visi&oacute;n sistem&aacute;tica, as&iacute; como, cpacidad anal&iacute;tica y competitiva que le permita dise&ntilde;ar, implementar, mejorar, innovar, optimizar y administrar sistemas de producci&oacute;n de bienes y servicios en un entorno global, cn un enfoque sustentable, &eacute;tico y comprometidos con la sociedad.</p>
       <br>
     </div>
   </div>
@@ -132,8 +132,8 @@
     <div class="container">
       <br>
       <h1 class="display-8" style="color:#e9ecef">Campo de trabajo:</h1>
-      <p class="lead" style="color:#e9ecef">En el sector industrial, puede administrar los sistemas de producción, de calidad de materiales, de seguridad, o en el desarrollo de nuevos proyectos y procesos. En las empresas de servicios es capaz de implantar y mejorar sistemas para elevar su calidad y productividad.<br></p>
-      <p class="lead" style="color:#e9ecef">En el sector público puede desarrollar u optiomizar sistemas para mayor efectividad y eficiencia en la prestación de servicios y en la administración de los recursos. Así mismo puede emprender su propia empresa de manufactura o de servicios.</p>
+      <p class="lead" style="color:#e9ecef">En el sector industrial, puede administrar los sistemas de producci&oacute;n, de calidad de materiales, de seguridad, o en el desarrollo de nuevos proyectos y procesos. En las empresas de servicios es capaz de implantar y mejorar sistemas para elevar su calidad y productividad.<br></p>
+      <p class="lead" style="color:#e9ecef">En el sector p&uacute;blico puede desarrollar u optiomizar sistemas para mayor efectividad y eficiencia en la prestaci&oacute;n de servicios y en la administraci&oacute;n de los recursos. As&iacute; mismo puede emprender su propia empresa de manufactura o de servicios.</p>
      
     <br>
     </div>
@@ -148,7 +148,7 @@
     <div class="container">
       <br>
       <h1 class="display-8" style="color:#1B396A">Perfil del aspirante:</h1>
-      <p class="lead">Los aspirantes a estudiar el programa de ingeniería industrial deberán ser egresados del bachillerato, tener aptitudes y habilidad para las matemáticas, física, computación y administración; habilidad analítica y creativa para la solución de problemas; conciencia ecológica, disciplina y alto sentido de responsabilidad. Además de tener competencias comunicativas del español.</p>
+      <p class="lead">Los aspirantes a estudiar el programa de ingenier&iacute;a industrial deber&aacute;n ser egresados del bachillerato, tener aptitudes y habilidad para las matem&aacute;ticas, f&iacute;sica, computaci&oacute;n y administraci&oacute;n; habilidad anal&iacute;tica y creativa para la soluci&oacute;n de problemas; conciencia ecol&oacute;gica, disciplina y alto sentido de responsabilidad. Adem&aacute;s de tener competencias comunicativas del espa&ntilde;ol.</p>
       
       <br>
     </div>
@@ -161,21 +161,21 @@
      <div class="container">
        <br>
        <h1 class="display-8" style="color:#e9ecef">Perfil del egresado: </h1>
-       <p class="lead" style="color:#e9ecef">El egresado será capaz de: <br></p>
+       <p class="lead" style="color:#e9ecef">El egresado ser&aacute; capaz de: <br></p>
        <ul class="lead" style="color:#e9ecef">
-            <li>Analizar, diseñar y gestionar sistemas productivos</li>
-            <li>Conocer, seleccionar y aplicar tecnologías de automatización para optimizar procesos productivos</li>
-            <li>Diseñar, implementar y administrar sistemas de mantenimiento.</li>
-            <li>Implementar e interpretar estrategias de gestión de calidad.</li>
-            <li>Implementar e interpretar estrategias y métodos estadísticos</li>
-            <li>Seleccionar y adecuar modelos de calidad y diseño de experimentos en procesos.</li>
-            <li>Gestionar sistemas de seguridad, salud ocupacional y protección al medio ambiente</li>
-            <li>Identificar necesidades de su entorno y desarrollar investigación aplicada para cear o innovar bienes y/o servicios.</li>
+            <li>Analizar, dise&ntilde;ar y gestionar sistemas productivos</li>
+            <li>Conocer, seleccionar y aplicar tecnolog&iacute;as de automatizaci&oacute;n para optimizar procesos productivos</li>
+            <li>Dise&ntilde;ar, implementar y administrar sistemas de mantenimiento.</li>
+            <li>Implementar e interpretar estrategias de gesti&oacute;n de calidad.</li>
+            <li>Implementar e interpretar estrategias y m&eacute;todos estad&iacute;sticos</li>
+            <li>Seleccionar y adecuar modelos de calidad y dise&ntilde;o de experimentos en procesos.</li>
+            <li>Gestionar sistemas de seguridad, salud ocupacional y protecci&oacute;n al medio ambiente</li>
+            <li>Identificar necesidades de su entorno y desarrollar investigaci&oacute;n aplicada para cear o innovar bienes y/o servicios.</li>
             <li>Crear y mejorar productos de alto valor agregado bajo los principios de productivad y competitividad.</li>
-            <li>Participar en proyectos de transferencia, desarrollo y adaptación de tecnologías en los sistemas productivos</li>
-            <li>Diseñar, implementar y mejorar sistemas y estaciones de trabajo considerando factores ergonómicos para optimizar la producción. </li>
-            <li>Emprender e incubar la creación de nuevas empresas</li>
-            <li>Forular, evaluar y gestionar proyectos de inversión</li>
+            <li>Participar en proyectos de transferencia, desarrollo y adaptaci&oacute;n de tecnolog&iacute;as en los sistemas productivos</li>
+            <li>Dise&ntilde;ar, implementar y mejorar sistemas y estaciones de trabajo considerando factores ergon&oacute;micos para optimizar la producci&oacute;n. </li>
+            <li>Emprender e incubar la creaci&oacute;n de nuevas empresas</li>
+            <li>Forular, evaluar y gestionar proyectos de inversi&oacute;n</li>
             <li>Tomar decisiones patra la mejora de sistemas productivos.</li>
        </ul>
      <br>
@@ -196,16 +196,16 @@
         <h1 class="featurette-heading"> <span style="color:#1B396A">Competencias especificas</span></h1>
         <ul class="lead">
         <br>
-          <li>Identificar la estructura y características de los modelos de excelencia más utilizados en el sector productivo y de servicios y aplicarlos para incrementar la competitividad de las organizaciones.</li>
-          <li>Conocer y aplicar normas vigentes de gestión de calidad para todo tipo de organización.</li>
-          <li>Distinguir y analizar las formas, medios y métodos de competitividad de una organización.</li>
-          <li>Conocer y aplicar estrategias para mejorar e innovar los sistemas de una organización</li>
-          <li>Manejar software básico para procesamiento de datos y elaboración de documentos.</li>
+          <li>Identificar la estructura y caracter&iacute;sticas de los modelos de excelencia m&aacute;s utilizados en el sector productivo y de servicios y aplicarlos para incrementar la competitividad de las organizaciones.</li>
+          <li>Conocer y aplicar normas vigentes de gesti&oacute;n de calidad para todo tipo de organizaci&oacute;n.</li>
+          <li>Distinguir y analizar las formas, medios y m&eacute;todos de competitividad de una organizaci&oacute;n.</li>
+          <li>Conocer y aplicar estrategias para mejorar e innovar los sistemas de una organizaci&oacute;n</li>
+          <li>Manejar software b&aacute;sico para procesamiento de datos y elaboraci&oacute;n de documentos.</li>
           </ul> 
           <br>   
         <h2 style="color:#1B396A">Especialidades:</h2>
             <ul class="lead">
-                <li>Gestión de la calidad y productividad</li>
+                <li>Gesti&oacute;n de la calidad y productividad</li>
                 <li>Manufactura digital</li>
             </ul>
             
@@ -236,34 +236,34 @@
         <br>
         <ul  class="lead">
           <br>
-          <li>Fundamentos de investigación</li>
-          <li>Taller de ética</li>
-          <li>Cálculo diferencial</li>
+          <li>Fundamentos de investigaci&oacute;n</li>
+          <li>Taller de &eacute;tica</li>
+          <li>C&aacute;lculo diferencial</li>
           <li>Taller de herramientas intelectuales</li>
-          <li>Química</li>
+          <li>Qu&iacute;mica</li>
           <li>Dibujo industrial</li>
-          <li>Electricidad y electrónica Industrial</li>
+          <li>Electricidad y electr&oacute;nica Industrial</li>
           <li>Propiedad de los materiales</li>
-          <li>Cálculo integral</li>
-          <li>Ingeniería de sistemas</li>
-          <li>Probabilidad y Estadística</li>
-          <li>Análisis de la Realidad Nacional</li>
+          <li>C&aacute;lculo integral</li>
+          <li>Ingenier&iacute;a de sistemas</li>
+          <li>Probabilidad y Estad&iacute;stica</li>
+          <li>An&aacute;lisis de la Realidad Nacional</li>
           <li>Taller de Liderazgo</li>
-          <li>Metrología y Normalización</li>
-          <li>Algoritmos y Lenguajes de Programación</li>
-          <li>Cálculo Vectorial</li>
-          <li>Economía Industrial</li>
-          <li>Estadística Inferencial I</li>
+          <li>Metrolog&iacute;a y Normalizaci&oacute;n</li>
+          <li>Algoritmos y Lenguajes de Programaci&oacute;n</li>
+          <li>C&aacute;lculo Vectorial</li>
+          <li>Econom&iacute;a Industrial</li>
+          <li>Estad&iacute;stica Inferencial I</li>
           <li>Estudio de Trabajo I</li>
-          <li>Procesos de Fabricación</li>
-          <li>Física I</li>
-          <li>Álgebra Lineal</li>
-          <li>Investigación de Operaciones</li>
-          <li>Estadística Inferencial II</li>
+          <li>Procesos de Fabricaci&oacute;n</li>
+          <li>F&iacute;sica I</li>
+          <li>&aacute;lgebra Lineal</li>
+          <li>Investigaci&oacute;n de Operaciones</li>
+          <li>Estad&iacute;stica Inferencial II</li>
           <li>Estudio de Trabajo II</li>
           <li>Higiene y Seguridad Industrial</li>
-          <li>Administración de Proyectos</li>
-          <li>Gestión de Costos</li>
+          <li>Administraci&oacute;n de Proyectos</li>
+          <li>Gesti&oacute;n de Costos</li>
         </ul>
       </div> 
 
@@ -271,29 +271,29 @@
           <div class="col-md-3">
             <h1 class="featurette-heading"><span style="color:#ffffff">.</span></h1>
             <ul  class="lead">
-                <li>Administración de las Operaciones I</li>
-                <li>Investigación de Operaciones II</li>
-                <li>Control Estadístico de la Calidad</li>
-                <li>Ergonomía</li>
+                <li>Administraci&oacute;n de las Operaciones I</li>
+                <li>Investigaci&oacute;n de Operaciones II</li>
+                <li>Control Estad&iacute;stico de la Calidad</li>
+                <li>Ergonom&iacute;a</li>
                 <li>Desarrollo Sustentable</li>
-                <li>Taller de Investigación I</li>
-                <li>Ingeniería Económica</li>
-                <li>Administración de las Operaciones II</li>
-                <li>Simulación</li>
-                <li>Administración de Mantenimiento</li>
+                <li>Taller de Investigaci&oacute;n I</li>
+                <li>Ingenier&iacute;a Econ&oacute;mica</li>
+                <li>Administraci&oacute;n de las Operaciones II</li>
+                <li>Simulaci&oacute;n</li>
+                <li>Administraci&oacute;n de Mantenimiento</li>
                 <li>Mercadotecnia</li>
-                <li>Taller de Investigación II</li>
-                <li>Planeación Financiera</li>
-                <li>Planeación y Diseño de Instalaciones</li>
+                <li>Taller de Investigaci&oacute;n II</li>
+                <li>Planeaci&oacute;n Financiera</li>
+                <li>Planeaci&oacute;n y Dise&ntilde;o de Instalaciones</li>
                 <li>Sistema de Manufactura</li>
-                <li>Logística y Cadenas de Suministro</li>
-                <li>Gestión de los Sistemas de Calidad</li>
-                <li>Formulación y Evaluación de Proyectos</li>
+                <li>Log&iacute;stica y Cadenas de Suministro</li>
+                <li>Gesti&oacute;n de los Sistemas de Calidad</li>
+                <li>Formulaci&oacute;n y Evaluaci&oacute;n de Proyectos</li>
                 <li>Relaciones Industriales</li>
                 <li>Materias de Especialidad</li>
                 <li>Servicio Social</li>
                 <li>Residencia Profesional</li>
-                <li>Otros Créditos</li>          
+                <li>Otros Cr&eacute;ditos</li>          
         </ul>
         
       </div>
@@ -328,7 +328,7 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Edificio Guillot: Av. Tecnológico #1340 Fracc. El Crucero CP 32500</h5>
+          <h5 class="text-uppercase">Edificio Guillot: Av. Tecnol&oacute;gico #1340 Fracc. El Crucero CP 32500</h5>
         </div>
         <!--Grid column-->
 
@@ -347,7 +347,7 @@
         
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Cd. Juárez, Chiuahua.</h5>
+          <h5 class="text-uppercase">Cd. Ju&aacute;rez, Chiuahua.</h5>
         </div>
         <!--Grid column-->
 
@@ -358,9 +358,9 @@
 
         <!-- Section: Text -->
         <section class="mb-4">
-          <p> Proyecto de residencias para el departamento de Desarrollo Académico. <br><br> Elaborado por:<br>
+          <p> Proyecto de residencias para el departamento de Desarrollo Acad&eacute;mico. <br><br> Elaborado por:<br>
               Erick Salvador Luna Gutierrez 16111918<br>
-              Víctor Manuel Rodarte Amaro 16111992
+              V&iacute;ctor Manuel Rodarte Amaro 16111992
           </p>
         </section>
         <!-- Section: Text -->
@@ -371,7 +371,7 @@
 <hr>
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: #1B396A;">
-    <a class="text-white" href="http://itcj.edu.mx/"><center><img src="{{ asset('assets/backoffice/img/tecnm.png') }}" alt="" width="180" height="100" class="d-inline-block align-top"></center></center></a><br>Instituto Tecnológico de Ciudad Juárez: © 2021 Copyright.</a>
+    <a class="text-white" href="http://itcj.edu.mx/"><center><img src="{{ asset('assets/backoffice/img/tecnm.png') }}" alt="" width="180" height="100" class="d-inline-block align-top"></center></center></a><br>Instituto Tecnol&oacute;gico de Ciudad Ju&aacute;rez: © 2021 Copyright.</a>
   </div>
   <!-- Copyright -->
 </footer>

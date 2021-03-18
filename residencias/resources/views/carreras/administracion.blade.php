@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Administración</title>
+    <title>Administraci&oacute;n</title>
 
     <link rel="icon" type="image/png" href="{{ asset('assets/backoffice/img/itcj.ico') }}" sizes="64x64">
+
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -94,27 +95,35 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="{{ url('administracion') }}">Licenciatura en
-                                        Administración</a></li>
-                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador Público</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingeniería
-                                        Electromecánica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingeniería Mecánica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingeniería en Sistemas
+                                        Administraci&oacute;n</a></li>
+                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador P&uacute;blico</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingenier&iacute;a
+                                        Electromec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingenier&iacute;a
+                                        Mec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingenier&iacute;a en
+                                        Sistemas
                                         Computacionales</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingeniería
-                                          Electrónica</a></li> 
-                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingeniería en Tecnologías de la
-                                        Información y Comunicaciones</a></li>
-                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingeniería en Gestión
+                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
+                                        Electr&oacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingenier&iacute;a en
+                                        Tecnolog&iacute;as de la
+                                        Informaci&oacute;n y Comunicaciones</a></li>
+                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingenier&iacute;a en
+                                        Gesti&oacute;n
                                         Empresarial</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingeniería Eléctrica</a>
+                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingenier&iacute;a
+                                        El&eacute;ctrica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingeniería Industrial</a>
+                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingenier&iacute;a
+                                        Industrial</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingeniería en Logística</a>
+                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingenier&iacute;a en
+                                        Log&iacute;stica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingeniería en
-                                        Mecatrónica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingenier&iacute;a en
+                                        Mecatr&oacute;nica</a></li>
                             </ul>
                         </li>
 
@@ -122,7 +131,7 @@
                     </ul>
                     <form class="d-flex">
 
-                        <a class="btn btn-primary" type="submit" href="{{ url('login') }}">Iniciar Sesión</a>
+                        <a class="btn btn-primary" type="submit" href="{{ url('login') }}">Iniciar Sesi&oacute;n</a>
                     </form>
                 </div>
             </div>
@@ -133,7 +142,8 @@
             <br>
             <div class="centered">
                 <h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff">
-                    <strong><br>Licenciatura en Administración<strong></h1>
+                    <strong><br>Licenciatura en Administraci&oacute;n<strong>
+                </h1>
             </div>
         </div>
     </header>
@@ -146,9 +156,11 @@
             <br>
             <h1 class="display-8" style="color:#1B396A">Objetivo:</h1>
             <p class="lead">Es un profesional a nivel superior especializado en racionalizar y optimizar el
-                funcionamiento de organizaciones del sector productivo y de servicios a través de la planeación,
-                instrumentación, evaluación, dirección y control de los recursos y actividades inherentes a la
-                administración de las mismas.</p>
+                funcionamiento de organizaciones del sector productivo y de servicios a trav&eacute;s de la
+                planeaci&oacute;n,
+                instrumentaci&oacute;n, evaluaci&oacute;n, direcci&oacute;n y control de los recursos y actividades
+                inherentes a la
+                administraci&oacute;n de las mismas.</p>
             <br>
         </div>
     </div>
@@ -160,17 +172,24 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#e9ecef">Perfil del alumno:</h1>
-            <p class="lead" style="color:#e9ecef">Diseñar e innovar estructuras administrativas y procesos, con base en
+            <p class="lead" style="color:#e9ecef">Dise&ntilde;ar e innovar estructuras administrativas y procesos, con
+                base en
                 las necesidades de las organizaciones para competir eficientemente en mercados globales.<br></p>
-            <p class="lead" style="color:#e9ecef">Desarrollar y aplicar habilidades directivas en el diseño, creación,
-                gestión, desarrollo, fortalecimiento e innovacioón de las organizaciones, del sector productivo y de
-                servicios con una orientación sistemática y sustentable para la toma de decisiones en forma efectiva.
+            <p class="lead" style="color:#e9ecef">Desarrollar y aplicar habilidades directivas en el dise&ntilde;o,
+                creaci&oacute;n,
+                gesti&oacute;n, desarrollo, fortalecimiento e innovacio&oacute;n de las organizaciones, del sector
+                productivo y de
+                servicios con una orientaci&oacute;n sistem&aacute;tica y sustentable para la toma de decisiones en
+                forma efectiva.
             </p>
-            <p class="lead" style="color:#e9ecef">Coordinar eficientemente los recursos humanos, tecnológicos,
-                materiales y financieros de la organización con visión compartida, con el fin de suministrar bienes y
+            <p class="lead" style="color:#e9ecef">Coordinar eficientemente los recursos humanos, tecnol&oacute;gicos,
+                materiales y financieros de la organizaci&oacute;n con visi&oacute;n compartida, con el fin de
+                suministrar bienes y
                 servicios de calidad. <br></p>
-            <p class="lead" style="color:#e9ecef">Diseñar e implemenmtar estrategias en las áreas de la mercadotecnia;
-                los recursos humanos y de la logística y comerccio internacional, de acuerdo a oportunidades y amenazas
+            <p class="lead" style="color:#e9ecef">Dise&ntilde;ar e implemenmtar estrategias en las &aacute;reas de la
+                mercadotecnia;
+                los recursos humanos y de la log&iacute;stica y comerccio internacional, de acuerdo a oportunidades y
+                amenazas
                 del entono y giro de las organizaciones.</p>
             <br>
         </div>
@@ -189,23 +208,26 @@
             <div class="col-md-7">
                 <h1 class="featurette-heading">Oportunidades de trabajo <span style="color:#1B396A">y
                         especialidades:</span></h1><br>
-                <p class="lead">La necesidad de personas capacitadas para la administración de organizaciones dentro del
-                    sector productivo y de servicios en nuestra comunidad, oferta un sin número de espacios laborales
-                    para los egresados de la Licenciatura en Administración.<br></p>
+                <p class="lead">La necesidad de personas capacitadas para la administraci&oacute;n de organizaciones
+                    dentro del
+                    sector productivo y de servicios en nuestra comunidad, oferta un sin n&uacute;mero de espacios
+                    laborales
+                    para los egresados de la Licenciatura en Administraci&oacute;n.<br></p>
                 <h4 style="color:#1B396A">Especialidades:</h4>
                 <p class="lead">Mercadotecnia, Recursos Humanos y Comercio Internacional.</p>
-                <h4 style="color:#1B396A">Las oportunidades de especialización incluyen las siguientes maestrias:<br>
+                <h4 style="color:#1B396A">Las oportunidades de especializaci&oacute;n incluyen las siguientes
+                    maestrias:<br>
                 </h4>
                 <ul class="lead">
                     <br>
                     <li><strong>Negocios internacionales</strong></li>
-                    <li><strong>Ingeniería Administrativa</strong></li>
+                    <li><strong>Ingenier&iacute;a Administrativa</strong></li>
                     <li><strong>Sistemas Administrativos</strong></li>
-                    <li><strong>Planificación Industrial</strong></li>
-                    <li><strong>Ciencias de la Educación</strong></li>
-                    <li><strong>Administración</strong></li>
-                    <li><strong>Administración Pública</strong></li>
-                    <li><strong>Ciencias de la Administración</strong></li>
+                    <li><strong>Planificaci&oacute;n Industrial</strong></li>
+                    <li><strong>Ciencias de la Educaci&oacute;n</strong></li>
+                    <li><strong>Administraci&oacute;n</strong></li>
+                    <li><strong>Administraci&oacute;n P&uacute;blica</strong></li>
+                    <li><strong>Ciencias de la Administraci&oacute;n</strong></li>
                 </ul>
             </div>
             <div class="col-md-5">
@@ -246,26 +268,26 @@
                 <br>
                 <ul class="lead">
                     <br>
-                    <li>Teoría General de la Administración</li>
-                    <li>Función Administrativa I</li>
-                    <li>Función Administrativa II</li>
-                    <li>Gestión Estratégica de Capital Humano I</li>
-                    <li>Gestión Estratégica de Capital Humano II</li>
-                    <li>Gestión de la Retribución</li>
+                    <li>Teor&iacute;a General de la Administraci&oacute;n</li>
+                    <li>Funci&oacute;n Administrativa I</li>
+                    <li>Funci&oacute;n Administrativa II</li>
+                    <li>Gesti&oacute;n Estrat&eacute;gica de Capital Humano I</li>
+                    <li>Gesti&oacute;n Estrat&eacute;gica de Capital Humano II</li>
+                    <li>Gesti&oacute;n de la Retribuci&oacute;n</li>
                     <li>Plan de Negocios</li>
                     <li>Consultoria Empresarial</li>
-                    <li>Informática para la Administración</li>
-                    <li>Estadística I</li>
-                    <li>Estadística II</li>
-                    <li>Producción</li>
-                    <li>Derecho Físcal</li>
+                    <li>Inform&aacute;tica para la Administraci&oacute;n</li>
+                    <li>Estad&iacute;stica I</li>
+                    <li>Estad&iacute;stica II</li>
+                    <li>Producci&oacute;n</li>
+                    <li>Derecho F&iacute;scal</li>
                     <li>Procesos Estructurales</li>
-                    <li>Procesos de Dirección</li>
-                    <li>Formulación y Evaluación de Proyectos</li>
-                    <li>Taller de Ética</li>
+                    <li>Procesos de Direcci&oacute;n</li>
+                    <li>Formulaci&oacute;n y Evaluaci&oacute;n de Proyectos</li>
+                    <li>Taller de &eacute;tica</li>
                     <li>Derecho Laboral y Seguridad Social</li>
                     <li>Derecho Empresarial</li>
-                    <li>Métodos Cuantitativos para Administración</li>
+                    <li>M&eacute;todos Cuantitativos para Administraci&oacute;n</li>
                     <li>Contabilidad General</li>
                     <li>Mezcla de Mercadotecnia</li>
                 </ul>
@@ -275,25 +297,25 @@
             <div class="col-md-3">
                 <h1 class="featurette-heading"><span style="color:#ffffff">.</span></h1>
                 <ul class="lead">
-                    <li>Taller de Investigación I</li>
+                    <li>Taller de Investigaci&oacute;n I</li>
                     <li>Costos de Manufactura</li>
-                    <li>Taller de Investigación II</li>
+                    <li>Taller de Investigaci&oacute;n II</li>
                     <li>Desarrollo Organizacional</li>
-                    <li>Fundamentos de Investigación</li>
-                    <li>Comunicación Corporativa</li>
+                    <li>Fundamentos de Investigaci&oacute;n</li>
+                    <li>Comunicaci&oacute;n Corporativa</li>
                     <li>Comportamiento Organizacional</li>
                     <li>Fundamentos de Mercadotecnia</li>
-                    <li>Matemáticas Aplicadas a la Administración</li>
-                    <li>Administración de la Calidad</li>
-                    <li>Innovación y Emprendedurismo</li>
+                    <li>Matem&aacute;ticas Aplicadas a la Administraci&oacute;n</li>
+                    <li>Administraci&oacute;n de la Calidad</li>
+                    <li>Innovaci&oacute;n y Emprendedurismo</li>
                     <li>Economia Internacional</li>
                     <li>Taller de Desarrollo Humano</li>
-                    <li>Dinámica Social</li>
-                    <li>Economía Empresarial</li>
-                    <li>Administración Financiera I</li>
-                    <li>Administración Financiera II</li>
-                    <li>Diagnóstico y Evaluación Empresarial</li>
-                    <li>Matemáticas Financieras</li>
+                    <li>Din&aacute;mica Social</li>
+                    <li>Econom&iacute;a Empresarial</li>
+                    <li>Administraci&oacute;n Financiera I</li>
+                    <li>Administraci&oacute;n Financiera II</li>
+                    <li>Diagn&oacute;stico y Evaluaci&oacute;n Empresarial</li>
+                    <li>Matem&aacute;ticas Financieras</li>
                     <li>Desarrollo Sustentable</li>
                 </ul>
 
@@ -329,7 +351,8 @@
                 <div class="row">
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnológico #1340 Fracc. El Crucero CP 32500
+                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnol&oacute;gico #1340 Fracc. El Crucero CP
+                            32500
                         </h5>
                     </div>
                     <!--Grid column-->
@@ -349,7 +372,7 @@
 
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Cd. Juárez, Chiuahua.</h5>
+                        <h5 class="text-uppercase">Cd. Ju&aacute;rez, Chiuahua.</h5>
                     </div>
                     <!--Grid column-->
 
@@ -360,9 +383,10 @@
 
             <!-- Section: Text -->
             <section class="mb-4">
-                <p> Proyecto de residencias para el departamento de Desarrollo Académico. <br><br> Elaborado por:<br>
+                <p> Proyecto de residencias para el departamento de Desarrollo Acad&eacute;mico. <br><br> Elaborado
+                    por:<br>
                     Erick Salvador Luna Gutierrez 16111918<br>
-                    Víctor Manuel Rodarte Amaro 16111992
+                    V&iacute;ctor Manuel Rodarte Amaro 16111992
                 </p>
             </section>
             <!-- Section: Text -->
@@ -377,13 +401,11 @@
                 <center><img src="{{ asset('assets/backoffice/img/tecnm.png') }}" alt="" width="180" height="100"
                         class="d-inline-block align-top"></center>
                 </center>
-            </a><br>Instituto Tecnológico de Ciudad Juárez: © 2021 Copyright.</a>
+            </a><br>Instituto Tecnol&oacute;gico de Ciudad Ju&aacute;rez: © 2021 Copyright.</a>
         </div>
         <!-- Copyright -->
     </footer>
     <!-- Footer -->
-
-
 
 </body>
 

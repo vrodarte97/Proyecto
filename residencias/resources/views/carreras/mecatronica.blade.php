@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ing. Mecatrónica</title>
+    <title>Ing. Mecatr&oacute;nica</title>
 
     <link rel="icon" type="image/png" href="{{ asset('assets/backoffice/img/itcj.ico') }}" sizes="64x64">
 
@@ -22,7 +22,7 @@
   
     <style>
     .header {
-      background: url("{{ asset('assets/backoffice/img/liebre11.jpg') }}" )  no-repeat center;
+      background: url("{{ asset('assets/backoffice/img/meca6.jpg') }}" )  no-repeat center;
       background-size: cover;
       min-height: 100vh;
     }
@@ -80,19 +80,19 @@
                 <strong>Oferta Educativa</strong>
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="{{url('administracion')}}">Licenciatura en Administración</a></li>
-                <li><a class="dropdown-item" href="{{url('contador')}}">Contador Público</a></li>
-                <li><a class="dropdown-item" href="{{url('electromecanica')}}">Ingeniería Electromecánica</a></li>
-                <li><a class="dropdown-item" href="{{url('mecanica')}}">Ingeniería Mecánica</a></li>
-                <li><a class="dropdown-item" href="{{url('sistemas')}}">Ingeniería en Sistemas Computacionales</a></li>
-                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingeniería
-                  Electrónica</a></li>
-                <li><a class="dropdown-item" href="{{url('tics')}}">Ingeniería en Tecnologías de la Información y Comunicaciones</a></li>
-                <li><a class="dropdown-item" href="{{url('ige')}}">Ingeniería en Gestión Empresarial</a></li>
-                <li><a class="dropdown-item" href="{{url('electrica')}}">Ingeniería Eléctrica</a></li>
-                <li><a class="dropdown-item" href="{{url('industrial')}}">Ingeniería Industrial</a></li>
-                <li><a class="dropdown-item" href="{{url('logistica')}}">Ingeniería en Logística</a></li>
-                <li><a class="dropdown-item" href="{{url('mecatronica')}}">Ingeniería en Mecatrónica</a></li>
+                <li><a class="dropdown-item" href="{{url('administracion')}}">Licenciatura en Administraci&oacute;n</a></li>
+                <li><a class="dropdown-item" href="{{url('contador')}}">Contador P&uacute;blico</a></li>
+                <li><a class="dropdown-item" href="{{url('electromecanica')}}">Ingenier&iacute;a Electromec&aacute;nica</a></li>
+                <li><a class="dropdown-item" href="{{url('mecanica')}}">Ingenier&iacute;a Mec&aacute;nica</a></li>
+                <li><a class="dropdown-item" href="{{url('sistemas')}}">Ingenier&iacute;a en Sistemas Computacionales</a></li>
+                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
+                  Electr&oacute;nica</a></li>
+                <li><a class="dropdown-item" href="{{url('tics')}}">Ingenier&iacute;a en Tecnolog&iacute;as de la Informaci&oacute;n y Comunicaciones</a></li>
+                <li><a class="dropdown-item" href="{{url('ige')}}">Ingenier&iacute;a en Gesti&oacute;n Empresarial</a></li>
+                <li><a class="dropdown-item" href="{{url('electrica')}}">Ingenier&iacute;a El&eacute;ctrica</a></li>
+                <li><a class="dropdown-item" href="{{url('industrial')}}">Ingenier&iacute;a Industrial</a></li>
+                <li><a class="dropdown-item" href="{{url('logistica')}}">Ingenier&iacute;a en Log&iacute;stica</a></li>
+                <li><a class="dropdown-item" href="{{url('mecatronica')}}">Ingenier&iacute;a en Mecatr&oacute;nica</a></li>
               </ul>
             </li>
 
@@ -100,14 +100,14 @@
           </ul>
           <form class="d-flex">
            
-            <a class="btn btn-primary" type="submit" href="{{url('login')}}">Iniciar Sesión</a>
+            <a class="btn btn-primary" type="submit" href="{{url('login')}}">Iniciar Sesi&oacute;n</a>
           </form>
         </div>
       </div>
     </nav>
     <div class="container">
       <br>
-      <div class="centered"><h1  class="display-1" style="color: #ffffff"><strong><br>Ingenieria Mecatrónica<strong></h1></div>
+      <div class="centered"><h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff"><strong><br>Ingenieria Mecatr&oacute;nica<strong></h1></div>
     </div>
   </header>
   <!--TERMINA MENU-->
@@ -118,7 +118,7 @@
     <div class="container">
       <br>
       <h1 class="display-8" style="color:#1B396A">Objetivo:</h1>
-      <p class="lead">Formar profesionistas en la Ingeniería Mecatrónica con capacidad analítica, crítica y creativa que le permita diseñar, proyectar, construir, innovar y administrar equipos mecatrónicos en el sector social y productivo; así como integrar, operar y mantenerlos con un compromiso ético y de calidad en un marco de desarrollo sustentable.</p>
+      <p class="lead">Formar profesionistas en la Ingenier&iacute;a Mecatr&oacute;nica con capacidad anal&iacute;tica, cr&iacute;tica y creativa que le permita dise&ntilde;ar, proyectar, construir, innovar y administrar equipos mecatr&oacute;nicos en el sector social y productivo; as&iacute; como integrar, operar y mantenerlos con un compromiso &eacute;tico y de calidad en un marco de desarrollo sustentable.</p>
       <br>
     </div>
   </div>
@@ -130,7 +130,7 @@
     <div class="container">
       <br>
       <h1 class="display-8" style="color:#e9ecef">Campo de trabajo:</h1>
-      <p class="lead" style="color:#e9ecef">El egresado de la carrera de Ingeniería Mecatrónica, tendrá las aptitudes y destrezas para desempeñarse entre otras, en las siguientes industrias: industria automotriz de ensamble y producción de partes, industria metal-mecánica, industria química. industria petroquímica, industria de alimentos. Además, en las actividades siguientes: promoción y activación de empresas de servicios, Como investigador, como gestor tecnológico en proyectos de mecatrónica y docencia.</p>
+      <p class="lead" style="color:#e9ecef">El egresado de la carrera de Ingenier&iacute;a Mecatr&oacute;nica, tendr&aacute; las aptitudes y destrezas para desempe&ntilde;arse entre otras, en las siguientes industrias: industria automotriz de ensamble y producci&oacute;n de partes, industria metal-mec&aacute;nica, industria qu&iacute;mica. industria petroqu&iacute;mica, industria de alimentos. Adem&aacute;s, en las actividades siguientes: promoci&oacute;n y activaci&oacute;n de empresas de servicios, Como investigador, como gestor tecnol&oacute;gico en proyectos de mecatr&oacute;nica y docencia.</p>
       <br>
     </div>
   </div>
@@ -148,18 +148,18 @@
       <div class="col-md-7">
         <h1 class="featurette-heading"><span style="color:#1B396A">Perfil de egresado:</span></h1><br>
             <ul class="lead">
-           <li>Ejercer su profesión dentro de un marco legal, teniendo un sentido de responsabilidad social.</li>
-           <li>Analizar, sintetizar, diseñar, simular, construir e innovar productos, procesos, equipos y sistemas mecatrónicos.</li>
-           <li>Integrar, instalar, construir, optimizar, operar, controlar, mantener, administrar y/o automatizar sistemas mecánicos.</li>
-           <li>Evaluar y generar proyectos Industriales y de carácter social.</li>
+           <li>Ejercer su profesi&oacute;n dentro de un marco legal, teniendo un sentido de responsabilidad social.</li>
+           <li>Analizar, sintetizar, dise&ntilde;ar, simular, construir e innovar productos, procesos, equipos y sistemas mecatr&oacute;nicos.</li>
+           <li>Integrar, instalar, construir, optimizar, operar, controlar, mantener, administrar y/o automatizar sistemas mec&aacute;nicos.</li>
+           <li>Evaluar y generar proyectos Industriales y de car&aacute;cter social.</li>
            <li>Coordinar y dirigir grupos multidisciplinarios fomentando el trabajo en equipo.</li>
             </ul>
             <h4 style="color:#1B396A">Especialidades:</h4>
-            <p class="lead">Automatización y Manufactura Industrial.</p>
+            <p class="lead">Automatizaci&oacute;n y Manufactura Industrial.</p>
             
       </div>
       <div class="col-md-5">
-        <img src="{{ asset('assets/backoffice/img/mec1.png') }}" class="img-fluid" alt="Responsive image">
+        <img src="{{ asset('assets/backoffice/img/meca7.jpg') }}" class="img-fluid" alt="Responsive image">
       </div>
     </div>
      <!--TERMINA OPORTUNIDADES-->
@@ -178,38 +178,38 @@
 
       <div class="col-md-5">
         <br><br>
-        <img src="{{ asset('assets/backoffice/img/mec2.png') }}" class="img-fluid" alt="Responsive image">
+        <img src="{{ asset('assets/backoffice/img/meca8.jpg') }}" class="img-fluid" alt="Responsive image">
       </div>
 
       <div class="col-md-4">
         <br>
         <ul  class="lead">
           <br>
-            <li>Química</li>
-            <li>Cálculo Diferencial</li>
-            <li>Taller de Ética</li>
+            <li>Qu&iacute;mica</li>
+            <li>C&aacute;lculo Diferencial</li>
+            <li>Taller de &eacute;tica</li>
             <li>Dibujo Asistido por Computadora</li>
-            <li>Metrología y Normalización</li>
-            <li>Fundamentos de Investigación</li>
-            <li>Cálculo Integral</li>
-            <li>Álgebra Lineal</li>
-            <li>Ciencia e Ingeniería de Materiales</li>
-            <li>Programación Básica</li>
-            <li>Estadística y Control de Calidad</li>
-            <li>Administración y Contabilidad</li>
-            <li>Cálculo Vectorial</li>
-            <li>Procesos de Fabricación</li>
+            <li>Metrolog&iacute;a y Normalizaci&oacute;n</li>
+            <li>Fundamentos de Investigaci&oacute;n</li>
+            <li>C&aacute;lculo Integral</li>
+            <li>&aacute;lgebra Lineal</li>
+            <li>Ciencia e Ingenier&iacute;a de Materiales</li>
+            <li>Programaci&oacute;n B&aacute;sica</li>
+            <li>Estad&iacute;stica y Control de Calidad</li>
+            <li>Administraci&oacute;n y Contabilidad</li>
+            <li>C&aacute;lculo Vectorial</li>
+            <li>Procesos de Fabricaci&oacute;n</li>
             <li>Electricidad y Magnetismo</li>
-            <li>Estática</li>
-            <li>Métodos Numéricos</li>
+            <li>Est&aacute;tica</li>
+            <li>M&eacute;todos Num&eacute;ricos</li>
             <li>Desarrollo Sustentable</li>
             <li>Ecuaciones Diferenciales</li>
-            <li>Fundamentos de Termodinámica</li>
-            <li>Mecánica de Materiales</li>
-            <li>Dinámica</li>
-            <li>Análisis de Circuitos Eléctricos</li>
-            <li>Máquinas Eléctricas</li>
-            <li>Electrónica Analógica</li>
+            <li>Fundamentos de Termodin&aacute;mica</li>
+            <li>Mec&aacute;nica de Materiales</li>
+            <li>Din&aacute;mica</li>
+            <li>An&aacute;lisis de Circuitos El&eacute;ctricos</li>
+            <li>M&aacute;quinas El&eacute;ctricas</li>
+            <li>Electr&oacute;nica Anal&oacute;gica</li>
             <li>Mecanismos</li>
         </ul>
       </div> 
@@ -218,30 +218,30 @@
           <div class="col-md-3">
             <h1 class="featurette-heading"><span style="color:#ffffff">.</span></h1>
             <ul  class="lead">
-             <li>Electrónica Analógica</li>
+             <li>Electr&oacute;nica Anal&oacute;gica</li>
              <li>Mecanismos</li>
-              <li>Análisis de Fluidos</li>
-              <li>Taller de Investigación I</li>
-              <li>Electrónica de Potencia Aplicada</li>
-              <li>Instrumentación</li>
-              <li>Diseño de Elementos Mecánicos</li>
-              <li>Electrónica Digital</li>
-              <li>Análisis Vibraciones</li>
-              <li>Taller de Investigación II</li>
-              <li>Dinámica de Sistemas</li>
+              <li>An&aacute;lisis de Fluidos</li>
+              <li>Taller de Investigaci&oacute;n I</li>
+              <li>Electr&oacute;nica de Potencia Aplicada</li>
+              <li>Instrumentaci&oacute;n</li>
+              <li>Dise&ntilde;o de Elementos Mec&aacute;nicos</li>
+              <li>Electr&oacute;nica Digital</li>
+              <li>An&aacute;lisis Vibraciones</li>
+              <li>Taller de Investigaci&oacute;n II</li>
+              <li>Din&aacute;mica de Sistemas</li>
               <li>Manufactura Avanzada</li>
-              <li>Circuitos Hidráulicos y Neumáticos</li>
+              <li>Circuitos Hidr&aacute;ulicos y Neum&aacute;ticos</li>
               <li>Mantenimiento</li>
               <li>Microcontroladores</li>
-              <li>Programación Avanzada</li>
+              <li>Programaci&oacute;n Avanzada</li>
               <li>Control</li>
-              <li>Formulación y Evaluación de Proyectos</li>
-              <li>Controladores Lógicos Programables</li>
-              <li>Robótica</li>
+              <li>Formulaci&oacute;n y Evaluaci&oacute;n de Proyectos</li>
+              <li>Controladores L&oacute;gicos Programables</li>
+              <li>Rob&oacute;tica</li>
               <li>Materias de Especialidad</li>
               <li>Servicio Social</li>
               <li>Residencia Profesional</li>
-              <li>Otros Créditos</li>
+              <li>Otros Cr&eacute;ditos</li>
         </ul>
         
       </div>
@@ -275,7 +275,7 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Edificio Guillot: Av. Tecnológico #1340 Fracc. El Crucero CP 32500</h5>
+          <h5 class="text-uppercase">Edificio Guillot: Av. Tecnol&oacute;gico #1340 Fracc. El Crucero CP 32500</h5>
         </div>
         <!--Grid column-->
 
@@ -294,7 +294,7 @@
         
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Cd. Juárez, Chiuahua.</h5>
+          <h5 class="text-uppercase">Cd. Ju&aacute;rez, Chiuahua.</h5>
         </div>
         <!--Grid column-->
 
@@ -305,9 +305,9 @@
 
         <!-- Section: Text -->
         <section class="mb-4">
-          <p> Proyecto de residencias para el departamento de Desarrollo Académico. <br><br> Elaborado por:<br>
+          <p> Proyecto de residencias para el departamento de Desarrollo Acad&eacute;mico. <br><br> Elaborado por:<br>
               Erick Salvador Luna Gutierrez 16111918<br>
-              Víctor Manuel Rodarte Amaro 16111992
+              V&iacute;ctor Manuel Rodarte Amaro 16111992
           </p>
         </section>
         <!-- Section: Text -->
@@ -318,7 +318,7 @@
 <hr>
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: #1B396A;">
-    <a class="text-white" href="http://itcj.edu.mx/"><center><img src="{{ asset('assets/backoffice/img/tecnm.png') }}" alt="" width="180" height="100" class="d-inline-block align-top"></center></center></a><br>Instituto Tecnológico de Ciudad Juárez: © 2021 Copyright.</a>
+    <a class="text-white" href="http://itcj.edu.mx/"><center><img src="{{ asset('assets/backoffice/img/tecnm.png') }}" alt="" width="180" height="100" class="d-inline-block align-top"></center></center></a><br>Instituto Tecnol&oacute;gico de Ciudad Ju&aacute;rez: © 2021 Copyright.</a>
   </div>
   <!-- Copyright -->
 </footer>

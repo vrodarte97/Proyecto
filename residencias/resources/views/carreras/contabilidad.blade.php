@@ -94,29 +94,29 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="{{ url('administracion') }}">Licenciatura en
-                                        Administración</a></li>
-                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador Público</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingeniería
-                                  Electrónica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingeniería
+                                        Administraci&oacute;n</a></li>
+                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador P&uacute;blico</a></li>
+                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
+                                  Electr&oacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingenier&iacute;a
                                   Electromecanica</a></li>  
-                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingeniería Mecánica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingeniería en Sistemas
+                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingenier&iacute;a Mec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingenier&iacute;a en Sistemas
                                         Computacionales</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingeniería
-                                        Electrónica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingeniería en Tecnologías de la
-                                        Información y Comunicaciones</a></li>
-                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingeniería en Gestión
+                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
+                                        Electr&oacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingenier&iacute;a en Tecnolog&iacute;as de la
+                                        Informaci&oacute;n y Comunicaciones</a></li>
+                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingenier&iacute;a en Gesti&oacute;n
                                         Empresarial</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingeniería Eléctrica</a>
+                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingenier&iacute;a El&eacute;ctrica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingeniería Industrial</a>
+                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingenier&iacute;a Industrial</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingeniería en Logística</a>
+                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingenier&iacute;a en Log&iacute;stica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingeniería en
-                                        Mecatrónica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingenier&iacute;a en
+                                        Mecatr&oacute;nica</a></li>
                             </ul>
                         </li>
 
@@ -124,7 +124,7 @@
                     </ul>
                     <form class="d-flex">
 
-                        <a class="btn btn-primary" type="submit" href="{{ url('login') }}">Iniciar Sesión</a>
+                        <a class="btn btn-primary" type="submit" href="{{ url('login') }}">Iniciar Sesi&oacute;n</a>
                     </form>
                 </div>
             </div>
@@ -133,7 +133,7 @@
             <br>
             <div class="centered">
                 <h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff"><strong><br>Contador
-                        Público<strong></h1>
+                        P&uacute;blico<strong></h1>
             </div>
         </div>
     </header>
@@ -145,10 +145,10 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#1B396A">Objetivo:</h1>
-            <p class="lead">Formar profesionales competitivos, capaces de diseñar, establecer, aplicar, controlar y
-                evaluar sistemas de información administrativa, financiera y fiscal, para la toma de desiciones de las
-                entidades económicas nacionales e internacionales, con una actitud ética, crítica, emprenderoda y de
-                liderazgo, a través de la investigación y el uso de la tecnología de la información y la comunicación,
+            <p class="lead">Formar profesionales competitivos, capaces de dise&ntilde;ar, establecer, aplicar, controlar y
+                evaluar sistemas de informaci&oacute;n administrativa, financiera y fiscal, para la toma de desiciones de las
+                entidades econ&oacute;micas nacionales e internacionales, con una actitud &eacute;tica, cr&iacute;tica, emprenderoda y de
+                liderazgo, a trav&eacute;s de la investigaci&oacute;n y el uso de la tecnolog&iacute;a de la informaci&oacute;n y la comunicaci&oacute;n,
                 fomentado el desarrollo sustentable.</p>
             <br>
         </div>
@@ -161,14 +161,14 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#e9ecef">Campo de trabajo:</h1>
-            <p class="lead" style="color:#e9ecef"><b>El egresado tendrá competencias para trabajar en:</b><br></p>
+            <p class="lead" style="color:#e9ecef"><b>El egresado tendr&aacute; competencias para trabajar en:</b><br></p>
             <ul class="lead" style="color:#e9ecef">
-                <li>Diseñar, implementar y evaluar sistemas de infromación contable, administrativa, fiscal y
+                <li>Dise&ntilde;ar, implementar y evaluar sistemas de infromaci&oacute;n contable, administrativa, fiscal y
                     financiera.</li>
-                <li>Asesorar y participar en la plamneación financiera para la toma de decisiones.</li>
+                <li>Asesorar y participar en la plamneaci&oacute;n financiera para la toma de decisiones.</li>
                 <li>Asesorar a las organizaciones en el cumplimiento de las disposiciones fisclaes, mercantiles,
                     laborales y civiles.</li>
-                <li>Realizar funciones de contraloría, custodia y administración de bienes.</li>
+                <li>Realizar funciones de contralor&iacute;a, custodia y administraci&oacute;n de bienes.</li>
             </ul>
             <br>
         </div>
@@ -186,13 +186,13 @@
         <div class="row featurette">
             <div class="col-md-7">
                 <h1 class="featurette-heading"><span style="color:#1B396A">Perfil del egresado:</span></h1><br>
-                <p class="lead">El contador es un profesiona, indispensable en el desempeño de las entidades públicas y
-                    privadas, de todo tamaño y giro. En la actualidad destaca su función como asesor en toma de
-                    decisiones, por sus capacidades para generar, analizar e interpretar información financiera. Tiene
-                    fé púbblica, diferentes leyes y códigos lo señalan como el único autorizado para firmar información
+                <p class="lead">El contador es un profesiona, indispensable en el desempe&ntilde;o de las entidades p&uacute;blicas y
+                    privadas, de todo tama&ntilde;o y giro. En la actualidad destaca su funci&oacute;n como asesor en toma de
+                    decisiones, por sus capacidades para generar, analizar e interpretar informaci&oacute;n financiera. Tiene
+                    f&eacute; p&uacute;bblica, diferentes leyes y c&oacute;digos lo se&ntilde;alan como el &uacute;nico autorizado para firmar informaci&oacute;n
                     financiera y auditorias.<br></p>
                 <h4 style="color:#1B396A">Especialidades:</h4>
-                <p class="lead">Consultoría Fiscal y Auditoría Integral, Alta Dirección en Gerencia Financiera y Gestión
+                <p class="lead">Consultor&iacute;a Fiscal y Auditor&iacute;a Integral, Alta Direcci&oacute;n en Gerencia Financiera y Gesti&oacute;n
                     de Costos .</p>
 
             </div>
@@ -226,32 +226,32 @@
                 <br>
                 <ul class="lead">
                     <br>
-                    <li>Introducción a la contabilidad financiera</li>
-                    <li>Administración</li>
-                    <li>Álgebra lineal</li>
+                    <li>Introducci&oacute;n a la contabilidad financiera</li>
+                    <li>Administraci&oacute;n</li>
+                    <li>&aacute;lgebra lineal</li>
                     <li>Fundamentos de derecho</li>
                     <li>Desarrollo humano</li>
-                    <li>Fundamentos de investigación</li>
-                    <li>Tutorías</li>
+                    <li>Fundamentos de investigaci&oacute;n</li>
+                    <li>Tutor&iacute;as</li>
                     <li>Contabilidad Financiera I</li>
-                    <li>Taller de ética</li>
+                    <li>Taller de &eacute;tica</li>
                     <li>Calculo diferencial e integral</li>
                     <li>Derecho mercantil</li>
-                    <li>Dinámica social</li>
-                    <li>Estadística administrativa</li>
-                    <li>Comunicación humana</li>
+                    <li>Din&aacute;mica social</li>
+                    <li>Estad&iacute;stica administrativa</li>
+                    <li>Comunicaci&oacute;n humana</li>
                     <li>Contabilidad financiera II</li>
                     <li>Mercadotecnia</li>
-                    <li>Matemáticas financieras</li>
+                    <li>Matem&aacute;ticas financieras</li>
                     <li>Derecho laboral y seg. Social</li>
-                    <li>Gestión de talento humano</li>
-                    <li>Taller de informática I</li>
+                    <li>Gesti&oacute;n de talento humano</li>
+                    <li>Taller de inform&aacute;tica I</li>
                     <li>Contabilidad de sociedades</li>
-                    <li>Sistemas de costos históricos</li>
+                    <li>Sistemas de costos hist&oacute;ricos</li>
                     <li>Microeconomia</li>
                     <li>Derecho tributario</li>
                     <li>Fundamentos de auditoria</li>
-                    <li>Taller de Investigación I</li>
+                    <li>Taller de Investigaci&oacute;n I</li>
                     <li>Desarrollo sustentable</li>
                     <li>Contabilidad avanzada</li>
                     <li>Sistemas de costos</li>
@@ -266,27 +266,27 @@
 
                     <li>Macroeconomia</li>
                     <li>Impuestos personas morales</li>
-                    <li>Auditoría para efectos financieros</li>
-                    <li>Taller de investigación II</li>
-                    <li>Análisis e interpretación de Estados financieros</li>
+                    <li>Auditor&iacute;a para efectos financieros</li>
+                    <li>Taller de investigaci&oacute;n II</li>
+                    <li>An&aacute;lisis e interpretaci&oacute;n de Estados financieros</li>
                     <li>Contabilidad Internacional</li>
-                    <li>Gestión y toma de decisiones</li>
-                    <li>Administración de la Prod. y de las Op</li>
-                    <li>Impuestos personas físicas</li>
-                    <li>Auditoría para Efectos fiscales</li>
-                    <li>Economía Internacional</li>
-                    <li>Planeación Financiera</li>
+                    <li>Gesti&oacute;n y toma de decisiones</li>
+                    <li>Administraci&oacute;n de la Prod. y de las Op</li>
+                    <li>Impuestos personas f&iacute;sicas</li>
+                    <li>Auditor&iacute;a para Efectos fiscales</li>
+                    <li>Econom&iacute;a Internacional</li>
+                    <li>Planeaci&oacute;n Financiera</li>
                     <li>Seminario de contabilidad</li>
-                    <li>Administración estratégica</li>
-                    <li>Elaboración y evaluación de proyectos de inversión</li>
+                    <li>Administraci&oacute;n estrat&eacute;gica</li>
+                    <li>Elaboraci&oacute;n y evaluaci&oacute;n de proyectos de inversi&oacute;n</li>
                     <li>Otros impuestos y contribuciones</li>
                     <li>Materia de especialidad</li>
-                    <li>Taller de informática II</li>
-                    <li>Alternativas de inversión y financiamiento</li>
+                    <li>Taller de inform&aacute;tica II</li>
+                    <li>Alternativas de inversi&oacute;n y financiamiento</li>
                     <li>Materias de especialidad</li>
                     <li>Servicio social</li>
                     <li>Residencia profesional</li>
-                    <li>otros créditos</li>
+                    <li>otros cr&eacute;ditos</li>
                 </ul>
             </div>
 
@@ -320,7 +320,7 @@
                 <div class="row">
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnológico #1340 Fracc. El Crucero CP 32500
+                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnol&oacute;gico #1340 Fracc. El Crucero CP 32500
                         </h5>
                     </div>
                     <!--Grid column-->
@@ -340,7 +340,7 @@
 
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Cd. Juárez, Chiuahua.</h5>
+                        <h5 class="text-uppercase">Cd. Ju&aacute;rez, Chiuahua.</h5>
                     </div>
                     <!--Grid column-->
 
@@ -351,9 +351,9 @@
 
             <!-- Section: Text -->
             <section class="mb-4">
-                <p> Proyecto de residencias para el departamento de Desarrollo Académico. <br><br> Elaborado por:<br>
+                <p> Proyecto de residencias para el departamento de Desarrollo Acad&eacute;mico. <br><br> Elaborado por:<br>
                     Erick Salvador Luna Gutierrez 16111918<br>
-                    Víctor Manuel Rodarte Amaro 16111992
+                    V&iacute;ctor Manuel Rodarte Amaro 16111992
                 </p>
             </section>
             <!-- Section: Text -->
@@ -368,7 +368,7 @@
                 <center><img src="{{ asset('assets/backoffice/img/tecnm.png') }}" alt="" width="180" height="100"
                         class="d-inline-block align-top"></center>
                 </center>
-            </a><br>Instituto Tecnológico de Ciudad Juárez: © 2021 Copyright.</a>
+            </a><br>Instituto Tecnol&oacute;gico de Ciudad Ju&aacute;rez: © 2021 Copyright.</a>
         </div>
         <!-- Copyright -->
     </footer>

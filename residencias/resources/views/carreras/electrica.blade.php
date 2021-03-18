@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ing. Eléctrica</title>
+    <title>Ing. El&eacute;ctrica</title>
 
     <link rel="icon" type="image/png" href="{{ asset('assets/backoffice/img/itcj.ico') }}" sizes="64x64">
 
@@ -94,27 +94,27 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="{{ url('administracion') }}">Licenciatura en
-                                        Administración</a></li>
-                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador Público</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingeniería
-                                        Electromecánica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingeniería Mecánica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingeniería en Sistemas
+                                        Administraci&oacute;n</a></li>
+                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador P&uacute;blico</a></li>
+                                <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingenier&iacute;a
+                                        Electromec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingenier&iacute;a Mec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingenier&iacute;a en Sistemas
                                         Computacionales</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingeniería
-                                          Electrónica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingeniería en Tecnologías de la
-                                        Información y Comunicaciones</a></li>
-                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingeniería en Gestión
+                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
+                                          Electr&oacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingenier&iacute;a en Tecnolog&iacute;as de la
+                                        Informaci&oacute;n y Comunicaciones</a></li>
+                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingenier&iacute;a en Gesti&oacute;n
                                         Empresarial</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingeniería Eléctrica</a>
+                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingenier&iacute;a El&eacute;ctrica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingeniería Industrial</a>
+                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingenier&iacute;a Industrial</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingeniería en Logística</a>
+                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingenier&iacute;a en Log&iacute;stica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingeniería en
-                                        Mecatrónica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingenier&iacute;a en
+                                        Mecatr&oacute;nica</a></li>
                             </ul>
                         </li>
 
@@ -122,7 +122,7 @@
                     </ul>
                     <form class="d-flex">
 
-                        <a class="btn btn-primary" type="submit" href="{{ url('login') }}">Iniciar Sesión</a>
+                        <a class="btn btn-primary" type="submit" href="{{ url('login') }}">Iniciar Sesi&oacute;n</a>
                     </form>
                 </div>
             </div>
@@ -131,7 +131,7 @@
             <br>
             <div class="centered">
                 <h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff">
-                    <strong><br>Ingenieria Eléctrica<strong></h1>
+                    <strong><br>Ingenieria El&eacute;ctrica<strong></h1>
             </div>
         </div>
     </header>
@@ -143,9 +143,9 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#1B396A">Objetivo:</h1>
-            <p class="lead">Formar profesionistas en Ingeniería Electrónica con capacidad creativa, emprendedora, de
-                análisis y liderazgo, que realicen actividades de diseño, innovación, adaptación y transferencia de
-                tecnología para resolver problemas en forma competitiva y atender las necesidades de su entorno con una
+            <p class="lead">Formar profesionistas en Ingenier&iacute;a Electr&oacute;nica con capacidad creativa, emprendedora, de
+                an&aacute;lisis y liderazgo, que realicen actividades de dise&ntilde;o, innovaci&oacute;n, adaptaci&oacute;n y transferencia de
+                tecnolog&iacute;a para resolver problemas en forma competitiva y atender las necesidades de su entorno con una
                 conciencia social y un compromiso con el desarrollo sustentable.</p>
             <br>
         </div>
@@ -158,12 +158,12 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#e9ecef">Campo de trabajo:</h1>
-            <p class="lead" style="color:#e9ecef">El Ingeniero Eléctrico egresado del Instituto Tecnológico de Cd.
-                Juárez posee las habilidades y conocimientos necesarios para insertarse exitosamente en los sectores
-                público o privado. Puede trabajar en plantas de generación, transmisión y distribución de energía
-                eléctrica, fabricación de máquinas eléctricas, sistemas de transporte eléctrico, fabricación de equipos
-                e instrumentos eléctricos, instalaciones eléctricas en general, bufetes de ingeniería, diseño y
-                desarrollo tecnológico de sistemas eléctricos.</p>
+            <p class="lead" style="color:#e9ecef">El Ingeniero El&eacute;ctrico egresado del Instituto Tecnol&oacute;gico de Cd.
+                Ju&aacute;rez posee las habilidades y conocimientos necesarios para insertarse exitosamente en los sectores
+                p&uacute;blico o privado. Puede trabajar en plantas de generaci&oacute;n, transmisi&oacute;n y distribuci&oacute;n de energ&iacute;a
+                el&eacute;ctrica, fabricaci&oacute;n de m&aacute;quinas el&eacute;ctricas, sistemas de transporte el&eacute;ctrico, fabricaci&oacute;n de equipos
+                e instrumentos el&eacute;ctricos, instalaciones el&eacute;ctricas en general, bufetes de ingenier&iacute;a, dise&ntilde;o y
+                desarrollo tecnol&oacute;gico de sistemas el&eacute;ctricos.</p>
             <br>
         </div>
     </div>
@@ -181,15 +181,15 @@
             <div class="col-md-7">
                 <h1 class="featurette-heading"><span style="color:#1B396A">Perfil de egresado:</span></h1><br>
                 <ul class="lead">
-                    <li>Resolver problemas concretos relacionados con la planeación, el diseño, la construcción, la
-                        operación y el control de sistemas eléctricos.</li>
-                    <li>Evaluar, administrar y dirigir proyectos de ingeniería eléctrica.</li>
-                    <li>Ejercer su profesión en un contexto de compromiso social, honestidad y ética profesional.</li>
-                    <li>Poseer los conocimientos básicos de las ciencias exactas, sociales y de humanidades que le
-                        permitan aplicar profesionalmente la ingeniería eléctrica.</li>
+                    <li>Resolver problemas concretos relacionados con la planeaci&oacute;n, el dise&ntilde;o, la construcci&oacute;n, la
+                        operaci&oacute;n y el control de sistemas el&eacute;ctricos.</li>
+                    <li>Evaluar, administrar y dirigir proyectos de ingenier&iacute;a el&eacute;ctrica.</li>
+                    <li>Ejercer su profesi&oacute;n en un contexto de compromiso social, honestidad y &eacute;tica profesional.</li>
+                    <li>Poseer los conocimientos b&aacute;sicos de las ciencias exactas, sociales y de humanidades que le
+                        permitan aplicar profesionalmente la ingenier&iacute;a el&eacute;ctrica.</li>
                 </ul>
                 <h4 style="color:#1B396A">Especialidades:</h4>
-                <p class="lead">Sistemas Modernos de Energía.</p>
+                <p class="lead">Sistemas Modernos de Energ&iacute;a.</p>
 
             </div>
             <div class="col-md-5">
@@ -219,35 +219,35 @@
                 <br>
                 <ul class="lead">
                     <br>
-                    <li>Química</li>
-                    <li>Cálculo Diferencial</li>
-                    <li>Taller de Ética</li>
+                    <li>Qu&iacute;mica</li>
+                    <li>C&aacute;lculo Diferencial</li>
+                    <li>Taller de &eacute;tica</li>
                     <li>Desarrollo Humano Integral</li>
-                    <li>Probabilidad y Estadística</li>
-                    <li>Fundamentos de Investigación</li>
-                    <li>Cálculo Integral</li>
-                    <li>Mecánica Clásica</li>
-                    <li>Tecnología de los Materiales</li>
+                    <li>Probabilidad y Estad&iacute;stica</li>
+                    <li>Fundamentos de Investigaci&oacute;n</li>
+                    <li>C&aacute;lculo Integral</li>
+                    <li>Mec&aacute;nica Cl&aacute;sica</li>
+                    <li>Tecnolog&iacute;a de los Materiales</li>
                     <li>Electromagnetismo</li>
                     <li>Dibujo Asistido por Computadora</li>
-                    <li>Comunicación Humana</li>
-                    <li>Cálculo Vectorial</li>
+                    <li>Comunicaci&oacute;n Humana</li>
+                    <li>C&aacute;lculo Vectorial</li>
                     <li>Algebra Lineal</li>
-                    <li>Circuitos Eléctricos I</li>
-                    <li>Mediciones Eléctricas</li>
-                    <li>Mecánica de Fluidos y Termodinámica</li>
-                    <li>Programación</li>
+                    <li>Circuitos El&eacute;ctricos I</li>
+                    <li>Mediciones El&eacute;ctricas</li>
+                    <li>Mec&aacute;nica de Fluidos y Termodin&aacute;mica</li>
+                    <li>Programaci&oacute;n</li>
                     <li>Ecuaciones Diferenciales</li>
-                    <li>Física Moderna</li>
-                    <li>Métodos Numéricos</li>
-                    <li>Electrónica Analógica</li>
-                    <li>Teoría Electromagnética</li>
-                    <li>Circuitos Eléctricos II</li>
+                    <li>F&iacute;sica Moderna</li>
+                    <li>M&eacute;todos Num&eacute;ricos</li>
+                    <li>Electr&oacute;nica Anal&oacute;gica</li>
+                    <li>Teor&iacute;a Electromagn&eacute;tica</li>
+                    <li>Circuitos El&eacute;ctricos II</li>
                     <li>Control I</li>
-                    <li>Equipos mecánicos</li>
+                    <li>Equipos mec&aacute;nicos</li>
                     <li>Transformadores</li>
-                    <li>Electrónica Digital</li>
-                    <li>Instalaciones Eléctricas</li>
+                    <li>Electr&oacute;nica Digital</li>
+                    <li>Instalaciones El&eacute;ctricas</li>
 
                 </ul>
             </div>
@@ -258,27 +258,27 @@
                 <ul class="lead">
                     <li>Desarrollo Sustentable</li>
                     <li>Control II</li>
-                    <li>Maquinas Síncronas y de CD</li>
-                    <li>Motores de Inducción y Especiales</li>
-                    <li>Instalaciones Eléctricas Industriales</li>
-                    <li>Legislación en Materia Eléctrica</li>
-                    <li>Taller de Investigación I</li>
-                    <li>Control de Máquinas Eléctricas</li>
-                    <li>Modelado de Sistemas Eléctricos de Potencia</li>
-                    <li>Controles Eléctricos</li>
-                    <li>Electrónica Industrial</li>
-                    <li>Instrumentación</li>
-                    <li>Taller de Investigación II</li>
-                    <li>Costos y Presupuestos de Proyectos Eléctricos</li>
-                    <li>Gestión Empresarial y Liderazgo</li>
-                    <li>Controladores Lógicos Programables</li>
-                    <li>Pruebas y Mantenimiento Eléctrico</li>
-                    <li>Sistemas de Iluminación</li>
+                    <li>Maquinas S&iacute;ncronas y de CD</li>
+                    <li>Motores de Inducci&oacute;n y Especiales</li>
+                    <li>Instalaciones El&eacute;ctricas Industriales</li>
+                    <li>Legislaci&oacute;n en Materia El&eacute;ctrica</li>
+                    <li>Taller de Investigaci&oacute;n I</li>
+                    <li>Control de M&aacute;quinas El&eacute;ctricas</li>
+                    <li>Modelado de Sistemas El&eacute;ctricos de Potencia</li>
+                    <li>Controles El&eacute;ctricos</li>
+                    <li>Electr&oacute;nica Industrial</li>
+                    <li>Instrumentaci&oacute;n</li>
+                    <li>Taller de Investigaci&oacute;n II</li>
+                    <li>Costos y Presupuestos de Proyectos El&eacute;ctricos</li>
+                    <li>Gesti&oacute;n Empresarial y Liderazgo</li>
+                    <li>Controladores L&oacute;gicos Programables</li>
+                    <li>Pruebas y Mantenimiento El&eacute;ctrico</li>
+                    <li>Sistemas de Iluminaci&oacute;n</li>
                     <li>Materias de Especialidad</li>
                     <li>Servicio Social</li>
                     <li>Residencia Profesional</li>
-                    <li>Créditos Complementarios</li>
-                    <li>Tutoría</li>
+                    <li>Cr&eacute;ditos Complementarios</li>
+                    <li>Tutor&iacute;a</li>
                 </ul>
 
             </div>
@@ -313,7 +313,7 @@
                 <div class="row">
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnológico #1340 Fracc. El Crucero CP 32500
+                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnol&oacute;gico #1340 Fracc. El Crucero CP 32500
                         </h5>
                     </div>
                     <!--Grid column-->
@@ -333,7 +333,7 @@
 
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Cd. Juárez, Chiuahua.</h5>
+                        <h5 class="text-uppercase">Cd. Ju&aacute;rez, Chiuahua.</h5>
                     </div>
                     <!--Grid column-->
 
@@ -344,9 +344,9 @@
 
             <!-- Section: Text -->
             <section class="mb-4">
-                <p> Proyecto de residencias para el departamento de Desarrollo Académico. <br><br> Elaborado por:<br>
+                <p> Proyecto de residencias para el departamento de Desarrollo Acad&eacute;mico. <br><br> Elaborado por:<br>
                     Erick Salvador Luna Gutierrez 16111918<br>
-                    Víctor Manuel Rodarte Amaro 16111992
+                    V&iacute;ctor Manuel Rodarte Amaro 16111992
                 </p>
             </section>
             <!-- Section: Text -->
@@ -361,7 +361,7 @@
                 <center><img src="{{ asset('assets/backoffice/img/tecnm.png') }}" alt="" width="180" height="100"
                         class="d-inline-block align-top"></center>
                 </center>
-            </a><br>Instituto Tecnológico de Ciudad Juárez: © 2021 Copyright.</a>
+            </a><br>Instituto Tecnol&oacute;gico de Ciudad Ju&aacute;rez: © 2021 Copyright.</a>
         </div>
         <!-- Copyright -->
     </footer>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ing. Electromecánica</title>
+    <title>Ing. Electromec&aacute;nica</title>
 
     <link rel="icon" type="image/png" href="{{ asset('assets/backoffice/img/itcj.ico') }}" sizes="64x64">
 
@@ -94,27 +94,27 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="{{ url('administracion') }}">Licenciatura en
-                                        Administración</a></li>
-                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador Público</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingeniería
-                                        Electromecánica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingeniería Mecánica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingeniería en Sistemas
+                                        Administraci&oacute;n</a></li>
+                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador P&uacute;blico</a></li>
+                                <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingenier&iacute;a
+                                        Electromec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingenier&iacute;a Mec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingenier&iacute;a en Sistemas
                                         Computacionales</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingeniería
-                                        Electrónica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingeniería en Tecnologías de la
-                                        Información y Comunicaciones</a></li>
-                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingeniería en Gestión
+                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
+                                        Electr&oacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingenier&iacute;a en Tecnolog&iacute;as de la
+                                        Informaci&oacute;n y Comunicaciones</a></li>
+                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingenier&iacute;a en Gesti&oacute;n
                                         Empresarial</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingeniería Eléctrica</a>
+                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingenier&iacute;a El&eacute;ctrica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingeniería Industrial</a>
+                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingenier&iacute;a Industrial</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingeniería en Logística</a>
+                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingenier&iacute;a en Log&iacute;stica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingeniería en
-                                        Mecatrónica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingenier&iacute;a en
+                                        Mecatr&oacute;nica</a></li>
                             </ul>
                         </li>
 
@@ -122,7 +122,7 @@
                     </ul>
                     <form class="d-flex">
 
-                        <a class="btn btn-primary" type="submit" href="{{ url('login') }}">Iniciar Sesión</a>
+                        <a class="btn btn-primary" type="submit" href="{{ url('login') }}">Iniciar Sesi&oacute;n</a>
                     </form>
                 </div>
             </div>
@@ -130,7 +130,7 @@
         <div class="container">
             <br>
             <div class="centered">
-                <h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff"><strong><br>Ingeniería Electromecánica<strong></h1>
+                <h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff"><strong><br>Ingenier&iacute;a Electromec&aacute;nica<strong></h1>
             </div>
         </div>
     </header>
@@ -143,11 +143,11 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#e9ecef">Objetivo:</h1>
-            <p class="lead" style="color:#e9ecef">Formar profesionistas de excelencia en Ingeniería Electromecánica, con
-                actitud emprendedora, con liderazgo y capacidad de analizar, diagnosticar, diseñar, seleccionar,
-                instalar, administrar, mantener e innovar sistemas electromecánicos, en forma eficiente, segura y
-                económica; considerando las normas y estándares nacionales e internacionales para fomentar el desarrollo
-                sustentable con plena conciencia ética, humanística y social.</p>
+            <p class="lead" style="color:#e9ecef">Formar profesionistas de excelencia en Ingenier&iacute;a Electromec&aacute;nica, con
+                actitud emprendedora, con liderazgo y capacidad de analizar, diagnosticar, dise&ntilde;ar, seleccionar,
+                instalar, administrar, mantener e innovar sistemas electromec&aacute;nicos, en forma eficiente, segura y
+                econ&oacute;mica; considerando las normas y est&aacute;ndares nacionales e internacionales para fomentar el desarrollo
+                sustentable con plena conciencia &eacute;tica, human&iacute;stica y social.</p>
             <br>
         </div>
     </div>
@@ -159,10 +159,10 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#1B396A">Campo de trabajo:</h1>
-            <p class="lead">El Ingeniero Electromecánico es un profesional que puede incorporarse a empresas que
-                ofrezcan bienes y servicios, tanto públicas como privadas, por ejemplo: industrias extractivas, de la
-                transformación, centros dedicados a la producción de alimentos, hospitales, centros de investigación y
-                educación, venta de equipo electromecánico, PEMEX, CFE, y en general en la micro, pequeña y mediana
+            <p class="lead">El Ingeniero Electromec&aacute;nico es un profesional que puede incorporarse a empresas que
+                ofrezcan bienes y servicios, tanto p&uacute;blicas como privadas, por ejemplo: industrias extractivas, de la
+                transformaci&oacute;n, centros dedicados a la producci&oacute;n de alimentos, hospitales, centros de investigaci&oacute;n y
+                educaci&oacute;n, venta de equipo electromec&aacute;nico, PEMEX, CFE, y en general en la micro, peque&ntilde;a y mediana
                 empresa.<br></p>
             <br>
         </div>
@@ -176,11 +176,11 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#e9ecef">Perfil del egresado: </h1>
-            <p class="lead" style="color:#e9ecef">El Ingeniero Electromecánico, formula, gestiona y evalúa proyectos de
-                Ingeniería relacionados con sistemas y dispositivos en el área Electromecánica, proponiendo soluciones
-                con tecnologías de vanguardia, en el marco del desarrollo sustentable.
-                Diseña e implementa sistemas y dispositivos electromecánicos, utilizando estrategias para el uso
-                eficiente de la energía en los sectores productivo y de servicios apegado a normas y acuerdos nacionales
+            <p class="lead" style="color:#e9ecef">El Ingeniero Electromec&aacute;nico, formula, gestiona y eval&uacute;a proyectos de
+                Ingenier&iacute;a relacionados con sistemas y dispositivos en el &aacute;rea Electromec&aacute;nica, proponiendo soluciones
+                con tecnolog&iacute;as de vanguardia, en el marco del desarrollo sustentable.
+                Dise&ntilde;a e implementa sistemas y dispositivos electromec&aacute;nicos, utilizando estrategias para el uso
+                eficiente de la energ&iacute;a en los sectores productivo y de servicios apegado a normas y acuerdos nacionales
                 e internacionales.<br></p>
             <br>
         </div>
@@ -200,19 +200,19 @@
                 <h1 class="featurette-heading"> <span style="color:#1B396A">Competencias especificas</span></h1>
                 <ul class="lead">
                     <br>
-                    <li>Diseñar e implementar estrategias y programas para el control y/o automatización de los procesos
-                        productivos y los dispositivos en los sistemas electromecánicos.</li>
-                    <li>Aplicar herramientas computacionales de acuerdo a las tecnologías de vanguardia, para el diseño,
-                        simulación y operación de sistemas electromecánicos acordes a la demanda del sector industrial.
+                    <li>Dise&ntilde;ar e implementar estrategias y programas para el control y/o automatizaci&oacute;n de los procesos
+                        productivos y los dispositivos en los sistemas electromec&aacute;nicos.</li>
+                    <li>Aplicar herramientas computacionales de acuerdo a las tecnolog&iacute;as de vanguardia, para el dise&ntilde;o,
+                        simulaci&oacute;n y operaci&oacute;n de sistemas electromec&aacute;nicos acordes a la demanda del sector industrial.
                     </li>
-                    <li>Formular administrar y supervisar programas de mantenimiento para la continuidad y optimización
+                    <li>Formular administrar y supervisar programas de mantenimiento para la continuidad y optimizaci&oacute;n
                         de procesos productivos, considerando el cuidado del medio ambiente.</li>
                 </ul>
                 <h4 style="color:#1B396A">Especialidades:</h4>
-                <p class="lead">Da click en los botones para más información.</p>
+                <p class="lead">Da click en los botones para m&aacute;s informaci&oacute;n.</p>
                 <ul class="lead">
-                    <li>Automatización y Robótica.</li>
-                    <li>Sistemas Modernos de Enegría</li>
+                    <li>Automatizaci&oacute;n y Rob&oacute;tica.</li>
+                    <li>Sistemas Modernos de Enegr&iacute;a</li>
                 </ul>
             </div>
             <div class="col-md-5">
@@ -243,31 +243,31 @@
                 <br>
                 <ul class="lead">
                     <br>
-                    <li>Química</li>
-                    <li>Cálculo Diferencial</li>
-                    <li>Álgebra Lineal</li>
-                    <li>Taller de Ética</li>
-                    <li>Introducción a la Programación</li>
-                    <li>Fundamentos de Investigación</li>
-                    <li>Estática</li>
-                    <li>Cálculo Integral</li>
+                    <li>Qu&iacute;mica</li>
+                    <li>C&aacute;lculo Diferencial</li>
+                    <li>&aacute;lgebra Lineal</li>
+                    <li>Taller de &eacute;tica</li>
+                    <li>Introducci&oacute;n a la Programaci&oacute;n</li>
+                    <li>Fundamentos de Investigaci&oacute;n</li>
+                    <li>Est&aacute;tica</li>
+                    <li>C&aacute;lculo Integral</li>
                     <li>Desarrollo Sustentable</li>
-                    <li>Mediciones Mecánicas y Eléctricas</li>
-                    <li>Tecnología de los Materiales</li>
-                    <li>Probabilidad y Estadística</li>
-                    <li>Dinámica</li>
-                    <li>Cálculo Vectorial</li>
+                    <li>Mediciones Mec&aacute;nicas y El&eacute;ctricas</li>
+                    <li>Tecnolog&iacute;a de los Materiales</li>
+                    <li>Probabilidad y Estad&iacute;stica</li>
+                    <li>Din&aacute;mica</li>
+                    <li>C&aacute;lculo Vectorial</li>
                     <li>Electricidad y Magnetismo</li>
-                    <li>Dibujo Electromecánico</li>
+                    <li>Dibujo Electromec&aacute;nico</li>
                     <li>Procesos de Manufactura</li>
-                    <li>Análisis y Síntesis de Mecanismos</li>
+                    <li>An&aacute;lisis y S&iacute;ntesis de Mecanismos</li>
                     <li>Ecuaciones Diferenciales y Transformada de Laplace</li>
-                    <li>Análisis de Circuitos en CD</li>
-                    <li>Termodinámica</li>
-                    <li>Mecánica de Materiales</li>
-                    <li>Eléctronica Analógica</li>
-                    <li>Diseño de Elementos de Maquinas</li>
-                    <li>Mecánica de Fluidos</li>
+                    <li>An&aacute;lisis de Circuitos en CD</li>
+                    <li>Termodin&aacute;mica</li>
+                    <li>Mec&aacute;nica de Materiales</li>
+                    <li>El&eacute;ctronica Anal&oacute;gica</li>
+                    <li>Dise&ntilde;o de Elementos de Maquinas</li>
+                    <li>Mec&aacute;nica de Fluidos</li>
                 </ul>
             </div>
 
@@ -275,26 +275,26 @@
             <div class="col-md-3">
                 <h1 class="featurette-heading"><span style="color:#ffffff">.</span></h1>
                 <ul class="lead">
-                    <li>Análisis de Circuitos de CA</li>
+                    <li>An&aacute;lisis de Circuitos de CA</li>
                     <li>Transferencia de Calor</li>
-                    <li>Electrónica Digital</li>
-                    <li>Máquinas y Equipos Térmicos I</li>
-                    <li>Sistemas y Máquinas de Fluidos</li>
-                    <li>Máquinas Eléctricas</li>
-                    <li>Instalaciones Eléctricas</li>
-                    <li>Taller de Investigación I</li>
-                    <li>Diseño e Ingeniería Asistido por Computadora</li>
-                    <li>Maquinas y Equipos Térmicos II</li>
-                    <li>Sistemas Eléctricos de Potencia</li>
-                    <li>Controles Eléctricos</li>
-                    <li>Taller de Investigación II</li>
-                    <li>Administración y Técnica de Mantenimiento</li>
-                    <li>Refrigeración y Aire Acondicionado</li>
-                    <li>Sistemas Hidráulicos y Neumáticos de Potencia</li>
-                    <li>Ahorro de Energía</li>
-                    <li>Ingeniería de Control Clásico</li>
-                    <li>Subestaciones Eléctricas</li>
-                    <li>Evaluación y Formulación de Proyectos</li>
+                    <li>Electr&oacute;nica Digital</li>
+                    <li>M&aacute;quinas y Equipos T&eacute;rmicos I</li>
+                    <li>Sistemas y M&aacute;quinas de Fluidos</li>
+                    <li>M&aacute;quinas El&eacute;ctricas</li>
+                    <li>Instalaciones El&eacute;ctricas</li>
+                    <li>Taller de Investigaci&oacute;n I</li>
+                    <li>Dise&ntilde;o e Ingenier&iacute;a Asistido por Computadora</li>
+                    <li>Maquinas y Equipos T&eacute;rmicos II</li>
+                    <li>Sistemas El&eacute;ctricos de Potencia</li>
+                    <li>Controles El&eacute;ctricos</li>
+                    <li>Taller de Investigaci&oacute;n II</li>
+                    <li>Administraci&oacute;n y T&eacute;cnica de Mantenimiento</li>
+                    <li>Refrigeraci&oacute;n y Aire Acondicionado</li>
+                    <li>Sistemas Hidr&aacute;ulicos y Neum&aacute;ticos de Potencia</li>
+                    <li>Ahorro de Energ&iacute;a</li>
+                    <li>Ingenier&iacute;a de Control Cl&aacute;sico</li>
+                    <li>Subestaciones El&eacute;ctricas</li>
+                    <li>Evaluaci&oacute;n y Formulaci&oacute;n de Proyectos</li>
                     <li>Asignaturas de Especialidad</li>
                     <li>Residencia Profesional</li>
                 </ul>
@@ -330,7 +330,7 @@
                 <div class="row">
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnológico #1340 Fracc. El Crucero CP 32500
+                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnol&oacute;gico #1340 Fracc. El Crucero CP 32500
                         </h5>
                     </div>
                     <!--Grid column-->
@@ -350,7 +350,7 @@
 
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Cd. Juárez, Chiuahua.</h5>
+                        <h5 class="text-uppercase">Cd. Ju&aacute;rez, Chiuahua.</h5>
                     </div>
                     <!--Grid column-->
 
@@ -361,9 +361,9 @@
 
             <!-- Section: Text -->
             <section class="mb-4">
-                <p> Proyecto de residencias para el departamento de Desarrollo Académico. <br><br> Elaborado por:<br>
+                <p> Proyecto de residencias para el departamento de Desarrollo Acad&eacute;mico. <br><br> Elaborado por:<br>
                     Erick Salvador Luna Gutierrez 16111918<br>
-                    Víctor Manuel Rodarte Amaro 16111992
+                    V&iacute;ctor Manuel Rodarte Amaro 16111992
                 </p>
             </section>
             <!-- Section: Text -->
@@ -378,7 +378,7 @@
                 <center><img src="{{ asset('assets/backoffice/img/tecnm.png') }}" alt="" width="180" height="100"
                         class="d-inline-block align-top"></center>
                 </center>
-            </a><br>Instituto Tecnológico de Ciudad Juárez: © 2021 Copyright.</a>
+            </a><br>Instituto Tecnol&oacute;gico de Ciudad Ju&aacute;rez: © 2021 Copyright.</a>
         </div>
         <!-- Copyright -->
     </footer>

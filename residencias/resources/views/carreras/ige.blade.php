@@ -94,27 +94,27 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="{{ url('administracion') }}">Licenciatura en
-                                        Administración</a></li>
-                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador Público</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingeniería
-                                        Electromecánica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingeniería Mecánica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingeniería en Sistemas
+                                        Administraci&oacute;n</a></li>
+                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador P&uacute;blico</a></li>
+                                <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingenier&iacute;a
+                                        Electromec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingenier&iacute;a Mec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingenier&iacute;a en Sistemas
                                         Computacionales</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingeniería
-                                        Electrónica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingeniería en Tecnologías de la
-                                        Información y Comunicaciones</a></li>
-                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingeniería en Gestión
+                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
+                                        Electr&oacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingenier&iacute;a en Tecnolog&iacute;as de la
+                                        Informaci&oacute;n y Comunicaciones</a></li>
+                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingenier&iacute;a en Gesti&oacute;n
                                         Empresarial</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingeniería Eléctrica</a>
+                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingenier&iacute;a El&eacute;ctrica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingeniería Industrial</a>
+                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingenier&iacute;a Industrial</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingeniería en Logística</a>
+                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingenier&iacute;a en Log&iacute;stica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingeniería en
-                                        Mecatrónica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingenier&iacute;a en
+                                        Mecatr&oacute;nica</a></li>
                             </ul>
                         </li>
 
@@ -122,7 +122,7 @@
                     </ul>
                     <form class="d-flex">
 
-                        <a class="btn btn-primary" type="submit" href="{{ url('login') }}">Iniciar Sesión</a>
+                        <a class="btn btn-primary" type="submit" href="{{ url('login') }}">Iniciar Sesi&oacute;n</a>
                     </form>
                 </div>
             </div>
@@ -131,7 +131,7 @@
             <br>
             <div class="centered">
                 <h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff">
-                    <strong><br>Ingeniería en Gestión Empresarial<strong></h1>
+                    <strong><br>Ingenier&iacute;a en Gesti&oacute;n Empresarial<strong></h1>
             </div>
         </div>
     </header>
@@ -146,7 +146,7 @@
             <br>
             <h1 class="display-8" style="color:#1B396A">Objetivo:</h1>
             <p class="lead">Formar profesionistas, capaces de desarrollar, mantener e innovar sistemas, procesos y
-                productos industriales y de servicio que apoyen a la solución de problemas, propiciando y mejorando la
+                productos industriales y de servicio que apoyen a la soluci&oacute;n de problemas, propiciando y mejorando la
                 calidad de la productividad.</p>
             <br>
         </div>
@@ -159,13 +159,13 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#e9ecef">Campo de trabajo:</h1>
-            <p class="lead" style="color:#e9ecef">El egresado tendrá competencias para trabajar en: <br></p>
+            <p class="lead" style="color:#e9ecef">El egresado tendr&aacute; competencias para trabajar en: <br></p>
             <ul class="lead" style="color:#e9ecef">
-                <li>Creación y gestión de su propia empresa</li>
+                <li>Creaci&oacute;n y gesti&oacute;n de su propia empresa</li>
                 <li>En la industria y servicios</li>
-                <li>Empresas públicas y privadas</li>
-                <li>Consultorías</li>
-                <li>Proyectos de inversión</li>
+                <li>Empresas p&uacute;blicas y privadas</li>
+                <li>Consultor&iacute;as</li>
+                <li>Proyectos de inversi&oacute;n</li>
 
             </ul>
             <br>
@@ -181,8 +181,8 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#1B396A">Perfil del aspirante:</h1>
-            <p class="lead">Aplicar métodos cuantitativos y cualitativos para el ánalisis e interpretación de datos y
-                modelado de sistemas, en los procesos organizacionales para la mejora continua, atendiendo estándares de
+            <p class="lead">Aplicar m&eacute;todos cuantitativos y cualitativos para el &aacute;nalisis e interpretaci&oacute;n de datos y
+                modelado de sistemas, en los procesos organizacionales para la mejora continua, atendiendo est&aacute;ndares de
                 calidad mundial.<br></p>
             <ul class="lead">
                 <li>Gestionar la cadena de suministros de las organizaciones con un enfoque orientado a procesos.</li>
@@ -202,14 +202,14 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#e9ecef">Perfil del egresado: </h1>
-            <p class="lead" style="color:#e9ecef">El profesional de esta carrera estará formado integralmente en: <br>
+            <p class="lead" style="color:#e9ecef">El profesional de esta carrera estar&aacute; formado integralmente en: <br>
             </p>
             <ul class="lead" style="color:#e9ecef">
-                <li>Capacidad de análisis y síntesis</li>
-                <li>Habilidad analítica y creatividad</li>
-                <li>Aplicación en la solución de problemas</li>
+                <li>Capacidad de an&aacute;lisis y s&iacute;ntesis</li>
+                <li>Habilidad anal&iacute;tica y creatividad</li>
+                <li>Aplicaci&oacute;n en la soluci&oacute;n de problemas</li>
                 <li>Disciplina y alto sentido de responsabilidad</li>
-                <li>Capacidad administrativa y de interrelación</li>
+                <li>Capacidad administrativa y de interrelaci&oacute;n</li>
                 <li>Independencia de juicio</li>
             </ul>
             <br>
@@ -230,12 +230,12 @@
                 <h1 class="featurette-heading"> <span style="color:#1B396A">Competencias especificas</span></h1>
                 <ul class="lead">
                     <br>
-                    <li>Formular planes estratégios, tácticos y operativos para la empresa.</li>
-                    <li>Gestionar sistemas de recursos para la solución de problemas operativos y administrativos.</li>
+                    <li>Formular planes estrat&eacute;gios, t&aacute;cticos y operativos para la empresa.</li>
+                    <li>Gestionar sistemas de recursos para la soluci&oacute;n de problemas operativos y administrativos.</li>
                     <li>Gestionar proyectos de desarrollo empresarial</li>
-                    <li>Gestionar la creación de nuevos negocios.</li>
-                    <li>Dirigir el desempeño de organismos empresariales.</li>
-                    <li>Aplicar los conocimientos básicos de la ingeniería en Gestión Empresarial.</li>
+                    <li>Gestionar la creaci&oacute;n de nuevos negocios.</li>
+                    <li>Dirigir el desempe&ntilde;o de organismos empresariales.</li>
+                    <li>Aplicar los conocimientos b&aacute;sicos de la ingenier&iacute;a en Gesti&oacute;n Empresarial.</li>
                 </ul>
                 <h4 style="color:#1B396A">Especialidades:</h4>
                 <p class="lead">Liderazgo Gerencial y sistemas de Manufactura de clase mundial.</p>
@@ -267,29 +267,29 @@
                 <br>
                 <ul class="lead">
                     <br>
-                    <li>Fundamentos de investigación</li>
-                    <li>Cálculo diferencial</li>
+                    <li>Fundamentos de investigaci&oacute;n</li>
+                    <li>C&aacute;lculo diferencial</li>
                     <li>Desarrollo humano</li>
                     <li>Fundamentos de gestion empresarial</li>
-                    <li>Fundamentos de física</li>
-                    <li>Fundamentos de química</li>
-                    <li>Software de aplicación ejecutivo</li>
-                    <li>Cálculo integral</li>
+                    <li>Fundamentos de f&iacute;sica</li>
+                    <li>Fundamentos de qu&iacute;mica</li>
+                    <li>Software de aplicaci&oacute;n ejecutivo</li>
+                    <li>C&aacute;lculo integral</li>
                     <li>Contabilidad orientada a los negocios</li>
-                    <li>Dinámica social</li>
-                    <li>Taller de ética</li>
-                    <li>Legislación laboral</li>
+                    <li>Din&aacute;mica social</li>
+                    <li>Taller de &eacute;tica</li>
+                    <li>Legislaci&oacute;n laboral</li>
                     <li>Marco legal de las organizaciones</li>
-                    <li>Probabilidad y estadística descriptiva</li>
+                    <li>Probabilidad y estad&iacute;stica descriptiva</li>
                     <li>Costos empresariales</li>
                     <li>Habilidades directivas I</li>
                     <li>Economia empresarial</li>
-                    <li>Álgebra lineal</li>
-                    <li>Ingeniería económica</li>
+                    <li>&aacute;lgebra lineal</li>
+                    <li>Ingenier&iacute;a econ&oacute;mica</li>
                     <li>Estadistica inferencial I</li>
-                    <li>Instrumentos de presupuestación empresarial</li>
+                    <li>Instrumentos de presupuestaci&oacute;n empresarial</li>
                     <li>Habilidades directivas II</li>
-                    <li>Entorno Macroeconómico</li>
+                    <li>Entorno Macroecon&oacute;mico</li>
                 </ul>
             </div>
 
@@ -297,25 +297,25 @@
             <div class="col-md-3">
                 <h1 class="featurette-heading"><span style="color:#ffffff">.</span></h1>
                 <ul class="lead">
-                    <li>Investigación de operaciones</li>
+                    <li>Investigaci&oacute;n de operaciones</li>
                     <li>Finanzas en las organizaciones</li>
                     <li>Estadistica inferencial II</li>
-                    <li>Ingeniería de procesos</li>
-                    <li>Gestión de capital humano</li>
-                    <li>Taller de investigación I</li>
+                    <li>Ingenier&iacute;a de procesos</li>
+                    <li>Gesti&oacute;n de capital humano</li>
+                    <li>Taller de investigaci&oacute;n I</li>
                     <li>Mercadotecnia</li>
-                    <li>Administración de la salud y seguridad ocupacional</li>
-                    <li>El emprenderos y la innovación</li>
-                    <li>Gestión de la producción I</li>
-                    <li>Diseño organizacional</li>
-                    <li>Taller de investigación II</li>
-                    <li>Sistemas de información de la mercadotecnia</li>
-                    <li>Calidad aplicada a la gestión empresarial</li>
-                    <li>Formulación y evaluación de proyectos</li>
-                    <li>Gestión de la producción II</li>
-                    <li>Gestión estrégica</li>
+                    <li>Administraci&oacute;n de la salud y seguridad ocupacional</li>
+                    <li>El emprenderos y la innovaci&oacute;n</li>
+                    <li>Gesti&oacute;n de la producci&oacute;n I</li>
+                    <li>Dise&ntilde;o organizacional</li>
+                    <li>Taller de investigaci&oacute;n II</li>
+                    <li>Sistemas de informaci&oacute;n de la mercadotecnia</li>
+                    <li>Calidad aplicada a la gesti&oacute;n empresarial</li>
+                    <li>Formulaci&oacute;n y evaluaci&oacute;n de proyectos</li>
+                    <li>Gesti&oacute;n de la producci&oacute;n II</li>
+                    <li>Gesti&oacute;n estr&eacute;gica</li>
                     <li>Desarrollo sustentable</li>
-                    <li>Mercadotécnia</li>
+                    <li>Mercadot&eacute;cnia</li>
                     <li>Cadena de suministros</li>
                     <li>Materias de especialidad</li>
                 </ul>
@@ -326,8 +326,8 @@
 
         <div class="col-md-12" style="text-align: center;">
             <br>
-            <h4 class="featurette-heading"><span style="color:#1B396A"><b>*Nota: El alumno deberá cursar el servicio
-                        social, residencia profesional y otros créditos.</b></span></h4>
+            <h4 class="featurette-heading"><span style="color:#1B396A"><b>*Nota: El alumno deber&aacute; cursar el servicio
+                        social, residencia profesional y otros cr&eacute;ditos.</b></span></h4>
         </div>
 
         <hr class="featurette-divider">
@@ -358,7 +358,7 @@
                 <div class="row">
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnológico #1340 Fracc. El Crucero CP 32500
+                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnol&oacute;gico #1340 Fracc. El Crucero CP 32500
                         </h5>
                     </div>
                     <!--Grid column-->
@@ -378,7 +378,7 @@
 
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Cd. Juárez, Chiuahua.</h5>
+                        <h5 class="text-uppercase">Cd. Ju&aacute;rez, Chiuahua.</h5>
                     </div>
                     <!--Grid column-->
 
@@ -389,9 +389,9 @@
 
             <!-- Section: Text -->
             <section class="mb-4">
-                <p> Proyecto de residencias para el departamento de Desarrollo Académico. <br><br> Elaborado por:<br>
+                <p> Proyecto de residencias para el departamento de Desarrollo Acad&eacute;mico. <br><br> Elaborado por:<br>
                     Erick Salvador Luna Gutierrez 16111918<br>
-                    Víctor Manuel Rodarte Amaro 16111992
+                    V&iacute;ctor Manuel Rodarte Amaro 16111992
                 </p>
             </section>
             <!-- Section: Text -->
@@ -406,7 +406,7 @@
                 <center><img src="{{ asset('assets/backoffice/img/tecnm.png') }}" alt="" width="180" height="100"
                         class="d-inline-block align-top"></center>
                 </center>
-            </a><br>Instituto Tecnológico de Ciudad Juárez: © 2021 Copyright.</a>
+            </a><br>Instituto Tecnol&oacute;gico de Ciudad Ju&aacute;rez: © 2021 Copyright.</a>
         </div>
         <!-- Copyright -->
     </footer>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ing. Electrónica</title>
+    <title>Ing. Electr&oacute;nica</title>
 
     <link rel="icon" type="image/png" href="{{ asset('assets/backoffice/img/itcj.ico') }}" sizes="64x64">
 
@@ -94,28 +94,28 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="{{ url('administracion') }}">Licenciatura en
-                                        Administración</a></li>
-                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador Público</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingeniería
-                                        Electromecánica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingeniería Mecánica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingeniería en Sistemas
+                                        Administraci&oacute;n</a></li>
+                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador P&uacute;blico</a></li>
+                                <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingenier&iacute;a
+                                        Electromec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingenier&iacute;a Mec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingenier&iacute;a en Sistemas
                                         Computacionales</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingeniería
-                                        Electrónica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingeniería en Tecnologías de la
-                                        Información y Comunicaciones</a></li>
-                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingeniería en Gestión
+                                <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
+                                        Electr&oacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingenier&iacute;a en Tecnolog&iacute;as de la
+                                        Informaci&oacute;n y Comunicaciones</a></li>
+                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingenier&iacute;a en Gesti&oacute;n
                                         Empresarial</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingeniería Eléctrica</a>
+                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingenier&iacute;a El&eacute;ctrica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingeniería Industrial</a>
+                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingenier&iacute;a Industrial</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingeniería en
-                                        Logística</a>
+                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingenier&iacute;a en
+                                        Log&iacute;stica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingeniería en
-                                        Mecatrónica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingenier&iacute;a en
+                                        Mecatr&oacute;nica</a></li>
                             </ul>
                         </li>
 
@@ -123,7 +123,7 @@
                     </ul>
                     <form class="d-flex">
 
-                        <a class="btn btn-primary" type="submit" href="{{ url('login') }}">Iniciar Sesión</a>
+                        <a class="btn btn-primary" type="submit" href="{{ url('login') }}">Iniciar Sesi&oacute;n</a>
                     </form>
                 </div>
             </div>
@@ -132,7 +132,7 @@
             <br>
             <div class="centered">
                 <h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff">
-                    <strong><br>Ingenieria Electrónica<strong></h1>
+                    <strong><br>Ingenieria Electr&oacute;nica<strong></h1>
             </div>
         </div>
     </header>
@@ -144,9 +144,9 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#1B396A">Objetivo:</h1>
-            <p class="lead">Formar profesionistas en Ingeniería Electrónica con capacidad creativa, emprendedora, de
-                análisis y liderazgo, que realicen actividades de diseño, innovación, adaptación y transferencia de
-                tecnología para resolver problemas en forma competitiva y atender las necesidades de su entorno con una
+            <p class="lead">Formar profesionistas en Ingenier&iacute;a Electr&oacute;nica con capacidad creativa, emprendedora, de
+                an&aacute;lisis y liderazgo, que realicen actividades de dise&ntilde;o, innovaci&oacute;n, adaptaci&oacute;n y transferencia de
+                tecnolog&iacute;a para resolver problemas en forma competitiva y atender las necesidades de su entorno con una
                 conciencia social y un compromiso con el desarrollo sustentable..</p>
             <br>
         </div>
@@ -159,12 +159,12 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#e9ecef">Campo de trabajo:</h1>
-            <p class="lead" style="color:#e9ecef">El ingeniero electrónico es un profesional muy flexible, con la
+            <p class="lead" style="color:#e9ecef">El ingeniero electr&oacute;nico es un profesional muy flexible, con la
                 capacidad de crear su propia empresa o de trabajar tanto en la iniciativa privada como en el sector
-                público. Sus competencias incluyen conocimientos de sistemas electrónicos, circuitos y dispositivos
-                electrónicos, en los aspectos de diseño, aplicación, operación, selección y mantenimiento, en áreas de
-                sistemas digitales, instrumentación, la automatización y la robótica. Capacidad de autoaprendizaje y
-                adaptabilidad a los cambios tecnológicos.</p>
+                p&uacute;blico. Sus competencias incluyen conocimientos de sistemas electr&oacute;nicos, circuitos y dispositivos
+                electr&oacute;nicos, en los aspectos de dise&ntilde;o, aplicaci&oacute;n, operaci&oacute;n, selecci&oacute;n y mantenimiento, en &aacute;reas de
+                sistemas digitales, instrumentaci&oacute;n, la automatizaci&oacute;n y la rob&oacute;tica. Capacidad de autoaprendizaje y
+                adaptabilidad a los cambios tecnol&oacute;gicos.</p>
             <br>
         </div>
     </div>
@@ -182,8 +182,8 @@
             <div class="col-md-7">
                 <h1 class="featurette-heading"><span style="color:#1B396A">Perfil de egresado:</span></h1><br>
                 <ul class="lead">
-                    <li>Entender los fundamentos de la tecnología electrónica.</li>
-                    <li>Participar la operación de circuitos y sistemas electrónicos.</li>
+                    <li>Entender los fundamentos de la tecnolog&iacute;a electr&oacute;nica.</li>
+                    <li>Participar la operaci&oacute;n de circuitos y sistemas electr&oacute;nicos.</li>
                     <li>Realizar estudios de posgrado.</li>
                     <li>Comunicarse y colaborar con profesionales de otras disciplinas.</li>
                 </ul>
@@ -220,35 +220,35 @@
                 <br>
                 <ul class="lead">
                     <br>
-                    <li>Química</li>
-                    <li>Cálculo Diferencial</li>
-                    <li>Taller de Ética</li>
-                    <li>Mecánica Clásica</li>
-                    <li>Comunicación Humana</li>
-                    <li>Fundamentos de Investigación</li>
-                    <li>Cálculo Integral</li>
+                    <li>Qu&iacute;mica</li>
+                    <li>C&aacute;lculo Diferencial</li>
+                    <li>Taller de &eacute;tica</li>
+                    <li>Mec&aacute;nica Cl&aacute;sica</li>
+                    <li>Comunicaci&oacute;n Humana</li>
+                    <li>Fundamentos de Investigaci&oacute;n</li>
+                    <li>C&aacute;lculo Integral</li>
                     <li>Desarrollo Sustentable</li>
-                    <li>Mediciones Eléctricas</li>
-                    <li>Tópicos Selectos de Física</li>
-                    <li>Probabilidad y Estadística</li>
+                    <li>Mediciones El&eacute;ctricas</li>
+                    <li>T&oacute;picos Selectos de F&iacute;sica</li>
+                    <li>Probabilidad y Estad&iacute;stica</li>
                     <li>Desarrollo Humano</li>
-                    <li>Cálculo Vectorial</li>
-                    <li>Procesos de Fabricación</li>
+                    <li>C&aacute;lculo Vectorial</li>
+                    <li>Procesos de Fabricaci&oacute;n</li>
                     <li>Electromagnetismo</li>
                     <li>Algebra Lineal</li>
-                    <li>Física de Semiconductores</li>
-                    <li>Programación Estructurada</li>
+                    <li>F&iacute;sica de Semiconductores</li>
+                    <li>Programaci&oacute;n Estructurada</li>
                     <li>Ecuaciones Diferenciales</li>
-                    <li>Circuitos Eléctricos I</li>
+                    <li>Circuitos El&eacute;ctricos I</li>
                     <li>Marco Legal de la Empresa</li>
-                    <li>Análisis Numérico</li>
-                    <li>Diseño Digital</li>
-                    <li>Programación Visual</li>
-                    <li>Circuitos Eléctricos II</li>
+                    <li>An&aacute;lisis Num&eacute;rico</li>
+                    <li>Dise&ntilde;o Digital</li>
+                    <li>Programaci&oacute;n Visual</li>
+                    <li>Circuitos El&eacute;ctricos II</li>
                     <li>Diodos y Transistores</li>
-                    <li>Teoría Electromagnética</li>
-                    <li>Máquinas Eléctricas</li>
-                    <li>Diseño Digital con VHDL</li>
+                    <li>Teor&iacute;a Electromagn&eacute;tica</li>
+                    <li>M&aacute;quinas El&eacute;ctricas</li>
+                    <li>Dise&ntilde;o Digital con VHDL</li>
                     <li>Desarrollo Profesional</li>
                     <li>Control I</li>
 
@@ -261,24 +261,24 @@
                 <ul class="lead">
 
                     <li>Microcontroladores</li>
-                    <li>Diseño con Transistores</li>
+                    <li>Dise&ntilde;o con Transistores</li>
                     <li>Fundamentos Financieros</li>
-                    <li>Taller de Investigación I</li>
+                    <li>Taller de Investigaci&oacute;n I</li>
                     <li>Control II</li>
                     <li>Amplificadores Operacionales</li>
-                    <li>Instrumentación</li>
-                    <li>Optoelectrónica</li>
-                    <li>Introducción a las Telecomunicaciones</li>
-                    <li>Taller de Investigación II</li>
+                    <li>Instrumentaci&oacute;n</li>
+                    <li>Optoelectr&oacute;nica</li>
+                    <li>Introducci&oacute;n a las Telecomunicaciones</li>
+                    <li>Taller de Investigaci&oacute;n II</li>
                     <li>Control Digital</li>
-                    <li>Electrónica de Potencia</li>
-                    <li>Controladores Lógicos Programables</li>
-                    <li>Administración General</li>
-                    <li>Desarrollo y Evaluación de Proyectos</li>
+                    <li>Electr&oacute;nica de Potencia</li>
+                    <li>Controladores L&oacute;gicos Programables</li>
+                    <li>Administraci&oacute;n General</li>
+                    <li>Desarrollo y Evaluaci&oacute;n de Proyectos</li>
                     <li>Materias de Especialidad</li>
                     <li>Servicio Social</li>
                     <li>Residencia Profesional</li>
-                    <li>Créditos Complementarios</li>
+                    <li>Cr&eacute;ditos Complementarios</li>
                 </ul>
 
             </div>
@@ -313,7 +313,7 @@
                 <div class="row">
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnológico #1340 Fracc. El Crucero CP 32500
+                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnol&oacute;gico #1340 Fracc. El Crucero CP 32500
                         </h5>
                     </div>
                     <!--Grid column-->
@@ -333,7 +333,7 @@
 
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Cd. Juárez, Chiuahua.</h5>
+                        <h5 class="text-uppercase">Cd. Ju&aacute;rez, Chiuahua.</h5>
                     </div>
                     <!--Grid column-->
 
@@ -344,9 +344,9 @@
 
             <!-- Section: Text -->
             <section class="mb-4">
-                <p> Proyecto de residencias para el departamento de Desarrollo Académico. <br><br> Elaborado por:<br>
+                <p> Proyecto de residencias para el departamento de Desarrollo Acad&eacute;mico. <br><br> Elaborado por:<br>
                     Erick Salvador Luna Gutierrez 16111918<br>
-                    Víctor Manuel Rodarte Amaro 16111992
+                    V&iacute;ctor Manuel Rodarte Amaro 16111992
                 </p>
             </section>
             <!-- Section: Text -->
@@ -361,7 +361,7 @@
                 <center><img src="{{ asset('assets/backoffice/img/tecnm.png') }}" alt="" width="180" height="100"
                         class="d-inline-block align-top"></center>
                 </center>
-            </a><br>Instituto Tecnológico de Ciudad Juárez: © 2021 Copyright.</a>
+            </a><br>Instituto Tecnol&oacute;gico de Ciudad Ju&aacute;rez: © 2021 Copyright.</a>
         </div>
         <!-- Copyright -->
     </footer>

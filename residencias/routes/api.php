@@ -19,3 +19,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/students', [App\Http\Controllers\AlumnosController::class, 'getAllStudents'])->name('students.getAll');
+
+Route::get('/dads', [App\Http\Controllers\PadresController::class, 'getAllDads'])->name('dadss.getAll');

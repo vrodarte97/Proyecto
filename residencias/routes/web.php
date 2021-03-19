@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 use  App\Http\Controllers\AlumnosController;
+use  App\Http\Controllers\PadresController;
 
 /*
 |--------------------------------------------------------------------------
@@ -85,6 +86,8 @@ Route::get('/electromecanica', function () {
     return view('carreras.electromecanica');
 });
 
+
+//RUTAS DE ALUMNOS
 Route::resource('alumnos', AlumnosController::class)->middleware('auth');
 Auth::routes([]);
 //Elimina la opción de register.
@@ -105,3 +108,28 @@ Route::get('/home', [App\Http\Controllers\AlumnosController::class, 'index'])->n
 Route::get('/dashboard', [App\Http\Controllers\AlumnosController::class, 'index'])->name('home');
 
 Route::get('students', [App\Http\Controllers\AlumnosController::class, 'students'])->name('students.index')->middleware('auth');
+//TERMINA RUTAS DE ALUMNOS
+
+
+//RUTAS DE PADRES
+Route::resource('padres', PadresController::class)->middleware('auth');
+Auth::routes([]);
+//Elimina la opción de register.
+Route::match(['get', 'post'], 'register', function(){
+    return redirect('/');
+});
+//Elimina olvide pass.
+Route::match(['get', 'post'], 'forgot-password', function(){
+    return redirect('/');
+});
+//
+Route::match(['get', 'post'], 'password/reset', function(){
+    return redirect('/');
+});
+
+Route::get('/home', [App\Http\Controllers\PadresController::class, 'index'])->name('home');
+//Auth::routes();
+Route::get('/dashboard', [App\Http\Controllers\PadresController::class, 'index'])->name('home');
+
+Route::get('dads', [App\Http\Controllers\PadresController::class, 'dads'])->name('dads.indexPadres')->middleware('auth');
+//TERMINA RUTAS DE PADRES

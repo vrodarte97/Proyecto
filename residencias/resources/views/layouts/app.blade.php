@@ -37,21 +37,28 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
+
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('alumnos.index') }}">{{ __('Alumnos') }}</a>
+                            <a style="color:#000000" class="nav-link">{{ __('') }}</a>
                         </li>
                     </ul>
 
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('padres.index') }}">{{ __('Padres') }}</a>
+                            <a style="color:#000000" class="nav-link" href="{{ route('alumnos.index') }}">{{ __('Alumnos') }}</a>
                         </li>
                     </ul>
 
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('padres.index') }}">{{ __('Orienta Tec') }}</a>
+                            <a style="color:#000000" class="nav-link" href="{{ route('padres.index') }}">{{ __('Padres') }}</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a style="color:#000000" class="nav-link" href="{{ route('aspirantes.index') }}">{{ __('Orienta Tec') }}</a>
                         </li>
                     </ul>
 
@@ -73,7 +80,7 @@
                         @else
                         
                         <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link active" aria-current="page" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="color:#1B396A">
+                            <a id="navbarDropdown" class="nav-link active" aria-current="page" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="color:#000000">
                                 {{ Auth::user()->name }}
                             </a>
                             
@@ -90,6 +97,11 @@
                                 </form>
                             </div>
                         </li>
+
+                        <a class="nav-link active" aria-current="page"
+                        onclick="event.preventDefault();
+                                      document.getElementById('logout-form').submit();" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                         {{ __('') }}</a>
 
                         <a class="nav-link active" aria-current="page" href="{{ route('logout') }}"
                         onclick="event.preventDefault();

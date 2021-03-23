@@ -6,6 +6,8 @@ use Inertia\Inertia;
 
 use  App\Http\Controllers\AlumnosController;
 use  App\Http\Controllers\PadresController;
+use  App\Http\Controllers\OrientatecController;
+use  App\Http\Controllers\AspirantesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -133,3 +135,29 @@ Route::get('/dashboard', [App\Http\Controllers\PadresController::class, 'index']
 
 Route::get('dads', [App\Http\Controllers\PadresController::class, 'dads'])->name('dads.indexPadres')->middleware('auth');
 //TERMINA RUTAS DE PADRES
+
+
+
+
+//RUTAS DE ORIENTATEC
+Route::resource('aspirantes', AspirantesController::class)->middleware('auth');
+Auth::routes([]);
+//Elimina la opción de register.
+Route::match(['get', 'post'], 'register', function(){
+    return redirect('/');
+});
+//Elimina olvide pass.
+Route::match(['get', 'post'], 'forgot-password', function(){
+    return redirect('/');
+});
+//
+Route::match(['get', 'post'], 'password/reset', function(){
+    return redirect('/');
+});
+
+Route::get('/home', [App\Http\Controllers\AspirantesController::class, 'index'])->name('home');
+//Auth::routes();
+Route::get('/dashboard', [App\Http\Controllers\AspirantesController::class, 'index'])->name('home');
+
+Route::get('students1', [App\Http\Controllers\AspirantesController::class, 'students1'])->name('students1.indexAlumnos')->middleware('auth');
+//TERMINA RUTAS DE ORIENTATEC

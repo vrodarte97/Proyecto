@@ -38,21 +38,28 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
+
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo e(route('alumnos.index')); ?>"><?php echo e(__('Alumnos')); ?></a>
+                            <a style="color:#000000" class="nav-link"><?php echo e(__('')); ?></a>
                         </li>
                     </ul>
 
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo e(route('padres.index')); ?>"><?php echo e(__('Padres')); ?></a>
+                            <a style="color:#000000" class="nav-link" href="<?php echo e(route('alumnos.index')); ?>"><?php echo e(__('Alumnos')); ?></a>
                         </li>
                     </ul>
 
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="<?php echo e(route('padres.index')); ?>"><?php echo e(__('Orienta Tec')); ?></a>
+                            <a style="color:#000000" class="nav-link" href="<?php echo e(route('padres.index')); ?>"><?php echo e(__('Padres')); ?></a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a style="color:#000000" class="nav-link" href="<?php echo e(route('aspirantes.index')); ?>"><?php echo e(__('Orienta Tec')); ?></a>
                         </li>
                     </ul>
 
@@ -74,7 +81,7 @@
                         <?php else: ?>
                         
                         <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link active" aria-current="page" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="color:#1B396A">
+                            <a id="navbarDropdown" class="nav-link active" aria-current="page" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="color:#000000">
                                 <?php echo e(Auth::user()->name); ?>
 
                             </a>
@@ -93,6 +100,11 @@
                                 </form>
                             </div>
                         </li>
+
+                        <a class="nav-link active" aria-current="page"
+                        onclick="event.preventDefault();
+                                      document.getElementById('logout-form').submit();" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                         <?php echo e(__('')); ?></a>
 
                         <a class="nav-link active" aria-current="page" href="<?php echo e(route('logout')); ?>"
                         onclick="event.preventDefault();

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 16-03-2021 a las 22:06:48
+-- Tiempo de generación: 24-03-2021 a las 23:45:12
 -- Versión del servidor: 8.0.21
 -- Versión de PHP: 7.3.21
 
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `alumnos` (
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `NoCtrl` (`NoCtrl`) USING BTREE
-) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Volcado de datos para la tabla `alumnos`
@@ -53,6 +53,33 @@ INSERT INTO `alumnos` (`id`, `NoCtrl`, `Nombre`, `Apaterno`, `Amaterno`, `Carrer
 (8, 18112396, 'LETHSI DANIELA', 'DIAZ', 'VENCES', 'INDUSTRIAL', NULL, '2021-02-17 07:38:36'),
 (9, 16111999, 'JOSE ROMULO', 'SOSA', 'ORTIZ', 'ELECTRICA', NULL, NULL),
 (10, 16111994, 'VICTOR MANUEL', 'RODARTE', 'LUNA', 'MECANICA', NULL, NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `aspirantes`
+--
+
+DROP TABLE IF EXISTS `aspirantes`;
+CREATE TABLE IF NOT EXISTS `aspirantes` (
+  `ID` int UNSIGNED NOT NULL AUTO_INCREMENT,
+  `Nombre` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Apaterno` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Amaterno` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Correo` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Escuela` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Carrera` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `aspirantes`
+--
+
+INSERT INTO `aspirantes` (`ID`, `Nombre`, `Apaterno`, `Amaterno`, `Correo`, `Escuela`, `Carrera`, `created_at`, `updated_at`) VALUES
+(1, 'DANIEL ALEJANDRO', 'RODARTE', 'AMARO', 'drodarte@gmail.com', 'COBACH 11', 'ELECTRICA', NULL, '2021-03-24 05:18:53');
 
 -- --------------------------------------------------------
 
@@ -85,7 +112,7 @@ CREATE TABLE IF NOT EXISTS `migrations` (
   `migration` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
   `batch` int NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Volcado de datos para la tabla `migrations`
@@ -98,7 +125,68 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (4, '2021_02_10_010935_create_alumnos_table', 2),
 (5, '2014_10_12_200000_add_two_factor_columns_to_users_table', 3),
 (6, '2019_12_14_000001_create_personal_access_tokens_table', 3),
-(7, '2021_02_12_003815_create_sessions_table', 3);
+(7, '2021_02_12_003815_create_sessions_table', 3),
+(8, '2021_03_18_223920_create_padres_table', 4),
+(9, '2021_03_22_221833_create_orientatecs_table', 5),
+(10, '2021_03_23_223318_create_aspirantes_table', 6);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `orientatecs`
+--
+
+DROP TABLE IF EXISTS `orientatecs`;
+CREATE TABLE IF NOT EXISTS `orientatecs` (
+  `ID` int UNSIGNED NOT NULL AUTO_INCREMENT,
+  `Nombre` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Apaterno` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Amaterno` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Correo` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Escuela` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Carrera` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `orientatecs`
+--
+
+INSERT INTO `orientatecs` (`ID`, `Nombre`, `Apaterno`, `Amaterno`, `Correo`, `Escuela`, `Carrera`, `created_at`, `updated_at`) VALUES
+(1, 'DANIEL ALEJANDRO', 'RODARTE', 'AMARO', 'drodarte@gmail.com', 'COBACH 7', 'MECANICA', NULL, NULL),
+(2, 'VICTOR MANUEL', 'RODARTE', 'AMARO', 'FAKE@GMAIL.COM', 'COBACH 7', 'SISTEMAS', NULL, NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `padres`
+--
+
+DROP TABLE IF EXISTS `padres`;
+CREATE TABLE IF NOT EXISTS `padres` (
+  `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT,
+  `NombrePadre` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `ApaternoPadre` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `AmaternoPadre` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `NoCtrl` int NOT NULL,
+  `NombreAlumno` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `ApaternoAlumno` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `AmaternoAlumno` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Carrera` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `NoCtrl` (`NoCtrl`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `padres`
+--
+
+INSERT INTO `padres` (`id`, `NombrePadre`, `ApaternoPadre`, `AmaternoPadre`, `NoCtrl`, `NombreAlumno`, `ApaternoAlumno`, `AmaternoAlumno`, `Carrera`, `created_at`, `updated_at`) VALUES
+(2, 'SAMUEL', 'FERNANDEZ', 'AYALA', 14233651, 'SAMUEL', 'FERNANDEZ', 'GARCIA', 'ELECTROMECANICA', NULL, '2021-03-19 06:45:01');
 
 -- --------------------------------------------------------
 
@@ -167,11 +255,7 @@ CREATE TABLE IF NOT EXISTS `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('QmXCTtroCODqjCdySX3VuxczQ7Os1Ya5Vz6lWezI', NULL, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiYzRzZlFkem9qV1VKZWxudWxpMVNXTHZjOTJHOXdiTG05eTBLUUxhayI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NTA6Imh0dHA6Ly9sb2NhbGhvc3QvcmVzaS9yZXNpZGVuY2lhcy9wdWJsaWMvbG9naXN0aWNhIjt9fQ==', 1615345006),
-('0K24bOzRQlWH9SoqIrculictA5rlPuyHF4w2cpWM', NULL, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiOUh4eDEyZG1kU0V3RjVKNzlEVDBRRFM0UFhaZ3hwQzBwSkQ0MU9OYyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDA6Imh0dHA6Ly9sb2NhbGhvc3QvcmVzaS9yZXNpZGVuY2lhcy9wdWJsaWMiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX19', 1615418027),
-('ZDl5WE5X7t1YYaFrjqZtj6xvMrVt6FXKz3gQetwT', NULL, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiNHVkVDJDU091TWw0cXhUWlZYOGR1NlRpZHdVZnFPYVRoQjZDNlFrQSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDk6Imh0dHA6Ly9sb2NhbGhvc3QvcmVzaS9yZXNpZGVuY2lhcy9wdWJsaWMvc2lzdGVtYXMiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX19', 1615429420),
-('wteafDFRnvYBZlGnTbvzlnHdI0YIeXiM8Q0TqAdF', NULL, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiZHJhYjh3a05kYWFJYWRmZFlKdVRiM2NmazMzejl3eGluTTBXQ0pFcSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDk6Imh0dHA6Ly9sb2NhbGhvc3QvcmVzaS9yZXNpZGVuY2lhcy9wdWJsaWMvbWVjYW5pY2EiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX19', 1615519858),
-('qlQSdgZDvgJtqgxLAKeuGmgCKrcfvIkkxDpENGdU', NULL, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.50', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiM0doSWZqV1VURWY4d2E4Y0l4R2ZDbU9DR1pqZ1lPd1lIZlZqZWtseiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDA6Imh0dHA6Ly9sb2NhbGhvc3QvcmVzaS9yZXNpZGVuY2lhcy9wdWJsaWMiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX19', 1615932237);
+('JG5I9aSuNe09ZzFQapA9t0gLa1ugljw7a5UY27dM', NULL, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiamVFdXllQWRRa3dBbmsxNXdDRkdzSUxGNnpKTER6Z1BlYlF4VEtQbyI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDY6Imh0dHA6Ly9sb2NhbGhvc3QvcmVzaS9yZXNpZGVuY2lhcy9wdWJsaWMvbG9naW4iO31zOjM6InVybCI7YToxOntzOjg6ImludGVuZGVkIjtzOjUxOiJodHRwOi8vbG9jYWxob3N0L3Jlc2kvcmVzaWRlbmNpYXMvcHVibGljL2FzcGlyYW50ZXMiO319', 1616543137);
 
 -- --------------------------------------------------------
 

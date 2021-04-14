@@ -88,6 +88,43 @@ Route::get('/electromecanica', function () {
     return view('carreras.electromecanica');
 });
 
+Route::get('/360', function () {
+    return view('recorrido.test');
+});
+
+Route::get('/administrativo', function () {
+    return view('recorrido.administrativo');
+});
+
+Route::get('/extraescolares', function () {
+    return view('recorrido.extraescolares');
+});
+
+Route::get('/audiovisual', function () {
+    return view('recorrido.audiovisual');
+});
+
+Route::get('/800', function () {
+    return view('recorrido.800');
+});
+
+Route::get('/biblioteca', function () {
+    return view('recorrido.biblioteca');
+});
+
+Route::get('/computo', function () {
+    return view('recorrido.computo');
+});
+
+Route::get('/idiomas', function () {
+    return view('recorrido.idiomas');
+});
+
+Route::get('/ciencias-basicas', function () {
+    return view('recorrido.ciencias');
+});
+
+
 
 //RUTAS DE ALUMNOS
 Route::resource('alumnos', AlumnosController::class)->middleware('auth');

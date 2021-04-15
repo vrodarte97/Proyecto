@@ -124,6 +124,60 @@ Route::get('/ciencias-basicas', function () {
     return view('recorrido.ciencias');
 });
 
+Route::get('/elect', function () {
+    return view('recorrido.electrica');
+});
+
+Route::get('/dpto-industrial', function () {
+    return view('recorrido.industrial');
+});
+
+Route::get('/dpto-sistemas', function () {
+    return view('recorrido.sistemas');
+});
+
+Route::get('/division-metal', function () {
+    return view('recorrido.division');
+});
+
+Route::get('/guillot', function () {
+    return view('recorrido.guillot');
+});
+
+Route::get('/gestion-vinculacion', function () {
+    return view('recorrido.gestion');
+});
+
+Route::get('/laboratorio-electrica', function () {
+    return view('recorrido.labelectrica');
+});
+
+Route::get('/manufactura', function () {
+    return view('recorrido.manufactura');
+});
+
+Route::get('/lab-mecatronica', function () {
+    return view('recorrido.labmeca');
+});
+
+Route::get('/metal', function () {
+    return view('recorrido.metal');
+});
+
+Route::get('/quimica', function () {
+    return view('recorrido.quimica');
+});
+
+Route::get('/posgrado', function () {
+    return view('recorrido.posgrado');
+});
+
+Route::get('/rivera-lara', function () {
+    return view('recorrido.rivera');
+});
+
+
+
 
 
 //RUTAS DE ALUMNOS
@@ -166,11 +220,11 @@ Route::match(['get', 'post'], 'password/reset', function(){
     return redirect('/');
 });
 
-Route::get('/home', [App\Http\Controllers\PadresController::class, 'index'])->name('home');
+//Route::get('/home', [App\Http\Controllers\PadresController::class, 'index'])->name('home');
 //Auth::routes();
-Route::get('/dashboard', [App\Http\Controllers\PadresController::class, 'index'])->name('home');
+//Route::get('/dashboard', [App\Http\Controllers\PadresController::class, 'index'])->name('home');
 
-Route::get('dads', [App\Http\Controllers\PadresController::class, 'dads'])->name('dads.indexPadres')->middleware('auth');
+//Route::get('dads', [App\Http\Controllers\PadresController::class, 'dads'])->name('dads.indexPadres')->middleware('auth');
 //TERMINA RUTAS DE PADRES
 
 
@@ -192,9 +246,9 @@ Route::match(['get', 'post'], 'password/reset', function(){
     return redirect('/');
 });
 
-Route::get('/home', [App\Http\Controllers\AspirantesController::class, 'index'])->name('home');
+//Route::get('/home', [App\Http\Controllers\AspirantesController::class, 'index'])->name('home');
 //Auth::routes();
-Route::get('/dashboard', [App\Http\Controllers\AspirantesController::class, 'index'])->name('home');
+//Route::get('/dashboard', [App\Http\Controllers\AspirantesController::class, 'index'])->name('home');
 
-Route::get('students1', [App\Http\Controllers\AspirantesController::class, 'students1'])->name('students1.indexAlumnos')->middleware('auth');
+//Route::get('students1', [App\Http\Controllers\AspirantesController::class, 'students1'])->name('students1.indexAlumnos')->middleware('auth');
 //TERMINA RUTAS DE ORIENTATEC

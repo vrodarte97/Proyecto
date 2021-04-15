@@ -47,13 +47,13 @@
 
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a style="color:#000000" class="nav-link" href="<?php echo e(route('alumnos.index')); ?>"><?php echo e(__('Alumnos')); ?></a>
+                            <a style="color:#000000" class="nav-link" href="<?php echo e(route('alumnos.index')); ?>"><?php echo e(__('Alumnos/Conferencias')); ?></a>
                         </li>
                     </ul>
 
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a style="color:#000000" class="nav-link" href="<?php echo e(route('padres.index')); ?>"><?php echo e(__('Padres')); ?></a>
+                            <a style="color:#000000" class="nav-link" href="<?php echo e(route('padres.index')); ?>"><?php echo e(__('Padres/Eventos')); ?></a>
                         </li>
                     </ul>
 

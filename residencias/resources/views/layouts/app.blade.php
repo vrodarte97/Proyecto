@@ -46,13 +46,13 @@
 
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a style="color:#000000" class="nav-link" href="{{ route('alumnos.index') }}">{{ __('Alumnos') }}</a>
+                            <a style="color:#000000" class="nav-link" href="{{ route('alumnos.index') }}">{{ __('Alumnos/Conferencias') }}</a>
                         </li>
                     </ul>
 
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a style="color:#000000" class="nav-link" href="{{ route('padres.index') }}">{{ __('Padres') }}</a>
+                            <a style="color:#000000" class="nav-link" href="{{ route('padres.index') }}">{{ __('Padres/Eventos') }}</a>
                         </li>
                     </ul>
 

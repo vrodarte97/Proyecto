@@ -57,7 +57,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="{{ asset('assets/backoffice/img/dda.png') }}" alt="" width="180" height="180"
                         class="d-inline-block align-top"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -68,45 +68,58 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"><strong>Inicio</strong></a>
+                            <a class="nav-link active" aria-current="page" href="{{ url('/') }}"><strong>Inicio</strong></a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            <a class="nav-link dropdown-toggle" href="{{ url('/') }}" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false" style="color:#ffffff">
                                 <strong>Conoce nuestro Instituto</strong>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="{{ url('administrativo') }}">Administración/Servicios escolares</a></li>
-                                <li><a class="dropdown-item" href="{{ url('extraescolares') }}">Actividades Extraescolares</a></li>
+                                <li><a class="dropdown-item"
+                                        href="{{ url('administrativo') }}">Administración/Servicios escolares</a></li>
+                                <li><a class="dropdown-item" href="{{ url('extraescolares') }}">Actividades
+                                        Extraescolares</a></li>
                                 <li><a class="dropdown-item" href="{{ url('audiovisual') }}">Audiovisual/400s</a></li>
                                 <li><a class="dropdown-item" href="{{ url('800') }}">Aulas 800s</a></li>
-                                <li><a class="dropdown-item" href="#">Biblioteca</a></li>
-                                <li><a class="dropdown-item" href="#">Centro de computo</a></li>
-                                <li><a class="dropdown-item" href="#">Centro de Idiomas</a></li>
-                                <li><a class="dropdown-item" href="#">Ciencias b&aacute;sicas/300s</a></li>
-                                <li><a class="dropdown-item" href="#">Departamento de el&eacute;ctrica y
+                                <li><a class="dropdown-item" href="{{ url('biblioteca') }}">Biblioteca</a></li>
+                                <li><a class="dropdown-item" href="{{ url('computo') }}">Centro de computo</a></li>
+                                <li><a class="dropdown-item" href="{{ url('idiomas') }}">Centro de Idiomas</a></li>
+                                <li><a class="dropdown-item" href="{{ url('ciencias-basicas') }}">Ciencias
+                                        b&aacute;sicas/300s</a></li>
+                                <li><a class="dropdown-item" href="{{ url('elect') }}">Departamento de
+                                        el&eacute;ctrica y
                                         electr&oacute;nica</a></li>
-                                <li><a class="dropdown-item" href="#">Departamento de industrial</a></li>
-                                <li><a class="dropdown-item" href="#">Departamento de sistemas</a></li>
-                                <li><a class="dropdown-item" href="#">División de estudios/Metal mec&aacute;nica</a>
+                                <li><a class="dropdown-item" href="{{ url('dpto-industrial') }}">Departamento de
+                                        industrial</a></li>
+                                <li><a class="dropdown-item" href="{{ url('dpto-sistemas') }}">Departamento de
+                                        sistemas</a></li>
+                                <li><a class="dropdown-item" href="{{ url('division-metal') }}">División de
+                                        estudios/Metal mec&aacute;nica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="#">Edificio Guillot</a></li>
-                                <li><a class="dropdown-item" href="#">Gestión y vinculaci&oacute;n</a></li>
-                                <li><a class="dropdown-item" href="#">Gimnasio</a></li>
-                                <li><a class="dropdown-item" href="#">Laboratorio de el&eacute;ctrica</a></li>
-                                <li><a class="dropdown-item" href="#">Laboratorio de Manufactura</a></li>
-                                <li><a class="dropdown-item" href="#">Laboratorio de Mecatr&oacute;nica</a></li>
-                                <li><a class="dropdown-item" href="#">Laboratorio de Metal Mec&aacute;nica</a></li>
-                                <li><a class="dropdown-item" href="#">Laboratorio de Qu&iacute;mica</a></li>
-                                <li><a class="dropdown-item" href="#">Mantenimiento/Transporte</a></li>
-                                <li><a class="dropdown-item" href="#">Posgrado/Aula Magna</a></li>
-                                <li><a class="dropdown-item" href="#">Rivera Lara/ 100s, 200s</a></li>
+                                <li><a class="dropdown-item" href="{{ url('guillot') }}">Edificio Guillot</a></li>
+                                <li><a class="dropdown-item" href="{{ url('gestion-vinculacion') }}">Gesti&oacute;n y
+                                        vinculaci&oacute;n</a></li>
+                                <li><a class="dropdown-item" href="{{ url('laboratorio-electrica') }}">Laboratorio de
+                                        el&eacute;ctrica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('manufactura') }}">Laboratorio de
+                                        Manufactura</a></li>
+                                <li><a class="dropdown-item" href="{{ url('lab-mecatronica') }}">Laboratorio de
+                                        Mecatr&oacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('metal') }}">Laboratorio de Metal
+                                        Mec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('quimica') }}">Laboratorio de
+                                        Qu&iacute;mica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('posgrado') }}">Posgrado/Aula Magna</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{ url('rivera-lara') }}">Rivera Lara/ 100s,
+                                        200s</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            <a class="nav-link dropdown-toggle" href="{{ url('/') }}" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false" style="color:#ffffff;">
                                 <strong>Oferta Educativa</strong>
                             </a>
@@ -119,7 +132,8 @@
                                         Electromec&aacute;nica</a></li>
                                 <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingenier&iacute;a
                                         Mec&aacute;nica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingenier&iacute;a en Sistemas
+                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingenier&iacute;a en
+                                        Sistemas
                                         Computacionales</a></li>
                                 <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
                                         Electr&oacute;nica</a></li>
@@ -150,7 +164,8 @@
         <div class="container">
             <br>
             <div class="centered">
-                <h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff"><strong><br>Aulas 800<strong></h1>
+                <h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff"><strong><br>Aulas
+                        800<strong></h1>
             </div>
         </div>
     </header>
@@ -173,7 +188,7 @@
 
     <div class="embed-responsive embed-responsive-21by9" style="text-align:center;">
         <iframe class="embed-responsive-item" height="500px" width="1500px"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d833.0019057958664!2d-106.42157497078205!3d31.719305598831525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDQzJzA5LjUiTiAxMDbCsDI1JzE1LjciVw!5e1!3m2!1ses-419!2smx!4v1618358083657!5m2!1ses-419!2smx"></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d833.0019057958664!2d-106.42157497078205!3d31.719305598831525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDQzJzA5LjUiTiAxMDbCsDI1JzE1LjciVw!5e1!3m2!1ses-419!2smx!4v1618358083657!5m2!1ses-419!2smx"></iframe>
     </div>
 
     <!-- Footer -->
@@ -183,12 +198,14 @@
             <!-- Section: Social media -->
 
             <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/DesarrolloAcademicoITCJ"
+                role="button" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <h7>Desarrollo Acad&eacute;mico</h7>
 
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/TecNMCampusCdJuarez"
+                role="button" target="_blank"> <i class="fab fa-facebook-f"> </i></a>
+            <h7>TecNM Campus Cd. Ju&aacute;rez</h7>
             </section>
             <!-- Section: Social media -->
             <br><br>

@@ -2,18 +2,18 @@
 
 @section('content')
 
-<div class="container">
+    <div class="container">
 
-Sección para editar padres<br><br>
+        Sección para editar padres<br><br>
 
-<form action="{{url('/padres/' .$padre->id) }}" method="post" enctype="multipart/form-data">
-    {{csrf_field()}}
-    {{method_field('PATCH') }}
+        <form action="{{ url('/padres/' . $padre->id) }}" method="post" enctype="multipart/form-data">
+            {{ csrf_field() }}
+            {{ method_field('PATCH') }}
 
-    @include('padres.form',['Modo'=>'editar'])
+            @include('padres.form',['Modo'=>'editar'])
 
-</form>
+        </form>
 
-</div>
+    </div>
 
 @endsection

@@ -32,12 +32,19 @@ use  App\Http\Controllers\AspirantesController;
 Route::get('/alumnos/create','AlumnosController@create');*/
 //Route::get('/alumnos', [AlumnosController::class, 'index']);
 //Route::get('/alumnos/create', [AlumnosController::class, 'create']);
+
+//iniciar con login
+
+//Route::get('/', function () {
+  //  return view('auth.login');
+//});
+
 Route::get('/', function () {
-    return view('auth.login');
+    return view('index');
 });
 
-Route::get('/index', function () {
-    return view('index');
+Route::get('/main', function () {
+    return view('carreras.main');
 });
 
 Route::get('/administracion', function () {
@@ -224,7 +231,7 @@ Route::match(['get', 'post'], 'password/reset', function(){
 //Auth::routes();
 //Route::get('/dashboard', [App\Http\Controllers\PadresController::class, 'index'])->name('home');
 
-//Route::get('dads', [App\Http\Controllers\PadresController::class, 'dads'])->name('dads.indexPadres')->middleware('auth');
+Route::get('dads', [App\Http\Controllers\PadresController::class, 'dads'])->name('dads.indexPadres')->middleware('auth');
 //TERMINA RUTAS DE PADRES
 
 
@@ -250,5 +257,5 @@ Route::match(['get', 'post'], 'password/reset', function(){
 //Auth::routes();
 //Route::get('/dashboard', [App\Http\Controllers\AspirantesController::class, 'index'])->name('home');
 
-//Route::get('students1', [App\Http\Controllers\AspirantesController::class, 'students1'])->name('students1.indexAlumnos')->middleware('auth');
+Route::get('students1', [App\Http\Controllers\AspirantesController::class, 'students1'])->name('students1.indexAlumnos')->middleware('auth');
 //TERMINA RUTAS DE ORIENTATEC

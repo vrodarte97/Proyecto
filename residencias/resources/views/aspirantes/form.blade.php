@@ -1,12 +1,9 @@
-<p><Strong>INSTRUCCIONES: <br></Strong>
-    <br>
-    <u style="color:green">Por favor, rellena los campos que se muestran a continuación SIN ACENTOS.</u>
-</p>
 
 
 <div class="form-group">
     <label for="Nombre" class="control-label">{{ 'Nombre(s): ' }}</label>
-    <input class="form-control {{ $errors->has('Nombre') ? 'is-invalid' : '' }} " type="text" name="Nombre" id="Nombre"
+    <input class="form-control {{ $errors->has('Nombre') ? 'is-invalid' : '' }} " type="text" name="Nombre"
+        id="Nombre"
         onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()"
         value="{{ isset($aspirante->Nombre) ? $aspirante->Nombre : old('Nombre') }}">
     {!! $errors->first('Nombre', '<div class="invalid-feedback">:message</div>') !!}
@@ -35,8 +32,8 @@
 
 <div class="form-group">
     <label for="Correo" class="control-label">{{ 'Correo: ' }}</label>
-    <input class="form-control {{ $errors->has('Correo') ? 'is-invalid' : '' }} " type="email" name="Correo" id="Correo"
-        value="{{ isset($aspirante->Correo) ? $aspirante->Correo : old('Correo') }}">
+    <input class="form-control {{ $errors->has('Correo') ? 'is-invalid' : '' }} " type="email" name="Correo"
+        id="Correo" value="{{ isset($aspirante->Correo) ? $aspirante->Correo : old('Correo') }}">
     {!! $errors->first('Correo', '<div class="invalid-feedback">:message</div>') !!}
 
 </div>
@@ -44,11 +41,13 @@
 
 
 <div class="form-group">
-    <label for="Escuela" class="control-label {{$errors->has('Escuela')?'is-invalid':'' }} ">{{'Escuela De Procedencia: '}}</label>
+    <label for="Escuela"
+        class="control-label {{ $errors->has('Escuela') ? 'is-invalid' : '' }} ">{{ 'Escuela De Procedencia: ' }}</label>
 
-    <select name="Escuela" class="form-control {{$errors->has('Escuela')?'is-invalid':'' }} ">
-                    
-        <OPTION VALUE="{{ isset($aspirante->Escuela)?$aspirante->Escuela:''}}">{{ isset($aspirante->Escuela)?$aspirante->Escuela:old('Escuela')}}</OPTION>
+    <select name="Escuela" class="form-control {{ $errors->has('Escuela') ? 'is-invalid' : '' }} ">
+
+        <OPTION VALUE="{{ isset($aspirante->Escuela) ? $aspirante->Escuela : '' }}">
+            {{ isset($aspirante->Escuela) ? $aspirante->Escuela : old('Escuela') }}</OPTION>
         <option value="PREPARATORIA CENTRAL DE CD. JUAREZ">PREPARATORIA CENTRAL DE CD. JUAREZ</option>
         <option value="CBTIS 128">CBTIS 128</option>
         <option value="CBTIS 114">CBTIS 114</option>
@@ -56,7 +55,8 @@
         <option value="INSTITUTO MEXICO">INSTITUTO MEXICO</option>
         <option value="CETIS 61">CETIS 61</option>
         <option value="COBACH 6">COBACH 6</option>
-        <option value="CENTRO DE ESTUDIOS TECNOLOGICOS DE CD JUAREZ CAMPUS HENEQUEN">CENTRO DE ESTUDIOS TECNOLOGICOS DE CD JUAREZ CAMPUS HENEQUEN</option>
+        <option value="CENTRO DE ESTUDIOS TECNOLOGICOS DE CD JUAREZ CAMPUS HENEQUEN">CENTRO DE ESTUDIOS TECNOLOGICOS DE
+            CD JUAREZ CAMPUS HENEQUEN</option>
         <option value="COBACH 19">COBACH 19</option>
         <option value="CBTIS 270">CBTIS 270</option>
         <option value="COBACH 5">COBACH 5</option>
@@ -71,15 +71,15 @@
         <option value="INSTITUTO POLITECNICO DE LA FRONTERA">INSTITUTO POLITECNICO DE LA FRONTERA</option>
         <option value="INSTITUTO ROSARIO CASTELLANOS">INSTITUTO ROSARIO CASTELLANOS</option>
         <option value="OTRO">OTRO</option>
-    
+
     </select>
 
-    {!! $errors->first('Escuela','<div class="invalid-feedback">:message</div>' ) !!}
+    {!! $errors->first('Escuela', '<div class="invalid-feedback">:message</div>') !!}
 
 
-    </div>
+</div>
 
-    <p><strong>¿ES CORRECTA LA ESCUELA DE PROCEDENCIA?</strong></p>
+<p><strong>¿ES CORRECTA LA ESCUELA DE PROCEDENCIA?</strong></p>
 
 
 
@@ -113,5 +113,5 @@
 
 <p><strong>¿ES CORRECTA LA CARRERA?</strong></p>
 
-<input type="submit" class="btn btn-primary" value="{{ $Modo == 'crear' ? 'Agregar' : 'Modificar' }}">
+<input type="submit" class="btn btn-primary" style="background-color: #1B396A;" value="{{ $Modo == 'crear' ? 'Agregar' : 'Modificar' }}">
 <a class="btn btn-danger" href="{{ url('aspirantes') }}">Cancelar</a>

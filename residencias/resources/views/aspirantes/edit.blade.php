@@ -2,18 +2,18 @@
 
 @section('content')
 
-<div class="container">
+    <div class="container">
 
-Sección para editar alumnos<br><br>
+        Sección para editar alumnos<br><br>
 
-<form action="{{url('/aspirantes/' .$aspirante->ID) }}" method="post" enctype="multipart/form-data">
-    {{csrf_field()}}
-    {{method_field('PATCH') }}
+        <form action="{{ url('/aspirantes/' . $aspirante->ID) }}" method="post" enctype="multipart/form-data">
+            {{ csrf_field() }}
+            {{ method_field('PATCH') }}
 
-    @include('aspirantes.form',['Modo'=>'editar'])
+            @include('aspirantes.form',['Modo'=>'editar'])
 
-</form>
+        </form>
 
-</div>
+    </div>
 
 @endsection

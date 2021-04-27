@@ -66,24 +66,53 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"><strong>Inicio</strong></a>
+                            <a class="nav-link active" aria-current="page" href="{{ url('/') }}"><strong>Inicio</strong></a>
                         </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false" style="color:#ffffff">
-                                <strong>Conoce nuestra Instituto</strong>
+                                <strong>Conoce nuestro Instituto</strong>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">100's</a></li>
-                                <li><a class="dropdown-item" href="#">200's</a></li>
-                                <li><a class="dropdown-item" href="#">300's</a></li>
-                                <li><a class="dropdown-item" href="#">400's</a></li>
-                                <li><a class="dropdown-item" href="#">500's</a></li>
-                                <li><a class="dropdown-item" href="#">600's</a></li>
-                                <li><a class="dropdown-item" href="#">700's</a></li>
-                                <li><a class="dropdown-item" href="#">800's</a></li>
-                                <li><a class="dropdown-item" href="#">900's</a></li>
+                                <li><a class="dropdown-item"
+                                        href="{{ url('administrativo') }}">Administración/Servicios escolares</a></li>
+                                <li><a class="dropdown-item" href="{{ url('extraescolares') }}">Actividades
+                                        Extraescolares</a></li>
+                                <li><a class="dropdown-item" href="{{ url('audiovisual') }}">Audiovisual/400s</a></li>
+                                <li><a class="dropdown-item" href="{{ url('800') }}">Aulas 800s</a></li>
+                                <li><a class="dropdown-item" href="{{ url('biblioteca') }}">Biblioteca</a></li>
+                                <li><a class="dropdown-item" href="{{ url('computo') }}">Centro de computo</a></li>
+                                <li><a class="dropdown-item" href="{{ url('idiomas') }}">Centro de Idiomas</a></li>
+                                <li><a class="dropdown-item" href="{{ url('ciencias-basicas') }}">Ciencias
+                                        b&aacute;sicas/300s</a></li>
+                                <li><a class="dropdown-item" href="{{ url('elect') }}">Departamento de
+                                        el&eacute;ctrica y
+                                        electr&oacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('dpto-industrial') }}">Departamento de
+                                        industrial</a></li>
+                                <li><a class="dropdown-item" href="{{ url('dpto-sistemas') }}">Departamento de
+                                        sistemas</a></li>
+                                <li><a class="dropdown-item" href="{{ url('division-metal') }}">División de
+                                        estudios/Metal mec&aacute;nica</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{ url('guillot') }}">Edificio Guillot</a></li>
+                                <li><a class="dropdown-item" href="{{ url('gestion-vinculacion') }}">Gesti&oacute;n y
+                                        vinculaci&oacute;n</a></li>
+                                <li><a class="dropdown-item" href="{{ url('laboratorio-electrica') }}">Laboratorio de
+                                        el&eacute;ctrica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('manufactura') }}">Laboratorio de
+                                        Manufactura</a></li>
+                                <li><a class="dropdown-item" href="{{ url('lab-mecatronica') }}">Laboratorio de
+                                        Mecatr&oacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('metal') }}">Laboratorio de Metal
+                                        Mec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('quimica') }}">Laboratorio de
+                                        Qu&iacute;mica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('posgrado') }}">Posgrado/Aula Magna</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{ url('rivera-lara') }}">Rivera Lara/ 100s,
+                                        200s</a></li>
                             </ul>
                         </li>
 
@@ -95,25 +124,33 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="{{ url('administracion') }}">Licenciatura en
                                         Administraci&oacute;n</a></li>
-                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador P&uacute;blico</a></li>
+                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador P&uacute;blico</a>
+                                </li>
                                 <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
-                                  Electr&oacute;nica</a></li>
+                                        Electr&oacute;nica</a></li>
                                 <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingenier&iacute;a
-                                  Electromecanica</a></li>  
-                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingenier&iacute;a Mec&aacute;nica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingenier&iacute;a en Sistemas
+                                        Electromecanica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingenier&iacute;a
+                                        Mec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingenier&iacute;a en
+                                        Sistemas
                                         Computacionales</a></li>
                                 <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
                                         Electr&oacute;nica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingenier&iacute;a en Tecnolog&iacute;as de la
+                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingenier&iacute;a en
+                                        Tecnolog&iacute;as de la
                                         Informaci&oacute;n y Comunicaciones</a></li>
-                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingenier&iacute;a en Gesti&oacute;n
+                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingenier&iacute;a en
+                                        Gesti&oacute;n
                                         Empresarial</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingenier&iacute;a El&eacute;ctrica</a>
+                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingenier&iacute;a
+                                        El&eacute;ctrica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingenier&iacute;a Industrial</a>
+                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingenier&iacute;a
+                                        Industrial</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingenier&iacute;a en Log&iacute;stica</a>
+                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingenier&iacute;a en
+                                        Log&iacute;stica</a>
                                 </li>
                                 <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingenier&iacute;a en
                                         Mecatr&oacute;nica</a></li>
@@ -145,10 +182,14 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#1B396A">Objetivo:</h1>
-            <p class="lead">Formar profesionales competitivos, capaces de dise&ntilde;ar, establecer, aplicar, controlar y
-                evaluar sistemas de informaci&oacute;n administrativa, financiera y fiscal, para la toma de desiciones de las
-                entidades econ&oacute;micas nacionales e internacionales, con una actitud &eacute;tica, cr&iacute;tica, emprenderoda y de
-                liderazgo, a trav&eacute;s de la investigaci&oacute;n y el uso de la tecnolog&iacute;a de la informaci&oacute;n y la comunicaci&oacute;n,
+            <p class="lead">Formar profesionales competitivos, capaces de dise&ntilde;ar, establecer, aplicar, controlar
+                y
+                evaluar sistemas de informaci&oacute;n administrativa, financiera y fiscal, para la toma de desiciones
+                de las
+                entidades econ&oacute;micas nacionales e internacionales, con una actitud &eacute;tica, cr&iacute;tica,
+                emprenderoda y de
+                liderazgo, a trav&eacute;s de la investigaci&oacute;n y el uso de la tecnolog&iacute;a de la
+                informaci&oacute;n y la comunicaci&oacute;n,
                 fomentado el desarrollo sustentable.</p>
             <br>
         </div>
@@ -161,9 +202,11 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#e9ecef">Campo de trabajo:</h1>
-            <p class="lead" style="color:#e9ecef"><b>El egresado tendr&aacute; competencias para trabajar en:</b><br></p>
+            <p class="lead" style="color:#e9ecef"><b>El egresado tendr&aacute; competencias para trabajar en:</b><br>
+            </p>
             <ul class="lead" style="color:#e9ecef">
-                <li>Dise&ntilde;ar, implementar y evaluar sistemas de infromaci&oacute;n contable, administrativa, fiscal y
+                <li>Dise&ntilde;ar, implementar y evaluar sistemas de infromaci&oacute;n contable, administrativa,
+                    fiscal y
                     financiera.</li>
                 <li>Asesorar y participar en la plamneaci&oacute;n financiera para la toma de decisiones.</li>
                 <li>Asesorar a las organizaciones en el cumplimiento de las disposiciones fisclaes, mercantiles,
@@ -186,13 +229,18 @@
         <div class="row featurette">
             <div class="col-md-7">
                 <h1 class="featurette-heading"><span style="color:#1B396A">Perfil del egresado:</span></h1><br>
-                <p class="lead">El contador es un profesiona, indispensable en el desempe&ntilde;o de las entidades p&uacute;blicas y
-                    privadas, de todo tama&ntilde;o y giro. En la actualidad destaca su funci&oacute;n como asesor en toma de
-                    decisiones, por sus capacidades para generar, analizar e interpretar informaci&oacute;n financiera. Tiene
-                    f&eacute; p&uacute;bblica, diferentes leyes y c&oacute;digos lo se&ntilde;alan como el &uacute;nico autorizado para firmar informaci&oacute;n
+                <p class="lead">El contador es un profesiona, indispensable en el desempe&ntilde;o de las entidades
+                    p&uacute;blicas y
+                    privadas, de todo tama&ntilde;o y giro. En la actualidad destaca su funci&oacute;n como asesor en
+                    toma de
+                    decisiones, por sus capacidades para generar, analizar e interpretar informaci&oacute;n financiera.
+                    Tiene
+                    f&eacute; p&uacute;bblica, diferentes leyes y c&oacute;digos lo se&ntilde;alan como el &uacute;nico
+                    autorizado para firmar informaci&oacute;n
                     financiera y auditorias.<br></p>
                 <h4 style="color:#1B396A">Especialidades:</h4>
-                <p class="lead">Consultor&iacute;a Fiscal y Auditor&iacute;a Integral, Alta Direcci&oacute;n en Gerencia Financiera y Gesti&oacute;n
+                <p class="lead">Consultor&iacute;a Fiscal y Auditor&iacute;a Integral, Alta Direcci&oacute;n en Gerencia
+                    Financiera y Gesti&oacute;n
                     de Costos .</p>
 
             </div>
@@ -304,11 +352,14 @@
             <!-- Section: Social media -->
 
             <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/DesarrolloAcademicoITCJ"
+                role="button" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <h7>Desarrollo Acad&eacute;mico</h7>
 
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/TecNMCampusCdJuarez"
+                role="button" target="_blank"> <i class="fab fa-facebook-f"> </i></a>
+            <h7>TecNM Campus Cd. Ju&aacute;rez</h7>
 
             </section>
             <!-- Section: Social media -->
@@ -320,7 +371,8 @@
                 <div class="row">
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnol&oacute;gico #1340 Fracc. El Crucero CP 32500
+                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnol&oacute;gico #1340 Fracc. El Crucero CP
+                            32500
                         </h5>
                     </div>
                     <!--Grid column-->
@@ -351,7 +403,8 @@
 
             <!-- Section: Text -->
             <section class="mb-4">
-                <p> Proyecto de residencias para el departamento de Desarrollo Acad&eacute;mico. <br><br> Elaborado por:<br>
+                <p> Proyecto de residencias para el departamento de Desarrollo Acad&eacute;mico. <br><br> Elaborado
+                    por:<br>
                     Erick Salvador Luna Gutierrez 16111918<br>
                     V&iacute;ctor Manuel Rodarte Amaro 16111992
                 </p>

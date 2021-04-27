@@ -55,7 +55,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="{{ asset('assets/backoffice/img/dda.png') }}" alt="" width="180" height="180"
                         class="d-inline-block align-top"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -66,52 +66,89 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"><strong>Inicio</strong></a>
+                            <a class="nav-link active" aria-current="page" href="{{ url('/') }}"><strong>Inicio</strong></a>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            <a class="nav-link dropdown-toggle" href="{{ url('/') }}" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false" style="color:#ffffff">
-                                <strong>Conoce nuestra Instituto</strong>
+                                <strong>Conoce nuestro Instituto</strong>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">100's</a></li>
-                                <li><a class="dropdown-item" href="#">200's</a></li>
-                                <li><a class="dropdown-item" href="#">300's</a></li>
-                                <li><a class="dropdown-item" href="#">400's</a></li>
-                                <li><a class="dropdown-item" href="#">500's</a></li>
-                                <li><a class="dropdown-item" href="#">600's</a></li>
-                                <li><a class="dropdown-item" href="#">700's</a></li>
-                                <li><a class="dropdown-item" href="#">800's</a></li>
-                                <li><a class="dropdown-item" href="#">900's</a></li>
+                                <li><a class="dropdown-item"
+                                        href="{{ url('administrativo') }}">Administración/Servicios escolares</a></li>
+                                <li><a class="dropdown-item" href="{{ url('extraescolares') }}">Actividades
+                                        Extraescolares</a></li>
+                                <li><a class="dropdown-item" href="{{ url('audiovisual') }}">Audiovisual/400s</a></li>
+                                <li><a class="dropdown-item" href="{{ url('800') }}">Aulas 800s</a></li>
+                                <li><a class="dropdown-item" href="{{ url('biblioteca') }}">Biblioteca</a></li>
+                                <li><a class="dropdown-item" href="{{ url('computo') }}">Centro de computo</a></li>
+                                <li><a class="dropdown-item" href="{{ url('idiomas') }}">Centro de Idiomas</a></li>
+                                <li><a class="dropdown-item" href="{{ url('ciencias-basicas') }}">Ciencias
+                                        b&aacute;sicas/300s</a></li>
+                                <li><a class="dropdown-item" href="{{ url('elect') }}">Departamento de
+                                        el&eacute;ctrica y
+                                        electr&oacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('dpto-industrial') }}">Departamento de
+                                        industrial</a></li>
+                                <li><a class="dropdown-item" href="{{ url('dpto-sistemas') }}">Departamento de
+                                        sistemas</a></li>
+                                <li><a class="dropdown-item" href="{{ url('division-metal') }}">División de
+                                        estudios/Metal mec&aacute;nica</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{ url('guillot') }}">Edificio Guillot</a></li>
+                                <li><a class="dropdown-item" href="{{ url('gestion-vinculacion') }}">Gesti&oacute;n y
+                                        vinculaci&oacute;n</a></li>
+                                <li><a class="dropdown-item" href="{{ url('laboratorio-electrica') }}">Laboratorio de
+                                        el&eacute;ctrica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('manufactura') }}">Laboratorio de
+                                        Manufactura</a></li>
+                                <li><a class="dropdown-item" href="{{ url('lab-mecatronica') }}">Laboratorio de
+                                        Mecatr&oacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('metal') }}">Laboratorio de Metal
+                                        Mec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('quimica') }}">Laboratorio de
+                                        Qu&iacute;mica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('posgrado') }}">Posgrado/Aula Magna</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{ url('rivera-lara') }}">Rivera Lara/ 100s,
+                                        200s</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            <a class="nav-link dropdown-toggle" href="{{ url('/') }}" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false" style="color:#ffffff;">
                                 <strong>Oferta Educativa</strong>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="{{ url('administracion') }}">Licenciatura en
                                         Administraci&oacute;n</a></li>
-                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador P&uacute;blico</a></li>
+                                <li><a class="dropdown-item" href="{{ url('contador') }}">Contador P&uacute;blico</a>
+                                </li>
                                 <li><a class="dropdown-item" href="{{ url('electromecanica') }}">Ingenier&iacute;a
                                         Electromec&aacute;nica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingenier&iacute;a Mec&aacute;nica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingenier&iacute;a en Sistemas
+                                <li><a class="dropdown-item" href="{{ url('mecanica') }}">Ingenier&iacute;a
+                                        Mec&aacute;nica</a></li>
+                                <li><a class="dropdown-item" href="{{ url('sistemas') }}">Ingenier&iacute;a en
+                                        Sistemas
                                         Computacionales</a></li>
                                 <li><a class="dropdown-item" href="{{ url('electronica') }}">Ingenier&iacute;a
                                         Electr&oacute;nica</a></li>
-                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingenier&iacute;a en Tecnolog&iacute;as de la
+                                <li><a class="dropdown-item" href="{{ url('tics') }}">Ingenier&iacute;a en
+                                        Tecnolog&iacute;as de la
                                         Informaci&oacute;n y Comunicaciones</a></li>
-                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingenier&iacute;a en Gesti&oacute;n
+                                <li><a class="dropdown-item" href="{{ url('ige') }}">Ingenier&iacute;a en
+                                        Gesti&oacute;n
                                         Empresarial</a></li>
-                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingenier&iacute;a El&eacute;ctrica</a>
+                                <li><a class="dropdown-item" href="{{ url('electrica') }}">Ingenier&iacute;a
+                                        El&eacute;ctrica</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingenier&iacute;a Industrial</a>
+                                <li><a class="dropdown-item" href="{{ url('industrial') }}">Ingenier&iacute;a
+                                        Industrial</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingenier&iacute;a en Log&iacute;stica</a>
+                                <li><a class="dropdown-item" href="{{ url('logistica') }}">Ingenier&iacute;a en
+                                        Log&iacute;stica</a>
                                 </li>
                                 <li><a class="dropdown-item" href="{{ url('mecatronica') }}">Ingenier&iacute;a en
                                         Mecatr&oacute;nica</a></li>
@@ -131,7 +168,8 @@
             <br>
             <div class="centered">
                 <h1 class="display-1 animate__animated animate__fadeInLeft" style="color: #ffffff">
-                    <strong><br>Ingenieria Mec&aacute;nica<strong></h1>
+                    <strong><br>Ingenieria Mec&aacute;nica<strong>
+                </h1>
             </div>
         </div>
     </header>
@@ -143,11 +181,16 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#1B396A">Objetivo:</h1>
-            <p class="lead">Formar profesionales en Ingenier&iacute;a Mec&aacute;nica, con aptitudes para investigar, desarrollar y
-                aplicar conocimientos cient&iacute;ficos y tecnol&oacute;gicos, en las &aacute;reas de: energ&iacute;a, fluidos, dise&ntilde;o,
-                manufactura, automatizaci&oacute;n, control, materiales, entre otras; mediante el empleo de las tecnolog&iacute;as de
-                integraci&oacute;n de sistemas, al utilizar y administrar los recursos en forma segura, racional, eficiente,
-                econ&oacute;mica y sustentable; con actitud &eacute;tica, creativa, emprendedora y de compromiso con el bienestar del
+            <p class="lead">Formar profesionales en Ingenier&iacute;a Mec&aacute;nica, con aptitudes para investigar,
+                desarrollar y
+                aplicar conocimientos cient&iacute;ficos y tecnol&oacute;gicos, en las &aacute;reas de: energ&iacute;a,
+                fluidos, dise&ntilde;o,
+                manufactura, automatizaci&oacute;n, control, materiales, entre otras; mediante el empleo de las
+                tecnolog&iacute;as de
+                integraci&oacute;n de sistemas, al utilizar y administrar los recursos en forma segura, racional,
+                eficiente,
+                econ&oacute;mica y sustentable; con actitud &eacute;tica, creativa, emprendedora y de compromiso con el
+                bienestar del
                 pa&iacute;s.</p>
             <br>
         </div>
@@ -160,9 +203,11 @@
         <div class="container">
             <br>
             <h1 class="display-8" style="color:#e9ecef">Campo de trabajo:</h1>
-            <p class="lead" style="color:#e9ecef">El Ingeniero Mec&aacute;nico es un profesional que puede incorporarse a
+            <p class="lead" style="color:#e9ecef">El Ingeniero Mec&aacute;nico es un profesional que puede incorporarse
+                a
                 empresas que ofrezcan bienes y servicios, tanto p&uacute;blicas como privadas, por ejemplo: industrias
-                extractivas, de transformaci&oacute;n, hospitales, centros de investigaci&oacute;n y educaci&oacute;n, venta de equipo,
+                extractivas, de transformaci&oacute;n, hospitales, centros de investigaci&oacute;n y educaci&oacute;n,
+                venta de equipo,
                 PEMEX, CFE, industria maquiladora, y en general en la micro, peque&ntilde;a y mediana empresa.</p>
             <br>
         </div>
@@ -180,12 +225,18 @@
         <div class="row featurette">
             <div class="col-md-7">
                 <h1 class="featurette-heading"><span style="color:#1B396A">Perfil de egresado:</span></h1><br>
-                <p class="lead">El Ingeniero Mec&aacute;nico formula, eval&uacute;a y administra proyectos de dise&ntilde;o, manufactura,
-                    instalaci&oacute;n y mantenimiento en sistemas mec&aacute;nicos; tambi&eacute;n propone sistemas integrales de gesti&oacute;n en
-                    disposici&oacute;n del medio ambiente, seguridad e higiene y calidad para el dise&ntilde;o, fabricaci&oacute;n,
-                    instalaci&oacute;n, control y mantenimiento de sistemas mec&aacute;nicos. Participa en proyectos tecnol&oacute;gicos y de
-                    investigaci&oacute;n con el objetivo de restituir y conservar el medio ambiente que propicie un desarrollo
-                    sustentable, adem&aacute;s realiza actividades de creaci&oacute;n, innovaci&oacute;n, transferencia y adaptaci&oacute;n de
+                <p class="lead">El Ingeniero Mec&aacute;nico formula, eval&uacute;a y administra proyectos de
+                    dise&ntilde;o, manufactura,
+                    instalaci&oacute;n y mantenimiento en sistemas mec&aacute;nicos; tambi&eacute;n propone sistemas
+                    integrales de gesti&oacute;n en
+                    disposici&oacute;n del medio ambiente, seguridad e higiene y calidad para el dise&ntilde;o,
+                    fabricaci&oacute;n,
+                    instalaci&oacute;n, control y mantenimiento de sistemas mec&aacute;nicos. Participa en proyectos
+                    tecnol&oacute;gicos y de
+                    investigaci&oacute;n con el objetivo de restituir y conservar el medio ambiente que propicie un
+                    desarrollo
+                    sustentable, adem&aacute;s realiza actividades de creaci&oacute;n, innovaci&oacute;n, transferencia
+                    y adaptaci&oacute;n de
                     tecnolog&iacute;a en el campo de la ingenier&iacute;a mec&aacute;nica.</p>
                 <h4 style="color:#1B396A">Especialidades:</h4>
                 <p class="lead">Dise&ntilde;o</p>
@@ -290,11 +341,14 @@
             <!-- Section: Social media -->
 
             <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/DesarrolloAcademicoITCJ"
+                role="button" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <h7>Desarrollo Acad&eacute;mico</h7>
 
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/TecNMCampusCdJuarez"
+                role="button" target="_blank"> <i class="fab fa-facebook-f"> </i></a>
+            <h7>TecNM Campus Cd. Ju&aacute;rez</h7>
 
             </section>
             <!-- Section: Social media -->
@@ -306,7 +360,8 @@
                 <div class="row">
                     <!--Grid column-->
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnol&oacute;gico #1340 Fracc. El Crucero CP 32500
+                        <h5 class="text-uppercase">Edificio Guillot: Av. Tecnol&oacute;gico #1340 Fracc. El Crucero CP
+                            32500
                         </h5>
                     </div>
                     <!--Grid column-->
@@ -337,7 +392,8 @@
 
             <!-- Section: Text -->
             <section class="mb-4">
-                <p> Proyecto de residencias para el departamento de Desarrollo Acad&eacute;mico. <br><br> Elaborado por:<br>
+                <p> Proyecto de residencias para el departamento de Desarrollo Acad&eacute;mico. <br><br> Elaborado
+                    por:<br>
                     Erick Salvador Luna Gutierrez 16111918<br>
                     V&iacute;ctor Manuel Rodarte Amaro 16111992
                 </p>

@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="<?php echo e(str_replace('_', '-', app()->getLocale())); ?>">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,16 +24,20 @@
     <link href="<?php echo e(asset('css/app.css')); ?>" rel="stylesheet">
     <?php echo $__env->yieldContent('head'); ?>;
 </head>
-<body>
+
+<body style="background-color:#eaf2e3;">
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm" style="background-color: #1B396A;" > <!--bg-white -->
             <div class="container">
-                <img src="<?php echo e(asset('assets/backoffice/img/dda.png')); ?>" alt="" width="180" height="180" class="d-inline-block align-top"></a>
-                <a class="navbar-brand" href="<?php echo e(url('/')); ?>">
+                <img src="<?php echo e(asset('assets/backoffice/img/dda.png')); ?>" alt="" width="150" height="120"
+                    class="d-inline-block align-top"></a>
+                <a style="color:#ffffff" class="navbar-brand" href="<?php echo e(url('/')); ?>">
                     <?php echo e(config('', 'Desarrollo Académico')); ?>
 
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="<?php echo e(__('Toggle navigation')); ?>">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="<?php echo e(__('Toggle navigation')); ?>">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -41,25 +46,28 @@
 
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a style="color:#000000" class="nav-link"><?php echo e(__('')); ?></a>
+                            <a style="color:#ffffff" class="nav-link"><?php echo e(__('')); ?></a>
                         </li>
                     </ul>
 
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a style="color:#000000" class="nav-link" href="<?php echo e(route('alumnos.index')); ?>"><?php echo e(__('Alumnos/Conferencias')); ?></a>
+                            <a style="color:#ffffff" class="nav-link"
+                                href="<?php echo e(route('alumnos.index')); ?>"><?php echo e(__('Alumnos/Conferencias')); ?></a>
                         </li>
                     </ul>
 
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a style="color:#000000" class="nav-link" href="<?php echo e(route('padres.index')); ?>"><?php echo e(__('Padres/Eventos')); ?></a>
+                            <a style="color:#ffffff" class="nav-link"
+                                href="<?php echo e(route('padres.index')); ?>"><?php echo e(__('Padres/Eventos')); ?></a>
                         </li>
                     </ul>
 
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a style="color:#000000" class="nav-link" href="<?php echo e(route('aspirantes.index')); ?>"><?php echo e(__('Orienta Tec')); ?></a>
+                            <a style="color:#ffffff" class="nav-link"
+                                href="<?php echo e(route('aspirantes.index')); ?>"><?php echo e(__('Orienta Tec')); ?></a>
                         </li>
                     </ul>
 
@@ -69,48 +77,49 @@
                         <?php if(auth()->guard()->guest()): ?>
                             <?php if(Route::has('login')): ?>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo e(route('login')); ?>"><?php echo e(__('Login')); ?></a>
+                                    <a style="color:#ffffff" class="nav-link" href="<?php echo e(route('login')); ?>"><?php echo e(__('Login')); ?></a>
                                 </li>
                             <?php endif; ?>
-                            
+
                             <?php if(Route::has('register')): ?>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo e(route('register')); ?>"><?php echo e(__('Register')); ?></a>
                                 </li>
                             <?php endif; ?>
                         <?php else: ?>
-                        
-                        <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link active" aria-current="page" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="color:#000000">
-                                <?php echo e(Auth::user()->name); ?>
 
-                            </a>
-                            
-
-                            <div  class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="<?php echo e(route('logout')); ?>"
-                                   onclick="event.preventDefault();
-                                                 document.getElementById('logout-form').submit();">
-                                    <?php echo e(__('Logout')); ?>
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link active" aria-current="page" href="#" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre
+                                    style="color:#ffffff">
+                                    <?php echo e(Auth::user()->name); ?>
 
                                 </a>
 
-                                <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" class="d-none">
-                                    <?php echo csrf_field(); ?>
-                                </form>
-                            </div>
-                        </li>
 
-                        <a class="nav-link active" aria-current="page"
-                        onclick="event.preventDefault();
-                                      document.getElementById('logout-form').submit();" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                         <?php echo e(__('')); ?></a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a style="color:#ffffff" class="dropdown-item" href="<?php echo e(route('logout')); ?>" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        <?php echo e(__('Logout')); ?>
 
-                        <a class="nav-link active" aria-current="page" href="<?php echo e(route('logout')); ?>"
-                        onclick="event.preventDefault();
-                                      document.getElementById('logout-form').submit();" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                         <?php echo e(__('Logout')); ?></a>
-                        
+                                    </a>
+
+                                    <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" class="d-none">
+                                        <?php echo csrf_field(); ?>
+                                    </form>
+                                </div>
+                            </li>
+
+                            <a class="nav-link active" aria-current="page" onclick="event.preventDefault();
+                                          document.getElementById('logout-form').submit();" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <?php echo e(__('')); ?></a>
+
+                            <a style="color:#ffffff" class="nav-link active" aria-current="page" href="<?php echo e(route('logout')); ?>" onclick="event.preventDefault();
+                                          document.getElementById('logout-form').submit();" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <?php echo e(__('Logout')); ?></a>
+
                         <?php endif; ?>
                     </ul>
                 </div>
@@ -123,5 +132,6 @@
     </div>
 </body>
 <?php echo $__env->yieldContent('foot'); ?>
+
 </html>
 <?php /**PATH C:\wamp64\www\resi\residencias\resources\views/layouts/app.blade.php ENDPATH**/ ?>

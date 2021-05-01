@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="container">
-        Sección para editar alumnos
+        Sección para crear alumnos
         <br><br>
 
         @if (count($errors) > 0)

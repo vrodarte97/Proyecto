@@ -3,7 +3,7 @@
 <?php $__env->startSection('content'); ?>
 
     <div class="container">
-        Sección para editar alumnos
+        Sección para crear alumnos
         <br><br>
 
         <?php if(count($errors) > 0): ?>

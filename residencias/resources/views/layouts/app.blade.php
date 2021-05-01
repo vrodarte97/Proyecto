@@ -22,7 +22,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    @yield('head');
+    @yield('head')
 </head>
 
 <body style="background-color:#eaf2e3;">

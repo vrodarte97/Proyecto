@@ -22,7 +22,7 @@
 
     <!-- Styles -->
     <link href="<?php echo e(asset('css/app.css')); ?>" rel="stylesheet">
-    <?php echo $__env->yieldContent('head'); ?>;
+    <?php echo $__env->yieldContent('head'); ?>
 </head>
 
 <body style="background-color:#eaf2e3;">
